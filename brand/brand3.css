@@ -1,0 +1,687 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+@font-face {font-family:'Louis George Café'; font-style: normal; font-weight: 500; src:url("font/LouisGeorgeCafe.woff");}
+@font-face {font-family:'Louis George Café'; font-style: normal; font-weight: 900; src:url("font/LouisGeorgeCafe-Bold.woff");}
+@font-face {font-family:'Louis George Café'; font-style: normal; font-weight: 100; src:url("font/LouisGeorgeCafeLight.woff");}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  overflow: scroll;
+  max-width: 1920px;
+  height: 2333px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 103.29px;
+  top: 0%;
+  left: 0%;
+  z-index: 50;
+}
+
+#gnbbg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.gnbbg {
+  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
+  overflow: visible;
+  position: absolute;
+}
+
+#HANS_Cake_Mall {
+  left: 77.1%;
+  top: 39.69%;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Louis George Café';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#HANS_Cake_Mall:hover {
+  color: #730220;
+}
+
+#Find_a_Store {
+  left: 85.5%;
+  top: 32.9%;
+  position: absolute;
+  overflow: visible;
+}
+
+#search {
+  width: 136.92px;
+  height: 34px;
+  fill: #8C857D;
+}
+
+#search:hover {
+  fill: #730220;
+}
+
+#line-1 {
+  fill: transparent;
+  stroke: rgba(140, 133, 125, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line-1 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  left: 84.8%;
+  top: 41.1%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.tablinks {
+  left: 27.6%;
+  top: 41px;
+  height: 103px;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Louis George Café';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgba(115, 2, 32, 1);
+  background: transparent;
+  float: left;
+  padding-right: 70px;
+}
+
+.tablinks:hover {
+  color: #8C857D;
+  background: transparent;
+}
+
+.tabcontent {
+  left: 7.7%;
+  top: 103px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: 'Louis George Café';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  display: none;
+}
+
+.bodymenu {
+  left: 7.7%;
+  top: 150px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: 'Louis George Café';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #730220;
+  width: 100%;
+  height: 275px;
+  left: 0%;
+  top: 103px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  margin-right: 3.5%;
+}
+
+.column a {
+  padding: 3px 0px;
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+  font-style: normal;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+  left: 530px;
+  top: 10px;
+}
+
+.column a:hover {
+  color: #8C857D;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#gnblogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 7.29%;
+  top: 27px;
+  overflow: visible;
+}
+
+#menu_visual {
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  overflow: visible;
+}
+.menu_visual {
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  left: 0%;
+  top: 103px;
+  overflow: visible;
+}
+
+#headline {
+  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+  left: 43.8%;
+  top: 214px;
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 43px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#smallmenu {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  left: 0.2%;
+  top: 388px;
+  overflow: visible;
+}
+#home-black-18dp_cfg {
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 23.2%;
+  top: 18px;
+  overflow: visible;
+}
+#home {
+  fill: transparent;
+}
+.home {
+  overflow: visible;
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#home1 {
+  fill: rgba(140,133,125,1);
+}
+.home1 {
+  overflow: visible;
+  position: absolute;
+  width: 14.891px;
+  height: 12.657px;
+  left: 1.489px;
+  top: 2.233px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#home2 {
+  fill: transparent;
+  stroke: rgba(140,133,125,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.home2 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  left: 24.7%;
+  top: 21.5px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#smallmenu_cake {
+  left: 25.2%;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(140,133,125,1);
+}
+#smallmenu_classic {
+  left: 31.1%;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(140,133,125,1);
+}
+#smallmenu_arrow01 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 29.1%;
+  top: 18px;
+  overflow: visible;
+}
+#arrow1 {
+  fill: rgba(140,133,125,1);
+}
+.arrow1 {
+  overflow: visible;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#arrow2 {
+  fill: transparent;
+  stroke: rgba(255,255,255,1);
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.arrow2 {
+  overflow: visible;
+  position: absolute;
+  width: 7.303px;
+  height: 4.941px;
+  left: 6.186px;
+  top: 7.512px;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+#bg08 {
+  position: absolute;
+  width: 343.349px;
+  height: 414px;
+  left: 86.8%;
+  top: 899px;
+  overflow: visible;
+}
+#bg09 {
+  transform: matrix(1,0,0,1,934.8516,1256.5192) rotate(33deg);
+  transform-origin: center;
+  position: absolute;
+  width: 415px;
+  height: 396px;
+  left: 0%;
+  top: -100px;
+  overflow: visible;
+}
+#bg10 {
+  position: absolute;
+  width: 424.743px;
+  height: 520.246px;
+  left: -5.4%;
+  top: 1547.579px;
+  overflow: visible;
+}
+
+#text03 {
+  left: 13.6%;
+  top: 889px;
+  position: absolute;
+  overflow: visible;
+  line-height: 33px;
+  width: 1205px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgba(115,2,32,1);
+}
+#text02 {
+  left: 13.7%;
+  top: 1637px;
+  position: absolute;
+  overflow: visible;
+  width: 591px;
+  line-height: 33px;
+  margin-top: -6.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(115,2,32,1);
+}
+#text01 {
+  left: 54%;
+  top: 1281px;
+  position: absolute;
+  overflow: visible;
+  width: 620px;
+  line-height: 33px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgba(38,11,1,1);
+}
+#Love_the_Moment_HANS_Caf_ {
+  left: 54%;
+  top: 1157px;
+  position: absolute;
+  overflow: visible;
+  width: 579px;
+  line-height: 50px;
+  margin-top: -5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgba(115,2,32,1);
+}
+#HANS_space {
+  left: 13.6%;
+  top: 493px;
+  position: absolute;
+  overflow: visible;
+  width: 253px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: rgba(38,11,1,1);
+}
+#img16 {
+  position: absolute;
+  width: 1396px;
+  height: 286px;
+  left: 13.6%;
+  top: 570px;
+  overflow: visible;
+}
+#img14 {
+  position: absolute;
+  width: 688px;
+  height: 376px;
+  left: 13.7%;
+  top: 1106px;
+  overflow: visible;
+}
+#img15 {
+  position: absolute;
+  width: 688px;
+  height: 376px;
+  left: 49.5%;
+  top: 1481px;
+  overflow: visible;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 368px;
+  left: 0%;
+  top: 1965px;
+  overflow: visible;
+}
+
+#footerbg {
+  fill: rgba(38, 11, 1, 1);
+}
+
+.footerbg {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  height: 338px;
+  left: 0%;
+  top: 31px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#footermenu {
+  position: absolute;
+  width: 1093px;
+  height: 168px;
+  left: 21.5%;
+  top: 94px;
+  overflow: visible;
+}
+
+#footermenu01 {
+  left: 5px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 119px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu02 {
+  left: 155px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu03 {
+  left: 245px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#insta {
+  position: absolute;
+  width: 39.957px;
+  height: 39.743px;
+  left: 96.3%;
+  top: 0%;
+  overflow: visible;
+}
+
+#content {
+  position: absolute;
+  width: 801px;
+  height: 88px;
+  left: 17%;
+  top: 80px;
+  overflow: visible;
+}
+
+#add {
+  left: 0%;
+  top: 27px;
+  position: absolute;
+  overflow: visible;
+  width: 579px;
+  white-space: nowrap;
+  line-height: 29px;
+  margin-top: -7.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Copyright {
+  opacity: 0.1;
+  left: 0%;
+  top: 64px;
+  position: absolute;
+  overflow: visible;
+  width: 802px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#business {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 690px;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#qna {
+  position: absolute;
+  width: 198px;
+  height: 38px;
+  left: 833px;
+  top: 1px;
+  overflow: visible;
+}
+
+#footerline {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.footerline {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0%;
+  top: 56px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#topbtn {
+  left: 48.3%;
+  top: 20px;
+  position: absolute;
+  overflow: visible;
+  width: 31px;
+}
+
+#topbtn.show {
+  opacity: 1;
+  overflow: visible;
+}
+
+#footerlogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 22%;
+  top: 175px;
+  overflow: visible;
+}

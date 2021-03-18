@@ -1,0 +1,1204 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  overflow: scroll;
+  max-width: 1920px;
+  height: 3340px;
+}
+
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 103.29px;
+  top: 0%;
+  left: 0%;
+  z-index: 50;
+}
+
+#gnbbg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.gnbbg {
+  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
+  overflow: visible;
+  position: absolute;
+}
+
+#HANS_Cake_Mall {
+  left: 77.1%;
+  top: 39.69%;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#HANS_Cake_Mall:hover {
+  color: #730220;
+}
+
+#Find_a_Store {
+  left: 85.5%;
+  top: 32.9%;
+  position: absolute;
+  overflow: visible;
+}
+
+#search {
+  width: 136.92px;
+  height: 34px;
+  fill: #8C857D;
+}
+
+#search:hover {
+  fill: #730220;
+}
+
+#line-1 {
+  fill: transparent;
+  stroke: rgba(140, 133, 125, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line-1 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  left: 84.8%;
+  top: 41.1%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.tablinks {
+  left: 27.6%;
+  top: 41px;
+  height: 103px;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(115, 2, 32, 1);
+  background: transparent;
+  float: left;
+  padding-right: 70px;
+}
+
+.tablinks:hover {
+  color: #8C857D;
+  background: transparent;
+}
+
+.tabcontent {
+  left: 7.7%;
+  top: 103px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: Louis George Café;
+  font-size: 31px;
+  display: none;
+}
+
+.bodymenu {
+  left: 7.7%;
+  top: 150px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: Louis George Café;
+  font-size: 18px;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #730220;
+  width: 100%;
+  height: 275px;
+  left: 0%;
+  top: 103px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  margin-right: 3.5%;
+}
+
+.column a {
+  padding: 3px 0px;
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  position: relative;
+  left: 530px;
+  top: 10px;
+}
+
+.column a:hover {
+  color: #8C857D;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#gnblogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 7.29%;
+  top: 27px;
+  overflow: visible;
+}
+
+#menu_visual {
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  overflow: visible;
+}
+.menu_visual {
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  left: 0%;
+  top: 103px;
+  overflow: visible;
+}
+
+#headline {
+  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+  left: 46.9%;
+  top: 214px;
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  color: rgba(255,255,255,1);
+}
+
+#smallmenu {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  left: 0.2%;
+  top: 388px;
+  overflow: visible;
+}
+#home-black-18dp_cfg {
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 23.2%;
+  top: 18px;
+  overflow: visible;
+}
+#home {
+  fill: transparent;
+}
+.home {
+  overflow: visible;
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#home1 {
+  fill: rgba(140,133,125,1);
+}
+.home1 {
+  overflow: visible;
+  position: absolute;
+  width: 14.891px;
+  height: 12.657px;
+  left: 1.489px;
+  top: 2.233px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#home2 {
+  fill: transparent;
+  stroke: rgba(140,133,125,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.home2 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  left: 24.7%;
+  top: 21.5px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#smallmenu_cake {
+  left: 25.2%;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(140,133,125,1);
+}
+#smallmenu_classic {
+  left: 31.1%;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(140,133,125,1);
+}
+#smallmenu_arrow01 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 29.1%;
+  top: 18px;
+  overflow: visible;
+}
+#arrow1 {
+  fill: rgba(140,133,125,1);
+}
+.arrow1 {
+  overflow: visible;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#arrow2 {
+  fill: transparent;
+  stroke: rgba(255,255,255,1);
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.arrow2 {
+  overflow: visible;
+  position: absolute;
+  width: 7.303px;
+  height: 4.941px;
+  left: 6.186px;
+  top: 7.512px;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+#cake36 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 14.4%;
+  top: 592px;
+  overflow: visible;
+}
+
+#cake36text {
+  left: 19%;
+  top: 958px;
+  position: absolute;
+  overflow: visible;
+  width: 181px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake36body {
+  left: 18.1%;
+  top: 1052px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price01 {
+  left: 18.1%;
+  top: 1209px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake37 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 40.5%;
+  top: 592px;
+  overflow: visible;
+}
+
+#cake37text {
+  left: 45.3%;
+  top: 958px;
+  position: absolute;
+  overflow: visible;
+  width: 181px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake37body {
+  left: 44.3%;
+  top: 1052px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price02 {
+  left: 44.3%;
+  top: 1176px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake38 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 66.5%;
+  top: 592px;
+  overflow: visible;
+}
+
+#cake38text {
+  left: 71.5%;
+  top: 958px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake38body {
+  left: 70.4%;
+  top: 1052px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price03 {
+  left: 70.4%;
+  top: 1176px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake39 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 14.4%;
+  top: 1394px;
+  overflow: visible;
+}
+
+#cake39text {
+  left: 19.4%;
+  top: 1760px;
+  position: absolute;
+  overflow: visible;
+  width: 173px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake39body {
+  left: 17.7%;
+  top: 1854px;
+  position: absolute;
+  overflow: visible;
+  width: 242px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price04 {
+  left: 18.1%;
+  top: 1912px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake40 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 40.5%;
+  top: 1394px;
+  overflow: visible;
+}
+
+#cake40text {
+  left: 46.25%;
+  top: 1760px;
+  position: absolute;
+  overflow: visible;
+  width: 145px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake40body {
+  left: 43.5%;
+  top: 1854px;
+  position: absolute;
+  overflow: visible;
+  width: 250px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price05 {
+  left: 44.3%;
+  top: 1912px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake41 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 66.5%;
+  top: 1394px;
+  overflow: visible;
+}
+
+#cake41text {
+  left: 73.1%;
+  top: 1760px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake41body {
+  left: 70.4%;
+  top: 1854px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price06 {
+  left: 70.4%;
+  top: 1945px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake42 {
+  position: absolute;
+  width: 261px;
+  height: 368px;
+  left: 18%;
+  top: 2104px;
+  overflow: visible;
+}
+
+#cake42text {
+  left: 15.5%;
+  top: 2496px;
+  position: absolute;
+  overflow: visible;
+  width: 318px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake42body {
+  left: 17.5%;
+  top: 2590px;
+  position: absolute;
+  overflow: visible;
+  width: 242px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price07 {
+  left: 18.1%;
+  top: 2681px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake43 {
+  position: absolute;
+  width: 238px;
+  height: 319px;
+  left: 44%;
+  top: 2150px;
+  overflow: visible;
+}
+
+#cake43text {
+  left: 42.4%;
+  top: 2496px;
+  position: absolute;
+  overflow: visible;
+  width: 291px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake43body {
+  left: 43.5%;
+  top: 2590px;
+  position: absolute;
+  overflow: visible;
+  width: 250px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price08 {
+  left: 44.3%;
+  top: 2681px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake44 {
+  position: absolute;
+  width: 240px;
+  height: 314px;
+  left: 70.1%;
+  top: 2158px;
+  overflow: visible;
+}
+
+#cake44text {
+  left: 68.4%;
+  top: 2496px;
+  position: absolute;
+  overflow: visible;
+  width: 291px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#cake44body {
+  left: 70.4%;
+  top: 2590px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#price09 {
+  left: 70.5%;
+  top: 2681px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(38, 11, 1, 1);
+}
+
+#line01 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line01 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 23%;
+  top: 1027.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line02 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line02 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 446.5px;
+  top: 1829.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line03 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line03 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 23%;
+  top: 2565.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line04 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line04 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 49.2%;
+  top: 1829.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line05 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line05 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 49.2%;
+  top: 2565.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line06 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line06 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 75.3%;
+  top: 1829.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line07 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line07 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 75.3%;
+  top: 2565.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line08 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line08 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 49.2%;
+  top: 1027.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line09 {
+  fill: transparent;
+  stroke: rgba(115, 2, 32, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line09 {
+  overflow: visible;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  left: 75.3%;
+  top: 1027.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 368px;
+  left: 0%;
+  top: 2976px;
+  overflow: visible;
+}
+
+#footerbg {
+  fill: rgba(38, 11, 1, 1);
+}
+
+.footerbg {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  height: 338px;
+  left: 0%;
+  top: 31px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#footermenu {
+  position: absolute;
+  width: 1093px;
+  height: 168px;
+  left: 21.5%;
+  top: 94px;
+  overflow: visible;
+}
+
+#footermenu01 {
+  left: 5px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 119px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu02 {
+  left: 155px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu03 {
+  left: 245px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#insta {
+  position: absolute;
+  width: 39.957px;
+  height: 39.743px;
+  left: 96.3%;
+  top: 0%;
+  overflow: visible;
+}
+
+#content {
+  position: absolute;
+  width: 801px;
+  height: 88px;
+  left: 17%;
+  top: 80px;
+  overflow: visible;
+}
+
+#add {
+  left: 0%;
+  top: 27px;
+  position: absolute;
+  overflow: visible;
+  width: 579px;
+  white-space: nowrap;
+  line-height: 29px;
+  margin-top: -7.5px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Copyright {
+  opacity: 0.1;
+  left: 0%;
+  top: 64px;
+  position: absolute;
+  overflow: visible;
+  width: 802px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#business {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 690px;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#qna {
+  position: absolute;
+  width: 198px;
+  height: 38px;
+  left: 833px;
+  top: 1px;
+  overflow: visible;
+}
+
+#footerline {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.footerline {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0%;
+  top: 56px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#topbtn {
+  left: 48.3%;
+  top: 20px;
+  position: absolute;
+  overflow: visible;
+  width: 31px;
+}
+
+#topbtn.show {
+  opacity: 1;
+  overflow: visible;
+}
+
+#footerlogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 22%;
+  top: 175px;
+  overflow: visible;
+}

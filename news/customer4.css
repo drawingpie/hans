@@ -1,0 +1,836 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#cover {
+  position: absolute;
+  width: 1920px;
+  height: 1971px;
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 1920px;
+  height: 103.29px;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+
+#gnbbg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.gnbbg {
+  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
+  overflow: visible;
+  position: absolute;
+}
+
+#HANS_Cake_Mall {
+  left: 1481px;
+  top: 41px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#HANS_Cake_Mall:hover {
+  color: #730220;
+}
+
+#Find_a_Store {
+  width: 136.92px;
+  height: 34px;
+  left: 1642px;
+  top: 34px;
+  position: absolute;
+  overflow: visible;
+}
+
+#search01 {
+  width: 136.92px;
+  height: 34px;
+  left: 1642px;
+  top: 34px;
+
+  fill: #8C857D;
+}
+
+#search01:hover {
+  fill: #730220;
+}
+
+#line-1 {
+  fill: transparent;
+  stroke: rgba(140, 133, 125, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line-1 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  left: 1628.5px;
+  top: 42.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.tablinks {
+  left: 530px;
+  top: 41px;
+  height: 103px;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(115, 2, 32, 1);
+  float: left;
+  padding-right: 70px;
+}
+
+.tablinks:hover {
+  color: #8C857D;
+  background: #fff;
+}
+
+.tabcontent {
+  left: 149px;
+  top: 103px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: Louis George Café;
+  font-size: 31px;
+  display: none;
+}
+
+.bodymenu {
+  left: 149px;
+  top: 150px;
+  position: absolute;
+  overflow: visible;
+  color: #fff;
+  font-family: Louis George Café;
+  font-size: 18px;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #730220;
+  width: 1920px;
+  height: 275px;
+  left: 0;
+  top: 103px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  margin-right: 69px;
+}
+
+.column a {
+  left: 530px;
+  top: 10px;
+  padding: 3px 0px;
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  position: relative;
+}
+
+.column a:hover {
+  color: #8C857D;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#gnblogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 140px;
+  top: 27px;
+  overflow: visible;
+}
+
+#visual {
+  position: absolute;
+  width: 1920px;
+  height: 285px;
+  left: 0px;
+  top: 103px;
+  overflow: visible;
+}
+
+#headline {
+  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+  left: 837px;
+  top: 214px;
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#smallmenu {
+  position: absolute;
+  width: 1920px;
+  height: 52px;
+  left: 4px;
+  top: 388px;
+  overflow: visible;
+}
+
+#smallmenu_line {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.smallmenu_line {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+}
+
+#home-black-18dp_cfg {
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 447px;
+  top: 18px;
+  overflow: visible;
+}
+
+#home {
+  fill: transparent;
+}
+
+.home {
+  overflow: visible;
+  position: absolute;
+  width: 17.869px;
+  height: 17.869px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home1 {
+  fill: rgba(140, 133, 125, 1);
+}
+
+.home1 {
+  overflow: visible;
+  position: absolute;
+  width: 14.891px;
+  height: 12.657px;
+  left: 1.489px;
+  top: 2.233px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home2 {
+  fill: transparent;
+  stroke: rgba(140, 133, 125, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.home2 {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  left: 474.5px;
+  top: 21.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+#smallmenu_cake {
+  left: 484px;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#smallmenu_classic {
+  left: 598px;
+  top: 17px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(140, 133, 125, 1);
+}
+
+#smallmenu_arrow01 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 559px;
+  top: 18px;
+  overflow: visible;
+}
+
+#arrow1 {
+  fill: rgba(140, 133, 125, 1);
+}
+
+.arrow1 {
+  overflow: visible;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#arrow2 {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.arrow2 {
+  overflow: visible;
+  position: absolute;
+  width: 7.303px;
+  height: 4.941px;
+  left: 6.186px;
+  top: 7.512px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#visual {
+  position: absolute;
+  width: 1920px;
+  height: 285px;
+  left: 0px;
+  top: 103px;
+  overflow: visible;
+}
+#headline {
+  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+  left: 859px;
+  top: 214px;
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  color: rgba(255,255,255,1);
+}
+
+#snsbg {
+	fill: rgba(115,2,32,1);
+	mix-blend-mode: screen;
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 714px;
+	left: 0px;
+	top: 578px;
+}
+#snscontents {
+	position: absolute;
+	width: 1502px;
+	height: 613px;
+	left: 209px;
+	top: 656px;
+	overflow: hidden;
+}
+#hansday {
+	position: absolute;
+	width: 482px;
+	height: 613px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#sns01 {
+	position: absolute;
+	width: 482px;
+	height: 482px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#instagram {
+	left: 54px;
+	top: 518px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Louis George Café;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#body01 {
+	left: 25px;
+	top: 562px;
+	position: absolute;
+	overflow: visible;
+	width: 397px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#instaicon {
+	position: absolute;
+	width: 25.49px;
+	height: 25.353px;
+	left: 24.511px;
+	top: 518px;
+	overflow: visible;
+}
+#instasmall {
+	position: absolute;
+	width: 25.226px;
+	height: 25.227px;
+	left: 0.073px;
+	top: 0.063px;
+	overflow: visible;
+}
+#cake {
+	position: absolute;
+	width: 482px;
+	height: 613px;
+	left: 507px;
+	top: 0px;
+	overflow: visible;
+}
+#sns02 {
+	position: absolute;
+	width: 482px;
+	height: 482px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#instagram01 {
+	left: 54px;
+	top: 518px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Louis George Café;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#body02 {
+	left: 25px;
+	top: 562px;
+	position: absolute;
+	overflow: visible;
+	width: 411px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#instaicon01 {
+	position: absolute;
+	width: 25.49px;
+	height: 25.353px;
+	left: 24.511px;
+	top: 518px;
+	overflow: visible;
+}
+#instasmall01 {
+	position: absolute;
+	width: 25.226px;
+	height: 25.227px;
+	left: 0.073px;
+	top: 0.063px;
+	overflow: visible;
+}
+#gift {
+	position: absolute;
+	width: 482px;
+	height: 613px;
+	left: 1014px;
+	top: 0px;
+	overflow: visible;
+}
+#sns03 {
+	position: absolute;
+	width: 482px;
+	height: 482px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#instagram02 {
+	left: 54px;
+	top: 518px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Louis George Café;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#body03 {
+	left: 25px;
+	top: 562px;
+	position: absolute;
+	overflow: visible;
+	width: 379px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+#instaicon02 {
+	position: absolute;
+	width: 25.49px;
+	height: 25.353px;
+	left: 24.511px;
+	top: 518px;
+	overflow: visible;
+}
+#instasmall02 {
+	position: absolute;
+	width: 25.226px;
+	height: 25.227px;
+	left: 0.073px;
+	top: 0.063px;
+	overflow: visible;
+}
+#morebtn {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 918px;
+	top: 1396px;
+	overflow: visible;
+}
+#BEST {
+	left: 863px;
+	top: 513px;
+	position: absolute;
+	overflow: visible;
+	width: 196px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Louis George Café;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	color: rgba(115,2,32,1);
+}
+
+#footer {
+  position: absolute;
+  width: 1920px;
+  height: 368px;
+  left: 0px;
+  top: 1603px;
+  overflow: visible;
+}
+
+#orderbtn01 {
+  position: absolute;
+  width: 77px;
+  height: 33px;
+  left: 1367px;
+  top: 582px;
+  overflow: visible;
+}
+
+#footerbg {
+  fill: rgba(38, 11, 1, 1);
+}
+
+.footerbg {
+  overflow: visible;
+  position: absolute;
+  width: 1920px;
+  height: 337px;
+  left: 0px;
+  top: 31px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#footermenu {
+  position: absolute;
+  width: 1093px;
+  height: 168px;
+  left: 414px;
+  top: 94px;
+  overflow: visible;
+}
+
+#footermenu01 {
+  left: 5px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 119px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu02 {
+  left: 155px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu03 {
+  left: 245px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#insta {
+  position: absolute;
+  width: 39.957px;
+  height: 39.743px;
+  left: 1053.043px;
+  top: 0px;
+  overflow: visible;
+}
+
+#content {
+  position: absolute;
+  width: 801px;
+  height: 88px;
+  left: 185px;
+  top: 80px;
+  overflow: visible;
+}
+
+#add {
+  left: 0px;
+  top: 27px;
+  position: absolute;
+  overflow: visible;
+  width: 579px;
+  white-space: nowrap;
+  line-height: 29px;
+  margin-top: -7.5px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Copyright {
+  opacity: 0.1;
+  left: 0px;
+  top: 64px;
+  position: absolute;
+  overflow: visible;
+  width: 802px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#business {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 690px;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#qna {
+  position: absolute;
+  width: 198px;
+  height: 38px;
+  left: 833px;
+  top: 1px;
+  overflow: visible;
+}
+
+#footerline {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.footerline {
+  overflow: visible;
+  position: absolute;
+  width: 1093px;
+  height: 1px;
+  left: 0px;
+  top: 56px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#topbtn {
+  left: 929px;
+  top: 20px;
+  position: absolute;
+  overflow: visible;
+  width: 31px;
+}
+
+#topbtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#footerlogo {
+  position: absolute;
+  width: 141.469px;
+  height: 49.801px;
+  left: 424px;
+  top: 175px;
+  overflow: visible;
+}
