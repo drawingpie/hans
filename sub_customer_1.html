@@ -6,8 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>hans:customer</title>
-	<link rel="stylesheet" type="text/css" href="customer4.css" />
-	<script type="text/javascript" src="GNB.js"></script>
+	<link rel="stylesheet" type="text/css" href="customer/customer1.css" />
+	<script type="text/javascript" src="customer/GNB.js"></script>
+
 </head>
 
 <body>
@@ -86,8 +87,8 @@
 			</div>
 		</div>
 
-		<div id="visual"><img class="menu_visual" src="visual02.png"></div>
-		<div id="headline"><span>SNS TALK</span></div>
+		<div id="visual"><img class="menu_visual" src="visual.png"></div>
+		<div id="headline"><span>자주찾는 질문</span></div>
 
 		<div id="smallmenu">
 			<div id="home-black-18dp_cfg">
@@ -106,7 +107,7 @@
 				</path>
 			</svg>
 			<div id="smallmenu_cake">
-				<span>SNS TALK</span>
+				<span>한스이야기</span>
 			</div>
 			<div id="smallmenu_arrow01">
 				<svg class="arrow1" viewBox="0 0 18 18">
@@ -120,44 +121,124 @@
 			</div>
 		</div>
 
-		<img src="snsbg.png" id="snsbg">
+		<img id="img01" src="img01.png">
 
-		<div id="snscontents">
-			<div id="hansday" class="hansday">
-				<img src="sns01.png" id="sns01">
-				<div id="instagram"><span>instagram</span></div>
-				<div id="body01"><span>이제 이틀 후면 한스데이입니다. 한스데이를 맞아<br />고객님들께 감사한 마음을 담아...</span></div>
-				<div id="instaicon">
-						<img id="instasmall" src="instasmall.png">
-					</div>
-			 </div>
+		<form class="example" action="/action_page.php">
+			<div class="searchbg"></div>
+			<img id="allbtn" src="allbtn.png">
+			<input type="text" placeholder="Search.." name="search2">
+			<button type="submit">
+				<svg xmlns="http://www.w3.org/2000/svg" width="29.686" height="29.917">
+				  <path id="iconmonstr-magnifier-4" d="M28.808,25l-6.2-6.2a12.256,12.256,0,1,0-4.092,3.984l6.259,6.259C27.443,31.71,31.482,27.675,28.808,25ZM3.8,12.253a8.454,8.454,0,1,1,8.454,8.454A8.464,8.464,0,0,1,3.8,12.253Z" fill="#fff"/>
+				</svg>
+			</button>
+		</form>
 
-			<div id="cake" class="cake">
-				<img src="sns02.png" id="sns02">
-				<div id="instagram01"><span>instagram</span></div>
-				<div id="body02">
-					<span>맛있는 한스케익을 최상의 상태로 배달받아보세요.<br />한스케익몰은 안전한 냉장 탑차로 고객님들께...</span>
-				</div>
-				<div id="instaicon01">
-						<img id="instasmall01" src="instasmall.png">
-					</div>
+		<svg class="qnabtn01">
+			<rect id="qnabtn01" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname01"><span>제품정보</span></div>
+		<svg class="qnabtn02">
+			<rect id="qnabtn02" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname02"><span>주문/배송</span></div>
+		<svg class="qnabtn03">
+			<rect id="qnabtn03" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname03"><span>포인트카드</span></div>
+		<svg class="qnabtn04">
+			<rect id="qnabtn04" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname04"><span>사이트이용</span></div>
+		<svg class="qnabtn05">
+			<rect id="qnabtn05" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname05"><span>기타</span></div>
+		<svg class="qnabtn06">
+			<rect id="qnabtn06" rx="10" ry="10" x="0" y="0" width="456" height="101"></rect>
+		</svg>
+		<div id="qnaname06"><span>매장이용</span></div>
+
+
+		<table>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;<a href=#none id="show" onclick="if(hide.style.display=='none')
+					{hide.style.display='';show.innerText='[제품정보]한스 제품의 유통기한은 어떻게 되나요?'} else {hide.style.display='none';show.innerText='[제품정보]한스 제품의 유통기한은 어떻게 되나요?'}">[제품정보]한스 제품의 유통기한은 어떻게 되나요?</a></td>
+			</tr>
+			<tr>
+				<td id="hide" style="display: none;">제품별로 유통기한이 상이합니다.<br>케익류는 3일(생크림, 가나슈 등)~4일(라이트, 티라미수 등)이며, 쿠키류는 2~3개월, 선물류(파운드, 롤 케익 등)는 7일 입니다.</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[제품정보]케이크는 어디에 어떻게 보관해야 하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[제품정보]케이크 주문 제작이 가능한가요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[제품정보]여름철 케이크 구매시 포장은 어떻게 해주나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[제품정보]한스 머그잔, 접시를 살 수 있나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[주문/배송]한스 매장에서도 주문배송 서비스가 가능한가요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[주문/배송]단체 주문은 어떻게 해야하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[포인트카드]홈페이지에서 적립된 포인트 조회가 가능한가요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[포인트카드]한스 포인트는 어떻게 적립하고 사용하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[포인트카드]한스 포인트는 어떻게 적립하고 사용하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[기타]가맹점개설은 어떻게 하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[기타]대량구매시 할인은 얼마나 해주나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[기타]한스 모바일 상품권을 선물하고 싶은데, 어디서 구매하나요?</td>
+			</tr>
+			<tr>
+				<td><span style="font-family: Louis George Café;">Q</span>&nbsp;&nbsp;&nbsp;[기타]모바일상품권 교환은 어떻게 하나요?</td>
+			</tr>
+		</table>
+
+
+		<div id="pagenumber" class="pagenumber">
+			<a href="#" id="number01"><span>1</span><svg class="underline" viewBox="0 0 7 1">
+					<path id="underline" d="M 0 0 L 7 0"> </path>
+				</svg></a>
+			<a href="#" id="number02"><span>2</span></a>
+			<a href="#" id="number03"><span>3</span></a>
+			<div id="rightbtn">
+				<svg class="rightbtnsqa">
+					<rect id="rightbtnsqa" rx="6" ry="6" x="0" y="0" width="26" height="26">
+					</rect>
+				</svg>
+				<svg class="rightbtnarrow" viewBox="-380 15069.237 2.833 6.476">
+					<path id="rightbtnarrow" d="M -380 15069.2373046875 L -377.1672668457031 15072.3447265625 L -380 15075.712890625">
+					</path>
+				</svg>
 			</div>
-
-			<div id="gift" class="gift">
-				<img src="sns03.png" id="sns03">
-				<div id="instagram02"><span>instagram</span></div>
-				<div id="body03">
-					<span>한스에서 준비한 풍성한 선물세트 주는 사람도,<br />받는사람도 기분좋은 한스 추석 선물세트</span>
-				</div>
-				<div id="instaicon02">
-						<img id="instasmall02" src="instasmall.png">
-					</div>
+			<div id="leftbtn">
+				<svg class="leftbtnsqa">
+					<rect id="leftbtnsqa" rx="6" ry="6" x="0" y="0" width="26" height="26">
+					</rect>
+				</svg>
+				<svg class="leftbtnarrow" viewBox="-380 15069.237 2.833 6.476">
+					<path id="leftbtnarrow" d="M -377.167236328125 15069.2373046875 L -379.9999694824219 15072.3447265625 L -377.167236328125 15075.712890625">
+					</path>
+				</svg>
 			</div>
 		</div>
-
-		<img id="morebtn" src="morebtn.png">
-
-		<div id="BEST"><span>BEST</span></div>
 
 		<div id="footer">
 			<svg class="footerbg" viewBox="0 0 1920 337">
@@ -197,6 +278,7 @@
 		</div>
 
 	</div>
+
 </body>
 
 </html>
