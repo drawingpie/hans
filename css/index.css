@@ -438,7 +438,7 @@ body {
   position: absolute;
   overflow-y: auto;
   overflow-x: hidden;
-  background-image: url('image/index_recommendbg.png');
+  background-image: url('../image/index_recommendbg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   -ms-overflow-style: none; /* IE and Edge */
