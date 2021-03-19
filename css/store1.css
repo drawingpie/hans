@@ -357,7 +357,7 @@ body {
   transform: matrix(1,0,0,1,0,0);
 }
 
-#search {
+#searchbar {
   left: 37%;
   top: 555px;
   position: absolute;
