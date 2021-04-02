@@ -111,6 +111,7 @@ body {
 }
 .icon li {
   display: inline-block;
+  float: right;
 }
 
 a {
