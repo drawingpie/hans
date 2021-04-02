@@ -66,30 +66,8 @@ html {
 }
 
 body {
-  margin: 0;
-  position: relative;
-  overflow: scroll;
-  max-width: 1920px;
+  text-align: center;
   height: 5491px;
-}
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  height: 103.29px;
-  top: 0%;
-  left: 0%;
-  z-index: 50;
-}
-
-#gnbbg {
-  fill: rgba(255, 255, 255, 1);
-}
-
-.gnbbg {
-  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
-  overflow: visible;
-  position: absolute;
 }
 
 #HANS_Cake_Mall {
@@ -148,9 +126,17 @@ body {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.inner {
-  max-width: 1440px;
-  margin: 0 auto;
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 103.29px;
+  background-color: white;
+  z-index: 50;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(115, 2, 32, 1);
 }
 
 .dropdown .tab li {
@@ -159,26 +145,16 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
-  color: rgba(115, 2, 32, 1);
 }
 
 .dropdown .tab li a {
   display: block;
-  padding: 5px;
+  padding: 0px;
 }
 
-.tablinks {
-  left: 27.6%;
-  top: 41px;
-  height: 103px;
-  position: relative;
-  overflow: visible;
-  cursor: pointer;
-  text-decoration: none;
+.dropdown .tab li .tablinks {
   text-align: center;
-  background: transparent;
-  float: left;
-  padding-right: 70px;
+  padding-right: 7px;
 }
 
 .tablinks:hover {
