@@ -188,18 +188,18 @@ a:hover {
   display: block;
 }
 .row {
-  float: left;
-  margin: 0 370px;
+  text-align:center;
 }
 .row .column {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 38px;
   margin-top: 0;
   vertical-align: top;
+  margin: 10px;
 }
 
 .row .column li {
-  display: block;
+  display:block;
  }
 
 .row .column li a {
