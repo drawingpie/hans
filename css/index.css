@@ -138,6 +138,7 @@ a:hover {
 .dropdown .tab li .tablinks {
   text-align: center;
   height: 50px;
+  background-color: transparent;
 }
 
 .tablinks:hover {
