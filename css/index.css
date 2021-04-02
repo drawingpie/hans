@@ -148,6 +148,11 @@ body {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .dropdown .tab li {
   display: inline-block;
   font-family: 'Louis George Café';
