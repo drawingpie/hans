@@ -77,11 +77,9 @@ body {
     box-sizing: border-box; /*다양한 브라우저 크기 동일시키기*/
 }
 #gnblogo {
-  width: 141.469px;
-  height: 49.801px;
   float: left;
+  margin-top: 8px;
 }
-
 .line-1 {
   border-right: 1px solid #8C857D;
   height: 18px;
@@ -189,26 +187,21 @@ a:hover {
   display: block;
 }
 
-.column {
-  float: left;
+.row .column li {
+  display: block;
   margin-right: 3.5%;
 }
 
-.column a {
+.row .column li a {
   padding: 3px 0px;
-  text-decoration: none;
-  display: flex;
   color: #fff;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  position: relative;
-  left: 530px;
-  top: 10px;
 }
 
-.column a:hover {
+.row .column li a:hover {
   color: #8C857D;
 }
 
