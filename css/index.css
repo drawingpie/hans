@@ -193,15 +193,16 @@ a:hover {
 }
 .row .column {
   display: inline-block;
+  margin-right: 40px;
+
 }
 
 .row .column li {
   display: block;
-
-}
+ }
 
 .row .column li a {
-  padding: 3px 0px;
+
   color: #fff;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
