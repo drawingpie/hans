@@ -203,7 +203,6 @@ a:hover {
  }
 
 .row .column li a {
-
   color: #fff;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
@@ -221,9 +220,6 @@ a:hover {
   display: block;
   clear: both;
 }
-
-
-
 .showSlide {
   position: relative;
 }
