@@ -69,6 +69,11 @@ body {
   text-align: center;
   height: 5491px;
 }
+.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box; /*다양한 브라우저 크기 동일시키기*/
+}
 #gnblogo {
   width: 141.469px;
   height: 49.801px;
