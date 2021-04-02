@@ -94,17 +94,20 @@ body {
 #HANS_Cake_Mall:hover {
   color: #730220;
 }
-#search {
-  fill: #8C857D;
-}
-
-#search:hover {
-  fill: #730220;
-}
 
 .line-1 {
   border-right: 1px solid #8C857D;
   height: 18px;
+}
+.icon li {
+  display: inline-block;
+  float: right;
+}
+.icon li img {
+  fill: #8C857D;
+}
+.icon li img:hover {
+  fill: #730220;
 }
 
 .navbar {
@@ -114,11 +117,6 @@ body {
   background-color: white;
   z-index: 50;
 }
-.icon li {
-  display: inline-block;
-  float: right;
-}
-
 a {
   text-decoration: none;
   color: rgba(115, 2, 32, 1);
