@@ -81,22 +81,6 @@ body {
   height: 49.801px;
   float: left;
 }
-#search {
-  margin-top: 5px;
-}
-
-#HANS_Cake_Mall {
-  width: 135px;
-  font-family: 'Louis George Café';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(140, 133, 125, 1);
-}
-
-#HANS_Cake_Mall:hover {
-  color: #730220;
-}
 
 .line-1 {
   border-right: 1px solid #8C857D;
@@ -106,13 +90,18 @@ body {
   display: inline-block;
   float: right;
 }
-.icon li img {
-  fill: #8C857D;
+.icon #Mall a {
+  width: 135px;
+  font-family: 'Louis George Café';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgba(140, 133, 125, 1);
+  margin: 20px 0;
 }
-.icon li img:hover {
-  fill: #730220;
+.icon #Mall a:hover {
+  color: #730220;
 }
-
 .navbar {
   position: fixed;
   width: 100%;
