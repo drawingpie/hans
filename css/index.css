@@ -72,7 +72,7 @@ body {
   padding: 0;
 }
 .inner {
-    max-width: 1440px;
+    max-width: 1640px;
     margin: 0 auto;
     box-sizing: border-box; /*다양한 브라우저 크기 동일시키기*/
 }
@@ -125,22 +125,23 @@ a:hover {
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
+
 }
 
 .dropdown .tab li a {
   display: block;
   padding: 5px 0;
-  margin-right:20px;
+  margin-right:70px;
+
 }
 
 .dropdown .tab li .tablinks {
   text-align: center;
-  padding-right: 7px;
+  height: 50px;
 }
 
 .tablinks:hover {
   color: #8C857D;
-  background: transparent;
 }
 
 .tabcontent {
@@ -186,10 +187,17 @@ a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.row {
+  float: left;
+  margin: 0 370px;
+}
+.row .column {
+  display: inline-block;
+}
 
 .row .column li {
   display: block;
-  margin-right: 3.5%;
+
 }
 
 .row .column li a {
