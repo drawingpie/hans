@@ -81,6 +81,9 @@ body {
   height: 49.801px;
   float: left;
 }
+#search {
+  margin-top: 5px;
+}
 
 #HANS_Cake_Mall {
   width: 135px;
