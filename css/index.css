@@ -69,12 +69,14 @@ body {
   text-align: center;
   height: 5491px;
 }
+#gnblogo {
+  width: 141.469px;
+  height: 49.801px;
+  float: left;
+}
 
 #HANS_Cake_Mall {
- overflow: visible;
   width: 135px;
-  text-decoration: none;
-  text-align: center;
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 900;
@@ -87,10 +89,8 @@ body {
 }
 
 #Find_a_Store {
-  left: 85.5%;
-  top: 32.9%;
-  position: absolute;
-  overflow: visible;
+  /* left: 85.5%;
+  top: 32.9%; */
 }
 
 #search {
@@ -220,14 +220,7 @@ a:hover {
   clear: both;
 }
 
-#gnblogo {
-  position: absolute;
-  width: 141.469px;
-  height: 49.801px;
-  left: 7.29%;
-  top: 27px;
-  overflow: visible;
-}
+
 
 .showSlide {
   position: relative;
