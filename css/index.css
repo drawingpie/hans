@@ -68,6 +68,8 @@ html {
 body {
   text-align: center;
   height: 5491px;
+  margin: 0;
+  padding: 0;
 }
 .inner {
     max-width: 1440px;
