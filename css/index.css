@@ -87,12 +87,6 @@ body {
 #HANS_Cake_Mall:hover {
   color: #730220;
 }
-
-#Find_a_Store {
-  /* left: 85.5%;
-  top: 32.9%; */
-}
-
 #search {
   width: 136.92px;
   height: 34px;
@@ -115,9 +109,10 @@ body {
   background-color: white;
   z-index: 50;
 }
-.icon {
+.icon li {
   display: inline-block;
 }
+
 a {
   text-decoration: none;
   color: rgba(115, 2, 32, 1);
