@@ -71,10 +71,7 @@ body {
 }
 
 #HANS_Cake_Mall {
-  left: 77.1%;
-  top: 39.69%;
-  position: absolute;
-  overflow: visible;
+ overflow: visible;
   width: 135px;
   text-decoration: none;
   text-align: center;
@@ -106,24 +103,9 @@ body {
   fill: #730220;
 }
 
-#line-1 {
-  fill: transparent;
-  stroke: rgba(140, 133, 125, 1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
 .line-1 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
+  border-right: 1px solid #8C857D;
   height: 18px;
-  left: 84.8%;
-  top: 41.1%;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .navbar {
@@ -138,7 +120,9 @@ a {
   text-decoration: none;
   color: rgba(115, 2, 32, 1);
 }
-
+a:hover {
+  color: #8C857D;
+}
 .dropdown .tab li {
   display: inline-block;
   font-family: 'Louis George Café';
