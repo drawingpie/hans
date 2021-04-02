@@ -194,7 +194,7 @@ a:hover {
 .row .column {
   display: inline-block;
   margin-right: 40px;
-
+  margin-top: 0;
 }
 
 .row .column li {
