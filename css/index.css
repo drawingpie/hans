@@ -380,9 +380,10 @@ a:hover {
   background-color: #730220;
   float: left;
   display: inline-block;
-  width: 960px;
-  height: 58px;
-  z-index:9999;
+  width: 951.5px;
+  height: 70px;
+  top: -1010px;
+  position: relative;
 }
 
 .noticebtn {
@@ -390,8 +391,8 @@ a:hover {
   position: absolute;
   height: 34px;
   width: 34px;
-  left: 40.6%;
-  top: 890px;
+  left:3%;
+  top: 50px;
   transform: matrix(1, 0, 0, 1, 0, 0);
   cursor: pointer;
 }
@@ -410,7 +411,6 @@ a:hover {
   font-size: 25px;
   color: #fff;
 }
-
 
 #recommend {
   left: 0%;
