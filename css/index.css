@@ -188,15 +188,18 @@ a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .row {
-  text-align:center;
+  text-align:left;
+  margin-left: 380px;
+  margin-top: 20px;
 }
 .row .column {
   display: inline-block;
   margin-right: 38px;
   margin-top: 0;
   vertical-align: top;
-  margin: 10px;
+  margin-right: 35px;
 }
 
 .row .column li {
