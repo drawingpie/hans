@@ -205,10 +205,10 @@ a:hover {
 .row .column li {
   display:block;
  }
- .smallname {
-   display: block;
-   margin-top: 10px;
- }
+.smallname {
+  display: block;
+  margin-top: 10px;
+}
 .row .column li a {
   color: #fff;
   font-style: normal;
