@@ -169,13 +169,13 @@ a:hover {
   margin:0;
 }
 
-.dropdown-content {
+.dropdown {
   background-color: #730220;
   width: 1920px;
   height: 275px;
   position: relative;
   left: 0;
-  margin-top 103.29px;
+  margin-top: 103.29px;
   z-index: 1;
 }
 
