@@ -71,28 +71,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .inner {
-    max-width: 1640px;
-    margin: 0 auto;
-    box-sizing: border-box; /*다양한 브라우저 크기 동일시키기*/
+  max-width: 1640px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /*다양한 브라우저 크기 동일시키기*/
 }
+
 #gnblogo {
   float: left;
   margin-top: 8px;
 }
+
 .line-1 {
   border-right: 1px solid #8C857D;
   height: 18px;
   margin: 10px 0;
 }
+
 .icon li {
   display: inline-block;
   float: right;
   margin: 10px;
 }
+
 .icon #Mall {
   margin-top: 18px;
 }
+
 .icon #Mall a {
   width: 135px;
   font-family: 'Louis George Café';
@@ -100,11 +107,12 @@ body {
   font-weight: 900;
   font-size: 18px;
   color: rgba(140, 133, 125, 1);
-
 }
+
 .icon #Mall a:hover {
   color: #730220;
 }
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -112,30 +120,31 @@ body {
   background-color: white;
   z-index: 50;
 }
+
 a {
   text-decoration: none;
   color: rgba(115, 2, 32, 1);
 }
+
 a:hover {
   color: #8C857D;
 }
-.dropdown .tab li {
+
+.tab li {
   display: inline-block;
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
-
 }
 
-.dropdown .tab li a {
+.tab li a {
   display: block;
   padding: 20px 0;
-  margin-right:70px;
-
+  margin-right: 70px;
 }
 
-.dropdown .tab li .tablinks {
+.tab li .tablinks {
   text-align: center;
   height: 40px;
   background-color: transparent;
@@ -145,16 +154,17 @@ a:hover {
   color: #8C857D;
 }
 
-.dropdown .dropdown-content .dropdown-tab-content {
+.dropdown-content .dropdown-tab-content {
   float: left;
-  text-align:left;
-  margin:90px 100px;
-  padding:0;
+  text-align: left;
+  margin: 90px 100px;
+  padding: 0;
   color: #fff;
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 500;
 }
+
 .tabcontent {
   font-size: 31px;
   display: none;
@@ -166,7 +176,7 @@ a:hover {
 }
 
 .dropdown {
-  margin:0;
+  margin: 0;
 }
 
 .dropdown {
@@ -184,20 +194,23 @@ a:hover {
 }
 
 .row {
-  text-align:left;
+  text-align: left;
   margin-left: 0px;
 }
+
 .row .column {
   display: inline-block;
   vertical-align: top;
 }
+
 .row .column li {
-  display:block;
+  display: block;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 14px;
- }
+}
+
 .smallname {
   display: block;
   margin-top: 10px;
@@ -218,6 +231,7 @@ a:hover {
   display: block;
   clear: both;
 }
+
 .showSlide {
   position: relative;
 }
@@ -382,7 +396,7 @@ a:hover {
   position: absolute;
   height: 34px;
   width: 34px;
-  left:3%;
+  left: 3%;
   top: 50px;
   transform: matrix(1, 0, 0, 1, 0, 0);
   cursor: pointer;
