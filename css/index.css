@@ -130,14 +130,14 @@ a:hover {
 
 .dropdown .tab li a {
   display: block;
-  padding: 5px 0;
+  padding: 20px 0;
   margin-right:70px;
 
 }
 
 .dropdown .tab li .tablinks {
   text-align: center;
-  height: 50px;
+  height: 40px;
   background-color: transparent;
 }
 
@@ -145,10 +145,10 @@ a:hover {
   color: #8C857D;
 }
 
-.dropdown .dropdown-tab-content {
+.dropdown .dropdown-content .dropdown-tab-content {
   float: left;
   text-align:left;
-  margin:100px 110px;
+  margin:90px 100px;
   padding:0;
   color: #fff;
   font-family: 'Louis George Café';
@@ -166,15 +166,16 @@ a:hover {
 }
 
 .dropdown {
-  overflow: hidden;
+  margin:0;
 }
 
-.inner .dropdown .dropdown-content {
+.dropdown-content {
   background-color: #730220;
-  width: 100%;
+  width: 1920px;
   height: 275px;
+  position: relative;
   left: 0;
-  top: 103px;
+  margin-top 103.29px;
   z-index: 1;
 }
 
