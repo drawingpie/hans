@@ -145,20 +145,11 @@ a:hover {
   margin-right: 70px;
 }
 
-.tab li .tablinks {
-  text-align: center;
-  height: 40px;
-  background-color: transparent;
-}
-
-.tablinks:hover {
-  color: #8C857D;
-}
-
 .dropdown-tab-content {
   float: left;
   text-align: left;
-  margin: 90px 0px;
+  margin-right:155px;
+  margin-top:90px;
   padding: 0;
   color: #fff;
   font-family: 'Louis George Café';
@@ -185,6 +176,7 @@ a:hover {
   height: 0;
   transition: .5s ease;
   z-index: 1;
+  text-align: center;
 }
 
 header:hover .overlay {
@@ -192,35 +184,26 @@ header:hover .overlay {
   height: 275px;
 }
 
-.row {
-  position: absolute;
-  margin-top: 100px;
-  left: 810px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.row li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 77px;
+  float: left;
   text-align: left;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: inline-block;
-  clear: both;
-}
-
-.row .column {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 30px;
-}
-
-.row .column li {
+.row li a {
   display: block;
+  padding: 2px 0;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 14px;
+  color: #fff;
+}
+
+.row .column a:hover {
+  color: #8C857D;
 }
 
 .smallname {
@@ -228,13 +211,6 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
-.row .column li a {
-  color: #fff;
-}
-
-.row .column li a:hover {
-  color: #8C857D;
-}
 
 .showSlide {
   position: relative;
