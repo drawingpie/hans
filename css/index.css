@@ -218,6 +218,9 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
+.slick-initialized {
+  overflow: hidden;
+}
 .single-item {
   position: relative;
 }
