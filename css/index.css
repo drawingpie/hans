@@ -148,8 +148,8 @@ a:hover {
 .dropdown-tab-content {
   float: left;
   text-align: left;
-  margin-right:0px;
-  margin-top:90px;
+  margin-right: 0px;
+  margin-top: 90px;
   padding: 0;
   color: #fff;
   font-family: 'Louis George Café';
@@ -177,21 +177,24 @@ a:hover {
   transition: .5s ease;
   z-index: 1;
   text-align: center;
-  }
+}
 
 header:hover .overlay {
   bottom: 0;
   height: 275px;
 }
+
 .overlay .inner .row {
   margin: 0 auto;
 }
+
 .row {
   position: absolute;
   padding: 0;
   left: 21.8%;
   text-align: left;
 }
+
 .row li {
   display: inline-block;
   vertical-align: top;
@@ -222,6 +225,10 @@ header:hover .overlay {
   position: relative;
 }
 
+.slick-list.draggable {
+  font-size: 0;
+}
+
 .single-item div img {
   max-width: 100%;
   margin-top: 103px;
@@ -244,37 +251,34 @@ header:hover .overlay {
 }
 
 #text1 {
-  left: 21%!important;
+  left: 21%;
   top: 191px;
   position: absolute;
-  overflow: visible;
-  width: 490px;
-  text-align: center;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
   font-size: 40px;
   color: rgba(255, 255, 255, 1);
 }
+
 #text3 {
   left: 42%;
   top: 191px;
   position: absolute;
-  overflow: visible;
-  width: 490px;
-  text-align: center;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
   font-size: 40px;
   color: rgba(255, 255, 255, 1);
 }
+
 #line1 {
   width: 133px;
   border-bottom: 1px solid #fff;
   position: absolute;
   overflow: visible;
 }
+
 #line2 {
   width: 133px;
   border-bottom: 1px solid #fff;
@@ -297,6 +301,7 @@ header:hover .overlay {
   font-size: 75px;
   color: rgba(255, 255, 255, 1);
 }
+
 #text4 {
   left: 42%;
   top: 351px;
