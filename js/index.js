@@ -1,9 +1,5 @@
 //메인슬라이드//
-$(document).ready(function(){
-  $('.single-item').slick({
-    setting-name: setting-value
-  });
-});
+$('.single-item').slick();
 //마우스오버//
 function openMENU(evt, menuName) {
   var i, tabcontent, tablinks;
