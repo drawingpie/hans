@@ -381,7 +381,6 @@ header:hover .overlay {
 }
 
 .noticebtn {
-  overflow: visible;
   position: absolute;
   height: 34px;
   width: 34px;
@@ -395,10 +394,7 @@ header:hover .overlay {
   left: 30%;
   top: 28%;
   position: absolute;
-  overflow: visible;
-  width: 101px;
   white-space: nowrap;
-  text-align: left;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
@@ -407,18 +403,15 @@ header:hover .overlay {
 }
 
 #recommend {
-  left: 0%;
-  top: 939px;
   width: 100%;
-  min-height: 940px;
-  position: absolute;
+  height: 48.95%;
+  position: relative;
   overflow-y: auto;
   overflow-x: hidden;
   background-image: url('../image/index_recommendbg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   -ms-overflow-style: none;
-  /* IE and Edge */
 }
 
 #recommend::-webkit-scrollbar {
