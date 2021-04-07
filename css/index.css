@@ -218,19 +218,12 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
-.mySlides {
-  display: none;
-}
-
-.slideshow-container {
-  max-width: 1920px;
+.single-item {
   position: relative;
-  margin: auto;
 }
 
 .mySlides img {
-  width: 100%;
-  height: 14.1%;
+  max-width: 100%;
   margin-top: 103px;
 }
 
