@@ -218,9 +218,6 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
-.slick-initialized {
-  overflow: hidden;
-}
 .single-item {
   position: relative;
 }
@@ -247,7 +244,7 @@ header:hover .overlay {
 }
 
 #text1 {
-  left: 19.8%;
+  left: 21%!important;
   top: 191px;
   position: absolute;
   overflow: visible;
@@ -260,7 +257,7 @@ header:hover .overlay {
   color: rgba(255, 255, 255, 1);
 }
 #text3 {
-  left: 19.8%;
+  left: 42%;
   top: 191px;
   position: absolute;
   overflow: visible;
@@ -286,7 +283,7 @@ header:hover .overlay {
 }
 
 #text2 {
-  left: 19.5%;
+  left: 21%;
   top: 351px;
   position: absolute;
   overflow: visible;
@@ -301,7 +298,7 @@ header:hover .overlay {
   color: rgba(255, 255, 255, 1);
 }
 #text4 {
-  left: 19.5%;
+  left: 42%;
   top: 351px;
   position: absolute;
   overflow: visible;
@@ -320,7 +317,7 @@ header:hover .overlay {
   position: absolute;
   width: 149px;
   height: 46px;
-  left: 28.6%;
+  left: 25%;
   top: 400px;
   overflow: visible;
 }
