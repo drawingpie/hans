@@ -1,5 +1,8 @@
 //메인슬라이드//
-$('.single-item').slick();
+$(document).ready(function(){
+  $('.single-item').slick({
+  });
+});
 //마우스오버//
 function openMENU(evt, menuName) {
   var i, tabcontent, tablinks;
