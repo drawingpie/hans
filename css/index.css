@@ -227,14 +227,12 @@ header:hover .overlay {
 
 .slick-list.draggable {
   font-size: 0;
-  margin: 0;
-  padding: 0;
-  height: 874px;
 }
 
 .single-item div img {
   max-width: 100%;
   margin-top: 103px;
+  margin-bottom: -75px;
 }
 
 .prev {
