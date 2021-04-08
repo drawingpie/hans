@@ -394,7 +394,6 @@ header:hover .overlay {
 #recommendbighead {
   left: 32.7%;
   top: 100px;
-  width: 675px;
   position: absolute;
   line-height: 68px;
   margin-top: -7.5px;
@@ -409,7 +408,6 @@ header:hover .overlay {
 #recommendsmallhead {
   left: 38.8%;
   top: 250px;
-  width: 450px;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -419,6 +417,7 @@ header:hover .overlay {
   font-size: 20px;
   color: rgba(38, 11, 1, 1);
 }
+
 #recgift {
   overflow: visible;
   position: absolute;
