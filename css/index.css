@@ -66,7 +66,7 @@ html {
 }
 
 body {
-  text-align: center;
+  /* text-align: center; */
   height: 5491px;
   margin: 0;
   padding: 0;
@@ -376,7 +376,7 @@ header:hover .overlay {
 
 #recommend {
   width: 100%;
-  height: 48.95%;
+  height: auto;
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
@@ -384,6 +384,7 @@ header:hover .overlay {
   background-repeat: no-repeat;
   background-attachment: fixed;
   -ms-overflow-style: none;
+  text-align: left;
 }
 
 #recommend::-webkit-scrollbar {
@@ -424,35 +425,33 @@ header:hover .overlay {
   left: 72%;
   top: 170px;
 }
+
 #recnumber {
   overflow: visible;
   position: absolute;
   left: 48.3%;
   top: 430px;
 }
-.recl {
-  position: absolute;
-  width: 910px;
-  height: 895px;
-  left: 0%;
-  top: 330px;
-  overflow: visible;
+
+#recommend#scroll li {
+  display: inline-block;
 }
 
-.recr {
+#recommend#scroll.recommend.recr {
   position: absolute;
-  width: 943px;
+  max-width: 100vw;
   height: 953px;
   left: 51.3%;
-  top: 921px;
-  overflow: visible;
+  top: 1000px;
 }
+
 .recheadl {
+  display: inline-block;
+  float: left;
   left: 57%;
   top: 631px;
   width: 230px;
   position: absolute;
-  overflow: visible;
   text-align: center;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
@@ -475,6 +474,7 @@ header:hover .overlay {
   font-size: 26px;
   color: rgba(38, 11, 1, 1);
 }
+
 .recbodyl {
   left: 56.2%;
   top: 673px;
@@ -504,7 +504,6 @@ header:hover .overlay {
   font-size: 48px;
   color: rgba(115, 2, 32, 1);
 }
-
 
 #recberry {
   overflow: visible;
@@ -550,6 +549,7 @@ header:hover .overlay {
   overflow: visible;
   cursor: pointer;
 }
+
 .morebtnr {
   position: absolute;
   width: 117px;
@@ -560,13 +560,12 @@ header:hover .overlay {
   cursor: pointer;
 }
 
-
 #point {
   width: 100%;
   height: 376px;
   left: 0%;
   top: 1879px;
-  position: absolute;
+  position: relative;
   overflow: visible;
 }
 
@@ -575,7 +574,7 @@ header:hover .overlay {
   height: 936px;
   left: 0%;
   top: 2255px;
-  position: absolute;
+  position: relative;
   overflow: visible;
 }
 
@@ -632,7 +631,7 @@ header:hover .overlay {
 }
 
 #order {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 390px;
   left: 0%;
@@ -695,7 +694,7 @@ header:hover .overlay {
 }
 
 #mall {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 959px;
   left: 0%;
@@ -803,7 +802,7 @@ header:hover .overlay {
 }
 
 #store {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 614px;
   left: 0%;
@@ -889,7 +888,7 @@ form.example::after {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 368px;
   left: 0%;
