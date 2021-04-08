@@ -227,6 +227,9 @@ header:hover .overlay {
 
 .slick-list.draggable {
   font-size: 0;
+  margin: 0;
+  padding: 0;
+  height: 874px;
 }
 
 .single-item div img {
@@ -329,13 +332,14 @@ header:hover .overlay {
   left: 24.6%;
   top: 400px;
   overflow: visible;
+  font-size: 0;
 }
 
 #detailbtn2 {
   position: absolute;
   width: 149px;
   height: 46px;
-  left: 42%;
+  left: 44.5%;
   top: 450px;
   overflow: visible;
 }
@@ -347,6 +351,7 @@ header:hover .overlay {
   height: 70px;
   position: relative;
   float: left;
+  font-size: 0;
 }
 
 .noticebtn {
