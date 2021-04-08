@@ -251,24 +251,24 @@ header:hover .overlay {
 }
 
 #text1 {
-  left: 21%;
+  left: 23%;
   top: 191px;
   position: absolute;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
 
 #text3 {
-  left: 42%;
-  top: 191px;
+  left: 42.5%;
+  top: 250px;
   position: absolute;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -277,6 +277,8 @@ header:hover .overlay {
   border-bottom: 1px solid #fff;
   position: absolute;
   overflow: visible;
+  left: 24.8%;
+  top: 337.5px;
 }
 
 #line2 {
@@ -284,10 +286,12 @@ header:hover .overlay {
   border-bottom: 1px solid #fff;
   position: absolute;
   overflow: visible;
+  left: 44.7%;
+  top: 400px;
 }
 
 #text2 {
-  left: 21%;
+  left: 22.9%;
   top: 351px;
   position: absolute;
   overflow: visible;
@@ -298,13 +302,13 @@ header:hover .overlay {
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
-  font-size: 75px;
+  font-size: 4.688rem;
   color: rgba(255, 255, 255, 1);
 }
 
 #text4 {
-  left: 42%;
-  top: 351px;
+  left: 42.9%;
+  top: 430px;
   position: absolute;
   overflow: visible;
   width: 497px;
@@ -314,16 +318,25 @@ header:hover .overlay {
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
-  font-size: 75px;
+  font-size: 4.688rem;
   color: rgba(255, 255, 255, 1);
 }
 
-.detailbtn {
+#detailbtn1 {
   position: absolute;
   width: 149px;
   height: 46px;
-  left: 25%;
+  left: 24.6%;
   top: 400px;
+  overflow: visible;
+}
+
+#detailbtn2 {
+  position: absolute;
+  width: 149px;
+  height: 46px;
+  left: 42%;
+  top: 450px;
   overflow: visible;
 }
 
