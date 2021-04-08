@@ -419,8 +419,36 @@ header:hover .overlay {
   font-size: 20px;
   color: rgba(38, 11, 1, 1);
 }
+#recgift {
+  overflow: visible;
+  position: absolute;
+  left: 72%;
+  top: 170px;
+}
+#recnumber {
+  overflow: visible;
+  position: absolute;
+  left: 48.3%;
+  top: 430px;
+}
+.recl {
+  position: absolute;
+  width: 910px;
+  height: 895px;
+  left: 0%;
+  top: 330px;
+  overflow: visible;
+}
 
-#birthday {
+.recr {
+  position: absolute;
+  width: 943px;
+  height: 953px;
+  left: 51.3%;
+  top: 921px;
+  overflow: visible;
+}
+.recheadl {
   left: 57%;
   top: 631px;
   width: 230px;
@@ -434,7 +462,7 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
 }
 
-#love {
+.recheadr {
   left: 30%;
   top: 1287px;
   position: absolute;
@@ -448,65 +476,36 @@ header:hover .overlay {
   font-size: 26px;
   color: rgba(38, 11, 1, 1);
 }
-
-#teacher {
-  left: 57%;
-  top: 1947px;
+.recbodyl {
+  left: 56.2%;
+  top: 673px;
   position: absolute;
   overflow: visible;
-  width: 199px;
-  white-space: nowrap;
-  text-align: center;
-  font-style: normal;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 400;
-  font-size: 26px;
-  color: rgba(38, 11, 1, 1);
-}
-
-#wedding {
-  left: 31%;
-  top: 2603px;
-  position: absolute;
-  overflow: visible;
-  width: 275px;
+  width: 221px;
   white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  color: rgba(38, 11, 1, 1);
+  font-weight: 900;
+  font-size: 48px;
+  color: rgba(115, 2, 32, 1);
 }
 
-#thanks {
-  left: 56%;
-  top: 3272px;
+.recbodyr {
+  left: 28.5%;
+  top: 1329px;
   position: absolute;
   overflow: visible;
-  width: 223px;
+  width: 329px;
   white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  color: rgba(38, 11, 1, 1);
+  font-weight: 900;
+  font-size: 48px;
+  color: rgba(115, 2, 32, 1);
 }
 
-#recnumber {
-  overflow: visible;
-  position: absolute;
-  left: 48.3%;
-  top: 430px;
-}
-
-#recgift {
-  overflow: visible;
-  position: absolute;
-  left: 72%;
-  top: 170px;
-}
 
 #recberry {
   overflow: visible;
@@ -543,82 +542,16 @@ header:hover .overlay {
   top: 2187px;
 }
 
-#straw {
-  left: 56.2%;
-  top: 673px;
+.morebtnl {
   position: absolute;
+  width: 117px;
+  height: 54px;
+  left: 30%;
+  top: 765.999px;
   overflow: visible;
-  width: 221px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: rgba(115, 2, 32, 1);
+  cursor: pointer;
 }
-
-#sweet {
-  left: 54.5%;
-  top: 1989px;
-  position: absolute;
-  overflow: visible;
-  width: 277px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: rgba(115, 2, 32, 1);
-}
-
-#gana {
-  left: 54.5%;
-  top: 3314px;
-  position: absolute;
-  overflow: visible;
-  width: 265px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: rgba(115, 2, 32, 1);
-}
-
-#mini {
-  left: 28.5%;
-  top: 1329px;
-  position: absolute;
-  overflow: visible;
-  width: 329px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: rgba(115, 2, 32, 1);
-}
-
-#strawchoco {
-  left: 29.7%;
-  top: 2645px;
-  position: absolute;
-  overflow: visible;
-  width: 311px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: rgba(115, 2, 32, 1);
-}
-
-#more1 {
+.morebtnr {
   position: absolute;
   width: 117px;
   height: 54px;
@@ -628,85 +561,6 @@ header:hover .overlay {
   cursor: pointer;
 }
 
-#more2 {
-  position: absolute;
-  width: 117px;
-  height: 54px;
-  left: 34%;
-  top: 1421.999px;
-  overflow: visible;
-}
-
-#more3 {
-  position: absolute;
-  width: 117px;
-  height: 54px;
-  left: 58.6%;
-  top: 2081.999px;
-  overflow: visible;
-}
-
-#more4 {
-  position: absolute;
-  width: 117px;
-  height: 54px;
-  left: 34.7%;
-  top: 2737.999px;
-  overflow: visible;
-}
-
-#more5 {
-  position: absolute;
-  width: 117px;
-  height: 54px;
-  left: 58.3%;
-  top: 3406.999px;
-  overflow: visible;
-}
-
-#rec01 {
-  position: absolute;
-  width: 910px;
-  height: 895px;
-  left: 0%;
-  top: 330px;
-  overflow: visible;
-}
-
-#rec02 {
-  position: absolute;
-  width: 943px;
-  height: 953px;
-  left: 51.3%;
-  top: 921px;
-  overflow: visible;
-}
-
-#rec03 {
-  position: absolute;
-  width: 864px;
-  height: auto;
-  left: 1.1%;
-  top: 1558px;
-  overflow: visible;
-}
-
-#rec04 {
-  position: absolute;
-  width: 892px;
-  left: 53.9%;
-  top: 2175px;
-  overflow: visible;
-}
-
-#rec05 {
-  position: absolute;
-  width: 841px;
-  height: 835px;
-  left: 1.1%;
-  top: 2951px;
-  overflow: visible;
-}
 
 #point {
   width: 100%;
