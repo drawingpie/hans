@@ -374,7 +374,7 @@ header:hover .overlay {
   color: #fff;
 }
 #recommend {
-  position: absolute;
+  position: relative;
 }
 #scroll {
   background-image: url("../image/index_recommendbg.png");
@@ -403,10 +403,23 @@ header:hover .overlay {
 #morebtn1 {
   margin-top: -3100px;
   margin-left: 1120px;
+  padding
 }
 #morebtn2 {
-  margin-top: -2100px;
-  margin-left: 100px;
+  margin-top: 530px;
+  margin-left: 640px;
+}
+#morebtn3 {
+  margin-top: 530px;
+  margin-left: 1120px;
+}
+#morebtn4 {
+  margin-top: 530px;
+  margin-left: 640px;
+}
+#morebtn5 {
+  margin-top: 530px;
+  margin-left: 1120px;
 }
 #point {
   width: 100%;
