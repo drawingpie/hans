@@ -374,22 +374,14 @@ header:hover .overlay {
   color: #fff;
 }
 
-#recommend {
+#scroll {
   width: 100%;
-  height: auto;
-  position: relative;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background-image: url('../image/index_recommendbg.png');
-  background-repeat: no-repeat;
+  height: 100%;
   background-attachment: fixed;
-  -ms-overflow-style: none;
-  text-align: left;
-}
-
-#recommend::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, Opera*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../image/index_recommendbg.png');
 }
 
 #recommendbighead {
@@ -433,11 +425,11 @@ header:hover .overlay {
   top: 430px;
 }
 
-#recommend#scroll li {
+#scroll li {
   display: inline-block;
 }
 
-#recommend#scroll.recommend.recr {
+#scroll.recommend.recr {
   position: absolute;
   max-width: 100vw;
   height: 953px;
