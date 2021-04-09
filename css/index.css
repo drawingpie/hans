@@ -374,7 +374,7 @@ header:hover .overlay {
   color: #fff;
 }
 #recommend {
-  position: relative;
+  position: absolute;
 }
 #scroll {
   background-image: url("../image/index_recommendbg.png");
@@ -390,25 +390,23 @@ header:hover .overlay {
     display: none; /* Chrome, Safari, Opera*/
 }
 #recommend #scroll img {
-  display: inline-block;
+  text-align: center;
   width: 100%;
   margin-top:70px;
 }
-#morebtn1, #morebtn3, #morebtn5 {
+#morebtn1, #morebtn2, #morebtn3, #morebtn4, #morebtn5 {
   display: block;
-  margin-bottom: 50px;
-  width: 117px;
-  height: 54px;
+  width: 6%;
+  height: auto;
   cursor: pointer;
-  float: right;
 }
-#morebtn2, #morebtn4 {
-  display: block;
-  margin-bottom: 50px;
-  width: 117px;
-  height: 54px;
-  cursor: pointer;
-  float: left;
+#morebtn1 {
+  margin-top: -3100px;
+  margin-left: 1120px;
+}
+#morebtn2 {
+  margin-top: -2100px;
+  margin-left: 100px;
 }
 #point {
   width: 100%;
