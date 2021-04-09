@@ -376,15 +376,13 @@ header:hover .overlay {
 
 #recommend {
   position: relative;
-}
-#scroll {
   background-image: url("../image/index_recommendbg.png");
-  min-height: 940px;
+  height: 50%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 10px solid red;
+  margin-top: 70px;
 }
 
 #recommendbighead {
