@@ -376,8 +376,6 @@ header:hover .overlay {
 
 #recommend {
   position: relative;
-  display: block;
-  text-align: center;
 }
 
 #scroll {
@@ -387,6 +385,7 @@ header:hover .overlay {
   background-repeat: no-repeat;
   background-size: cover;
   height: 940px;
+  margin-top:70px;
 }
 
 .morebtnl {
