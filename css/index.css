@@ -425,15 +425,15 @@ header:hover .overlay {
 #point {
   max-width: 100%;
 }
-.HACCP {
-  position: relative;
-  background-image: url("../image/index_ok.png");
-}
 #HACCP {
-  width: 100%;
-  margin-top:-5px;
+  position: relative;
 }
-
+.HACCPbg {
+  background-image: url("../image/index_ok.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 #HACCPmark {
   position: absolute;
   top:0;
