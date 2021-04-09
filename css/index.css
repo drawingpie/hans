@@ -374,14 +374,17 @@ header:hover .overlay {
   color: #fff;
 }
 
+#recommend {
+  position: relative;
+}
 #scroll {
-  width: 100%;
-  height: 100%;
+  background-image: url("../image/index_recommendbg.png");
+  min-height: 940px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../image/index_recommendbg.png');
+  border: 10px solid red;
 }
 
 #recommendbighead {
