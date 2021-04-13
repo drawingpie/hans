@@ -427,12 +427,9 @@ header:hover .overlay {
 }
 #HACCP {
   position: relative;
-}
-.HACCPbg {
   background-image: url("../image/index_ok.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 #HACCPmark {
