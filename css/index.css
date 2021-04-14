@@ -459,7 +459,7 @@ header:hover .overlay {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 2.5rem;
   color: #fff;
 }
 
@@ -483,29 +483,25 @@ header:hover .overlay {
   display: block;
 }
 
-#order {
+.order {
   position: relative;
   background-image: url("../image/index_orderbg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#orderbg {
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  top: 0px;
+  background-size: contain;
+  text-align: center;
+  height: 390px;
+  margin-top: -52px;
 }
 
 #ORDER_AT_THE_HANS_STORE_ONLINE {
   position: absolute;
   left: 50%;
-  top: 95px;
+  top: 7vw;
   transform: translateX(-50%);
   font-family: Louis George Café;
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -513,23 +509,25 @@ header:hover .overlay {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 220px;
+  top: 12vw;
   overflow: visible;
   cursor: pointer;
 }
 
 #ordermobile {
   position: absolute;
-  height: auto;
+  max-width: 100%;
+  height: 15vw;
   left: 75.9%;
-  top: 64px;
+  top: 3vw;
 }
 
 #orderperson {
   position: absolute;
   max-width: 100%;
+  height: 15vw;
   left: 17.65%;
-  top: 64.258px;
+  top: 2vw;
 }
 
 #mall {
@@ -537,15 +535,9 @@ header:hover .overlay {
   background-image: url("../image/index_mallbg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 959px;
 }
 
-#mallbg {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  left: 0%;
-  top: 0%;
-}
 
 #malltext {
   position: absolute;
