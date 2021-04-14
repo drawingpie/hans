@@ -131,6 +131,10 @@ a:hover {
   color: #8C857D;
 }
 
+.tab {
+  margin-left: 14%;
+}
+
 .tab li {
   display: inline-block;
   font-family: 'Louis George Café';
@@ -142,7 +146,7 @@ a:hover {
 .tab li a {
   display: block;
   padding: 20px 0;
-  margin-right: 70px;
+  margin-right: 65px;
 }
 
 .dropdown-tab-content {
@@ -176,7 +180,6 @@ a:hover {
   height: 0;
   transition: .5s ease;
   z-index: 1;
-  text-align: center;
 }
 
 header:hover .overlay {
@@ -185,20 +188,15 @@ header:hover .overlay {
 }
 
 .overlay .inner .row {
-  margin: 0 auto;
-}
-
-.row {
-  position: absolute;
-  padding: 0;
-  left: 21.8%;
-  text-align: left;
+  margin-top: 10px;
+  margin-left: 16.5%;
+  padding: 0px;
 }
 
 .row li {
   display: inline-block;
   vertical-align: top;
-  margin-right: 77px;
+  margin-right: 70px;
   text-align: left;
 }
 
@@ -373,9 +371,11 @@ header:hover .overlay {
   font-size: 25px;
   color: #fff;
 }
+
 #recommend {
   position: relative;
 }
+
 #scroll {
   background-image: url("../image/index_recommendbg.png");
   background-attachment: fixed;
@@ -383,40 +383,49 @@ header:hover .overlay {
   background-repeat: no-repeat;
   background-size: cover;
   height: 940px;
-  margin-top:70px;
+  margin-top: 70px;
   overflow-x: hidden;
 }
+
 #scroll::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+  display: none;
+  /* Chrome, Safari, Opera*/
 }
+
 #recommend #scroll img {
   text-align: center;
   width: 100%;
-  margin-top:70px;
+  margin-top: 70px;
 }
+
 #morebtn1, #morebtn2, #morebtn3, #morebtn4, #morebtn5 {
   display: block;
   width: 6%;
   height: auto;
   cursor: pointer;
 }
+
 #morebtn1 {
   margin-top: -3100px;
   margin-left: 1120px;
   padding
 }
+
 #morebtn2 {
   margin-top: 530px;
   margin-left: 640px;
 }
+
 #morebtn3 {
   margin-top: 530px;
   margin-left: 1120px;
 }
+
 #morebtn4 {
   margin-top: 530px;
   margin-left: 640px;
 }
+
 #morebtn5 {
   margin-top: 530px;
   margin-left: 1120px;
@@ -425,6 +434,7 @@ header:hover .overlay {
 #point {
   max-width: 100%;
 }
+
 #HACCP {
   position: relative;
   background-image: url("../image/index_ok.png");
@@ -512,7 +522,7 @@ header:hover .overlay {
 #ordermobile {
   display: inline-block;
   position: absolute;
-  max-width:100%;
+  max-width: 100%;
   left: 75.9%;
   top: 64px;
 }
@@ -520,7 +530,7 @@ header:hover .overlay {
 #orderperson {
   display: inline-block;
   position: absolute;
-  max-width:100%;
+  max-width: 100%;
   left: 17.65%;
   top: 64.258px;
 }
