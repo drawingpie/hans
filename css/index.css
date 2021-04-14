@@ -639,6 +639,10 @@ header:hover .overlay {
   color: rgba(115, 2, 32, 1);
 }
 
+form {
+  display: inline-block;
+}
+
 form.example input[type=text] {
   left: 57.5%;
   top: 18vw;
@@ -647,26 +651,12 @@ form.example input[type=text] {
   font-size: 15px;
   border: 1px solid rgba(221, 221, 221, 1);
   border-radius: 6px;
-  float: left;
   width: 409px;
   color: rgba(38, 11, 1, 1);
   background: #fff;
 }
 
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 form button #gostoreimg {
-  position: absolute;
-  left: 1000px;
-  top: 278px;
-  width: 14.14px;
-  padding: 10px;
-  background: transparent;
-  fill: #260B01;
   cursor: pointer;
 }
 
