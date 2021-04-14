@@ -640,8 +640,8 @@ header:hover .overlay {
 }
 
 form.example input[type=text] {
-  left: 0%;
-  top: 0px;
+  left: 57.5%;
+  top: 18vw;
   position: absolute;
   padding: 10px;
   font-size: 15px;
@@ -659,11 +659,10 @@ form.example::after {
   display: table;
 }
 
-#gostoreimg {
+form button #gostoreimg {
   position: absolute;
-  left: 76.3%;
-  top: 0px;
-  float: left;
+  left: 1000px;
+  top: 278px;
   width: 14.14px;
   padding: 10px;
   background: transparent;
@@ -673,7 +672,7 @@ form.example::after {
 
 #storestory {
   left: 57.5%;
-  top: 0px;
+  top: 10vw;
   position: absolute;
   white-space: nowrap;
   line-height: 25px;
