@@ -639,11 +639,11 @@ header:hover .overlay {
   color: rgba(115, 2, 32, 1);
 }
 
-form {
+.form {
   display: inline-block;
 }
 
-form.example input[type=text] {
+.form input[type=text] {
   left: 57.5%;
   top: 18vw;
   position: absolute;
@@ -654,10 +654,6 @@ form.example input[type=text] {
   width: 409px;
   color: rgba(38, 11, 1, 1);
   background: #fff;
-}
-
-form button #gostoreimg {
-  cursor: pointer;
 }
 
 #storestory {
