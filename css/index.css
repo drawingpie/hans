@@ -66,7 +66,7 @@ html {
 }
 
 body {
-  /* text-align: center; */
+/*   text-align: center; */
   height: auto;
   margin: 0;
   padding: 0;
@@ -253,6 +253,7 @@ header:hover .overlay {
   left: 23%;
   top: 191px;
   position: absolute;
+  text-align: center;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
@@ -264,6 +265,7 @@ header:hover .overlay {
   left: 42.5%;
   top: 250px;
   position: absolute;
+  text-align: center;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 100;
@@ -293,8 +295,6 @@ header:hover .overlay {
   left: 22.9%;
   top: 351px;
   position: absolute;
-  overflow: visible;
-  width: 497px;
   white-space: nowrap;
   line-height: 89px;
   text-align: center;
@@ -309,8 +309,6 @@ header:hover .overlay {
   left: 42.9%;
   top: 430px;
   position: absolute;
-  overflow: visible;
-  width: 497px;
   white-space: nowrap;
   line-height: 89px;
   text-align: center;
