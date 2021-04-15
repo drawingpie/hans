@@ -44,21 +44,21 @@
   font-family: 'Louis George Café Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('font/Louis George Café Regular'), url('Louis George Cafe.woff') format('woff');
+  src: local('../font/Louis George Café Regular'), url('Louis George Cafe.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Louis George Café Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('font/Louis George Café Bold'), url('Louis George Cafe Bold.woff') format('woff');
+  src: local('../font/Louis George Café Bold'), url('Louis George Cafe Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Louis George Café Light Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('font/Louis George Café Light Regular'), url('Louis George Cafe Light.woff') format('woff');
+  src: local('../font/Louis George Café Light Regular'), url('Louis George Cafe Light.woff') format('woff');
 }
 
 html {
