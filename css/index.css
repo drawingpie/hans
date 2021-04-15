@@ -44,21 +44,21 @@
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 500;
-  src: url("LouisGeorgeCafe.woff") format('woff');
+  src: url("font/LouisGeorgeCafe.woff");
 }
 
 @font-face {
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 900;
-  src: url("LouisGeorgeCafe-Bold.woff") format('woff');
+  src: url("font/LouisGeorgeCafe-Bold.woff");
 }
 
 @font-face {
   font-family: 'Louis George Café';
   font-style: normal;
   font-weight: 100;
-  src: url("LouisGeorgeCafeLight.woff") format('woff');
+  src: url("font/LouisGeorgeCafeLight.woff");
 }
 
 html {
