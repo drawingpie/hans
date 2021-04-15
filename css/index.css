@@ -41,24 +41,24 @@
 }
 
 @font-face {
-  font-family: 'Louis George Café';
+  font-family: 'Louis George Café Regular';
   font-style: normal;
-  font-weight: 500;
-  src: url("font/LouisGeorgeCafe.woff");
+  font-weight: normal;
+  src: local('Louis George Café Regular'), url('Louis George Cafe.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Louis George Café';
+  font-family: 'Louis George Café Bold';
   font-style: normal;
-  font-weight: 900;
-  src: url("font/LouisGeorgeCafe-Bold.woff");
+  font-weight: normal;
+  src: local('Louis George Café Bold'), url('Louis George Cafe Bold.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Louis George Café';
+  font-family: 'Louis George Café Light Regular';
   font-style: normal;
-  font-weight: 100;
-  src: url("font/LouisGeorgeCafeLight.woff");
+  font-weight: normal;
+  src: local('Louis George Café Light Regular'), url('Louis George Cafe Light.woff') format('woff');
 }
 
 html {
