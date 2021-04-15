@@ -617,14 +617,9 @@ header:hover .overlay {
 
 #store {
   position: relative;
-}
-
-#storebg {
-  position: absolute;
-  max-width: 100%;
-  left: 0%;
-  top: 0%;
-  z-index: -9;
+  background-image: url("../image/index_storebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #storetext {
