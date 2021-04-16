@@ -227,7 +227,9 @@ header:hover .overlay {
   .navbar, .overlay {
     display: none;
   }
-
+  .mobile {
+    display: block;
+  }
   .sidebar {
     height: 100%;
     width: 0;
@@ -273,6 +275,7 @@ header:hover .overlay {
   }
   #mobilegnblogo {
     width: 65px;
+    margin: 10px auto;
   }
 
   .mainwrap {
