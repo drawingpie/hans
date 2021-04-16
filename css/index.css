@@ -271,6 +271,9 @@ header:hover .overlay {
     padding: 10px 15px;
     border: none;
   }
+  #mobilegnblogo {
+    width: 65px;
+  }
 
   #main {
     transition: margin-right .5s;
