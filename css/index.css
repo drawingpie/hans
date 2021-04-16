@@ -239,6 +239,7 @@ header:hover .overlay {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  display: block;
 }
 
 .sidebar a {
@@ -259,25 +260,22 @@ header:hover .overlay {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .openbtn {
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: #fff;
+  color: #8C857D;
   padding: 10px 15px;
   border: none;
 }
 
-.openbtn:hover {
-  background-color: #444;
-}
 
 #main {
-  transition: margin-left .5s;
-  padding: 16px;
+  transition: margin-right .5s;
+
 }
 }
 
