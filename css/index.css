@@ -227,9 +227,11 @@ header:hover .overlay {
   .navbar, .overlay {
     display: none;
   }
+
   .mobile {
-    display: block;
+    display: inline-block;
   }
+
   .sidebar {
     height: 100%;
     width: 0;
@@ -265,17 +267,32 @@ header:hover .overlay {
     margin-right: 50px;
   }
 
+  .mobilenavbar {
+    max-width: 100%;
+    height: 52.71px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*     background-color: #333; */
+    position: relative;
+  }
+
   .openbtn {
     font-size: 30px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: transparent;
     color: #8C857D;
-    padding: 10px 15px;
+    margin-top: 5px;
     border: none;
+    position: absolute;
+    right: 10px;
   }
+
   #mobilegnblogo {
     width: 65px;
-    margin: 10px auto;
+    position: absolute;
+    laft: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
   }
 
   .mainwrap {
@@ -299,7 +316,7 @@ header:hover .overlay {
 
 @media screen and (max-width: 1440px) {
   .single-item div img {
-    margin-top: 0;
+    margin-top: 0px;
   }
 }
 
