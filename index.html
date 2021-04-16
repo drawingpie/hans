@@ -113,7 +113,7 @@
 
 	</header>
 
-	<div id="mySidebar" class="sidebar">
+	<div id="mySidebar" class="sidebar mobile">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 		<a href="#">About</a>
 		<a href="#">Services</a>
@@ -121,139 +121,141 @@
 		<a href="#">Contact</a>
 	</div>
 
-	<div id="main">
+	<div class="mobile">
 		<a href="index.html"><img id="mobilegnblogo" src="image/gnblogo.png"></img></a>
 		<button class="openbtn" onclick="openNav()">☰</button>
-
-		<section id="section0" class="single-item  desktop">
-			<div>
-				<img src="image/index_choco.png">
-				<div id="text1">#촉촉한 #초코시트 #프랑스산<br>#다크초콜릿 #풍미 #케이크</div>
-				<div id="line1"></div>
-				<div id="text2">발로나초코mini</div>
-				<a href="sub_menu_4.html"><img id="detailbtn1" src="image/index_detailbtn.png"></a>
-			</div>
-			<div class="slide_blind">
-				<img src="image/index_strawcake.png">
-				<div id="text3">#촉촉한 #가나슈 #초코시트<br>#고소한 #커스터드 #상큼한 #생딸기</div>
-				<div id="line2"></div>
-				<div id="text4">초코딸기생크림</div>
-				<a href="sub_menu_4.html"><img id="detailbtn2" src="image/index_detailbtn.png"></a>
-			</div>
-		</section>
-		<!-- Add Arrows -->
-		<img class="prev" src="image/index_leftbtn.png">
-		<img class="next" src="image/index_rightbtn.png">
-
-		<div class="noticebg">
-			<ul>
-				<li><span>한스케익 이벤트</span></li>
-				<li><a href="sub_news_1.html"><img class="noticebtn" src="image/index_noticebtn.png"></a></li>
-			</ul>
-		</div>
-		<div class="noticebg" style="background-color: #fff;">
-			<ul>
-				<li><span style="color: #730220;">한스케익 SNS</span></li>
-				<li><a href="sub_news_1.html"><img class="noticebtn" src="image/index_noticebtn02.png"></a></li>
-			</ul>
-		</div>
-
-		<section id="recommend" class="desktop">
-			<div id="scroll">
-				<img src="image/recommendimg.png">
-				<a href="#" id="morebtn1"></a>
-				<a href="#" id="morebtn2"></a>
-				<a href="#" id="morebtn3"></a>
-				<a href="#" id="morebtn4"></a>
-				<a href="#" id="morebtn5"></a>
-			</div>
-		</section>
-
-		<section class="desktop">
-			<div id="point"><img id="point" src="image/index_point.png"></img></div>
-		</section>
-
-		<section id="HACCP" class="desktop">
-			<img src="image/index_mark.png" id="HACCPmark"></img>
-			<div id="HACCPhead" data-aos="fade-left">
-				<span>한스케익은 케익 및 빵부분 <br>최고수준의 해썹(HACCP)<br>인증을 획득했습니다.</span>
-			</div>
-			<div id="HACCPstory" data-aos="fade-left">
-				<span>처음과 같은 마음으로 언제나 최상의 신선한 재료로 고객 여러분들께 <br>정성을 다하겠습니다.</span>
-			</div>
-			<a href="sub_brand_1.html" id="detailbtn3"><img src="image/index_detailbtn.png"></a>
-		</section>
-
-		<section id="order" class="desktop">
-			<div id="ORDER_AT_THE_HANS_STORE_ONLINE">
-				<span>ORDER AT THE HANS STORE ONLINE</span>
-			</div>
-			<img id="ordermobile" src="image/index_ordermobile.png" data-aos="zoom-in"></img>
-			<img id="orderperson" src="image/index_orderperson.png" data-aos="zoom-in"></img>
-			<a href="sub_store_1.html" id="detailbtn4"><img src="image/index_detailbtn.png"></a>
-		</section>
-
-		<section id="mall" class="desktop">
-			<div id="HANS_CAKE_MALL">HANS<br>CAKE<br>MALL</div>
-			<div id="mallonline">한스케익이 선사하는<br>특별한 경험을 온라인에서 만나보세요.</div>
-			<a href="https://www.hanscakemall.co.kr/" id="ENTER_HANS_CAKE_MALL">ENTER HANS CAKE MALL</a>
-			<div id="cakeimg">
-				<img id="mallcake1" src="image/index_mallcake1.png" data-aos="fade-up" data-aos-duration="3000">
-				<img id="mallcake2" src="image/index_mallcake2.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-				<img id="mallcake3" src="image/index_mallcake3.png" data-aos="fade-up" data-aos-duration="3000">
-			</div>
-		</section>
-
-		<section id="store" class="desktop">
-			<div id="storetext" data-aos="fade-left">
-				<span>한스케익을 가까이에서 경험해보세요.</span><br>
-				<span>나에게 맞는 매장을 찾아보세요!</span>
-			</div>
-
-			<div class="form">
-				<input type="text" placeholder="Search.." name="search2" />
-				<button type="submit"><i class="fas fa-search"></i></button>
-			</div>
-
-			<div id="storestory" data-aos="fade-left">
-				<span>마음놓고 즐길 수 있는 </span>
-				<span style="font-style:normal;font-weight:normal;">주차가능한 매장</span>
-				<br><span>차별화된 디저트 경험을 누릴 수 있는</span>
-				<span style="font-style:normal;font-weight:normal;">배달과 픽업서비스 가능한 매장</span><br>
-				<span>함께해서 더 따뜻할 수 있는 </span>
-				<span style="font-style:normal;font-weight:normal;">회의를 할수 있는 매장</span>
-			</div>
-
-		</section>
-
-		<footer class="desktop">
-			<div id="footer">
-				<div class="inner">
-					<div id="footermenu">
-						<div id="footermenu01"><span>개인정보처리방침</span></div>
-						<div id="footermenu02"><span>이용약관</span></div>
-						<div id="footermenu03"><span>사이트맵</span></div>
-						<a href="https://instagram.com/hanscake_korea?igshid=1h4w98ewpesx1" target="_blank"><img src="image/insta.png" id="insta"></img></a>
-						<div id="content">
-							<div id="add">
-								<span>경기 안양시 동안구 시민대로 401 대륭테크노타운 15차 B111호 (관양2동 224-5) | TEL 031-463-3505</span>
-							</div>
-							<div id="Copyright">
-								<span>Copyright 2011© HANS CAKE. All Right Reserved</span>
-							</div>
-							<div id="business">
-								<span>㈜한스제과 사업자등록번호 214-88-63183 | 통신판매업신고 제2013-경기안양-0039호 | 대표이사 안영식, 한성훈, 안주태</span>
-							</div>
-						</div>
-						<a href="sub_customer_1.html"><img src="image/qna.png" id="qna"></a>
-						<div class="footer_line"></div>
-						<a href="index.html"><img src="image/footerlogo.png" id="footerlogo"></a>
-					</div>
-					<a href="#section0"><img src="image/topbtn.png" id="topbtn"></a>
+		<div class="mainwrap">
+			<section id="section0" class="single-item  desktop">
+				<div>
+					<img src="image/index_choco.png">
+					<div id="text1">#촉촉한 #초코시트 #프랑스산<br>#다크초콜릿 #풍미 #케이크</div>
+					<div id="line1"></div>
+					<div id="text2">발로나초코mini</div>
+					<a href="sub_menu_4.html"><img id="detailbtn1" src="image/index_detailbtn.png"></a>
 				</div>
+				<div class="slide_blind">
+					<img src="image/index_strawcake.png">
+					<div id="text3">#촉촉한 #가나슈 #초코시트<br>#고소한 #커스터드 #상큼한 #생딸기</div>
+					<div id="line2"></div>
+					<div id="text4">초코딸기생크림</div>
+					<a href="sub_menu_4.html"><img id="detailbtn2" src="image/index_detailbtn.png"></a>
+				</div>
+			</section>
+			<!-- Add Arrows -->
+			<img class="prev" src="image/index_leftbtn.png">
+			<img class="next" src="image/index_rightbtn.png">
+
+			<div class="noticebg">
+				<ul>
+					<li><span>한스케익 이벤트</span></li>
+					<li><a href="sub_news_1.html"><img class="noticebtn" src="image/index_noticebtn.png"></a></li>
+				</ul>
 			</div>
-		</footer>
+			<div class="noticebg" style="background-color: #fff;">
+				<ul>
+					<li><span style="color: #730220;">한스케익 SNS</span></li>
+					<li><a href="sub_news_1.html"><img class="noticebtn" src="image/index_noticebtn02.png"></a></li>
+				</ul>
+			</div>
+
+			<section id="recommend" class="desktop">
+				<div id="scroll">
+					<img src="image/recommendimg.png">
+					<a href="#" id="morebtn1"></a>
+					<a href="#" id="morebtn2"></a>
+					<a href="#" id="morebtn3"></a>
+					<a href="#" id="morebtn4"></a>
+					<a href="#" id="morebtn5"></a>
+				</div>
+			</section>
+
+			<section class="desktop">
+				<div id="point"><img id="point" src="image/index_point.png"></img></div>
+			</section>
+
+			<section id="HACCP" class="desktop">
+				<img src="image/index_mark.png" id="HACCPmark"></img>
+				<div id="HACCPhead" data-aos="fade-left">
+					<span>한스케익은 케익 및 빵부분 <br>최고수준의 해썹(HACCP)<br>인증을 획득했습니다.</span>
+				</div>
+				<div id="HACCPstory" data-aos="fade-left">
+					<span>처음과 같은 마음으로 언제나 최상의 신선한 재료로 고객 여러분들께 <br>정성을 다하겠습니다.</span>
+				</div>
+				<a href="sub_brand_1.html" id="detailbtn3"><img src="image/index_detailbtn.png"></a>
+			</section>
+
+			<section id="order" class="desktop">
+				<div id="ORDER_AT_THE_HANS_STORE_ONLINE">
+					<span>ORDER AT THE HANS STORE ONLINE</span>
+				</div>
+				<img id="ordermobile" src="image/index_ordermobile.png" data-aos="zoom-in"></img>
+				<img id="orderperson" src="image/index_orderperson.png" data-aos="zoom-in"></img>
+				<a href="sub_store_1.html" id="detailbtn4"><img src="image/index_detailbtn.png"></a>
+			</section>
+
+			<section id="mall" class="desktop">
+				<div id="HANS_CAKE_MALL">HANS<br>CAKE<br>MALL</div>
+				<div id="mallonline">한스케익이 선사하는<br>특별한 경험을 온라인에서 만나보세요.</div>
+				<a href="https://www.hanscakemall.co.kr/" id="ENTER_HANS_CAKE_MALL">ENTER HANS CAKE MALL</a>
+				<div id="cakeimg">
+					<img id="mallcake1" src="image/index_mallcake1.png" data-aos="fade-up" data-aos-duration="3000">
+					<img id="mallcake2" src="image/index_mallcake2.png" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+					<img id="mallcake3" src="image/index_mallcake3.png" data-aos="fade-up" data-aos-duration="3000">
+				</div>
+			</section>
+
+			<section id="store" class="desktop">
+				<div id="storetext" data-aos="fade-left">
+					<span>한스케익을 가까이에서 경험해보세요.</span><br>
+					<span>나에게 맞는 매장을 찾아보세요!</span>
+				</div>
+
+				<div class="form">
+					<input type="text" placeholder="Search.." name="search2" />
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</div>
+
+				<div id="storestory" data-aos="fade-left">
+					<span>마음놓고 즐길 수 있는 </span>
+					<span style="font-style:normal;font-weight:normal;">주차가능한 매장</span>
+					<br><span>차별화된 디저트 경험을 누릴 수 있는</span>
+					<span style="font-style:normal;font-weight:normal;">배달과 픽업서비스 가능한 매장</span><br>
+					<span>함께해서 더 따뜻할 수 있는 </span>
+					<span style="font-style:normal;font-weight:normal;">회의를 할수 있는 매장</span>
+				</div>
+
+			</section>
+
+			<footer class="desktop">
+				<div id="footer">
+					<div class="inner">
+						<div id="footermenu">
+							<div id="footermenu01"><span>개인정보처리방침</span></div>
+							<div id="footermenu02"><span>이용약관</span></div>
+							<div id="footermenu03"><span>사이트맵</span></div>
+							<a href="https://instagram.com/hanscake_korea?igshid=1h4w98ewpesx1" target="_blank"><img src="image/insta.png" id="insta"></img></a>
+							<div id="content">
+								<div id="add">
+									<span>경기 안양시 동안구 시민대로 401 대륭테크노타운 15차 B111호 (관양2동 224-5) | TEL 031-463-3505</span>
+								</div>
+								<div id="Copyright">
+									<span>Copyright 2011© HANS CAKE. All Right Reserved</span>
+								</div>
+								<div id="business">
+									<span>㈜한스제과 사업자등록번호 214-88-63183 | 통신판매업신고 제2013-경기안양-0039호 | 대표이사 안영식, 한성훈, 안주태</span>
+								</div>
+							</div>
+							<a href="sub_customer_1.html"><img src="image/qna.png" id="qna"></a>
+							<div class="footer_line"></div>
+							<a href="index.html"><img src="image/footerlogo.png" id="footerlogo"></a>
+						</div>
+						<a href="#section0"><img src="image/topbtn.png" id="topbtn"></a>
+					</div>
+				</div>
+			</footer>
+		</div>
 	</div>
+
 	<!--스크롤 애니메이션-->
 	<script>
 		document.querySelector('html').classList.remove('no-js');

@@ -219,7 +219,7 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
-.sidebar {
+.mobile {
   display: none;
 }
 
@@ -275,7 +275,7 @@ header:hover .overlay {
     width: 65px;
   }
 
-  #main {
+  .mainwrap {
     transition: margin-right .5s;
   }
 }
