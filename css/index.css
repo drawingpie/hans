@@ -223,13 +223,25 @@ header:hover .overlay {
   display: none;
 }
 
+.mobile {
+  display: none !important;
+}
+
 @media screen and (max-width: 1440px) {
   .navbar, .overlay {
     display: none;
   }
 
+  .mobile {
+    display: block !important;
+  }
+
   .mobilenavbar {
     display: inline-block;
+  }
+
+  .desktop {
+    display: none !important;
   }
 
   .sidebar {
@@ -315,15 +327,6 @@ header:hover .overlay {
   max-width: 100%;
   margin-top: 75px;
   margin-bottom: -75px;
-}
-
-@media screen and (max-width: 1440px) {
-  .desktop {
-    display: none !important;
-  }
-  .single-item div img {
-    margin-top: 0;
-  }
 }
 
 .prev {
@@ -429,6 +432,59 @@ header:hover .overlay {
   left: 44.5%;
   top: 450px;
   overflow: visible;
+}
+
+@media screen and (max-width: 1440px) {
+  .single-item div img {
+    margin-top: 0;
+    margin-bottom: -75px;
+  }
+
+  .single-item div .mobile {
+    width: 100%;
+  }
+
+  #text1, #text3 {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 180px;
+  }
+
+  #line1, #line2 {
+    width: 55px;
+    margin-top: -60px;
+    margin-left: 180px;
+  }
+
+  #text2 {
+    left: 22.9%;
+    top: 351px;
+    position: absolute;
+    font-size: 4.688rem;
+  }
+
+  #text4 {
+    left: 42.9%;
+    top: 430px;
+    position: absolute;
+    font-size: 4.688rem;
+  }
+
+  #detailbtn1 {
+    position: absolute;
+    width: 149px;
+    height: 46px;
+    left: 24.6%;
+    top: 400px;
+  }
+
+  #detailbtn2 {
+    position: absolute;
+    width: 149px;
+    height: 46px;
+    left: 44.5%;
+    top: 450px;
+  }
 }
 
 .noticebg {
