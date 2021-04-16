@@ -295,7 +295,7 @@ header:hover .overlay {
     margin-left: 10px;
   }
 
-  .mainwrap {
+  #mainwrap {
     transition: margin-right .5s;
   }
 }

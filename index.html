@@ -121,7 +121,7 @@
 		<a href="#">Contact</a>
 	</div>
 
-	<div class="mainwrap">
+	<div id="mainwrap">
 		<div class="mobilenavbar">
 			<a href="index.html"><img id="mobilegnblogo" class="mobile" src="image/gnblogo.png"></img></a>
 			<button class="openbtn mobile" onclick="openNav()">☰</button>
@@ -280,12 +280,12 @@
 	<script>
 		function openNav() {
 			document.getElementById("mySidebar").style.width = "250px";
-			document.getElementById("main").style.marginRight = "250px";
+			document.getElementById("mainwrap").style.marginRight = "250px";
 		}
 
 		function closeNav() {
 			document.getElementById("mySidebar").style.width = "0";
-			document.getElementById("main").style.marginRight = "0";
+			document.getElementById("mainwrap").style.marginRight = "0";
 		}
 	</script>
 </body>
