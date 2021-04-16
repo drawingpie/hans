@@ -219,8 +219,8 @@ header:hover .overlay {
   margin-top: 10px;
 }
 
-.mobile {
-  display: none !important;
+.mobilenavbar {
+  display: none;
 }
 
 @media screen and (max-width: 1440px) {
@@ -228,7 +228,7 @@ header:hover .overlay {
     display: none;
   }
 
-  .mobile {
+  .mobilenavbar {
     display: inline-block;
   }
 
