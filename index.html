@@ -113,19 +113,20 @@
 
 	</header>
 
-	<div id="mySidebar" class="sidebar mobile">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Clients</a>
-		<a href="#">Contact</a>
+	<div class="mobilenavbar">
+		<a href="index.html"><img id="mobilegnblogo" class="mobile" src="image/gnblogo.png"></img></a>
+		<button class="openbtn mobile" onclick="openNav()">☰</button>
 	</div>
-
+	
 	<div id="mainwrap">
-		<div class="mobilenavbar">
-			<a href="index.html"><img id="mobilegnblogo" class="mobile" src="image/gnblogo.png"></img></a>
-			<button class="openbtn mobile" onclick="openNav()">☰</button>
+		<div id="mySidebar" class="sidebar mobile">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
 		</div>
+
 		<section id="section0" class="single-item  desktop">
 			<div>
 				<img src="image/index_choco.png">
@@ -288,6 +289,7 @@
 			document.getElementById("mainwrap").style.marginRight = "0";
 		}
 	</script>
+
 </body>
 
 </html>
