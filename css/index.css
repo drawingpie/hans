@@ -220,7 +220,7 @@ header:hover .overlay {
 }
 
 .mobile {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 1440px) {
@@ -318,6 +318,9 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  .desktop {
+    display: none !important;
+  }
   .single-item div img {
     margin-top: 0;
   }
