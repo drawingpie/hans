@@ -444,46 +444,59 @@ header:hover .overlay {
     width: 100%;
   }
 
-  #text1, #text3 {
-    font-size: 16px;
-    margin-top: 0px;
-    margin-left: 180px;
+  #section0 div:nth-child(1) {
+    text-align: center;
+    margin: 0 auto;
   }
 
-  #line1, #line2 {
+  #text1 {
+    font-size: 16px;
+    /*     top: 180px;
+    margin-left: 180px; */
+  }
+
+  #text3 {
+    font-size: 16px;
+    /*     margin-top: -50px;
+    margin-left: 180px; */
+  }
+
+  #line1 {
     width: 55px;
-    margin-top: -60px;
-    margin-left: 180px;
+    /*     margin-top: -60px;
+    margin-left: 180px; */
+  }
+
+  #line2 {
+    width: 55px;
+    /*     margin-top: -60px;
+    margin-left: 180px; */
   }
 
   #text2 {
-    left: 22.9%;
-    top: 351px;
-    position: absolute;
-    font-size: 4.688rem;
+    /*     left: 27%;
+    top: 300px; */
+    font-size: 30px;
   }
 
   #text4 {
-    left: 42.9%;
-    top: 430px;
-    position: absolute;
-    font-size: 4.688rem;
+    /*     left: 42%;
+    top: 351px; */
+    font-size: 30px;
   }
 
   #detailbtn1 {
-    position: absolute;
-    width: 149px;
-    height: 46px;
-    left: 24.6%;
-    top: 400px;
+    width: 75px;
+    height: auto;
+    /*     left: 24.6%;
+    top: 400px; */
   }
 
   #detailbtn2 {
-    position: absolute;
-    width: 149px;
-    height: 46px;
-    left: 44.5%;
-    top: 450px;
+    width: 75px;
+    height: auto;
+    /*     left: 44.5%;
+    top: 450px; */
   }
 }
 
