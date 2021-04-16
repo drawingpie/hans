@@ -268,22 +268,23 @@ header:hover .overlay {
   }
 
   .mobilenavbar {
-    border: 1px solid red;
+    /*     border: 1px solid red; */
     width: 100%;
     height: 52.71px;
     box-sizing: border-box;
     background-color: #fff;
-    position: fixed;
+    position: sticky;
     z-index: 10;
+    overflow: hidden;
   }
 
   .openbtn {
-    border: 1px solid red;
+    /*     border: 1px solid red; */
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
     color: #8C857D;
-    /*     border: none; */
+    border: none;
     position: absolute;
     right: 5px;
     top: 5px;
