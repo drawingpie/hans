@@ -608,12 +608,27 @@ header:hover .overlay {
 
 @media screen and (max-width: 1440px) {
   #scroll {
-    display: block;
+    border: 1px solid transparent;
+    height: 400px;
+  }
+
+  #recommend #scroll img {
+    margin-top: 30px;
   }
 }
 
 #point {
   max-width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  #point {
+    display: none;
+  }
+
+  #mobilepoint img {
+    width: 100%;
+  }
 }
 
 #HACCP {
@@ -664,6 +679,18 @@ header:hover .overlay {
   display: block;
 }
 
+@media screen and (max-width: 1440px) {
+  #HACCP {
+    background-image: url("../image/mo_haccpbg.png");
+    height: 499px;
+    margin-top: 230px;
+  }
+
+  #HACCPmark {
+    display: none;
+  }
+}
+
 #order {
   position: relative;
   background-image: url("../image/index_orderbg.png");
@@ -671,7 +698,6 @@ header:hover .overlay {
   background-size: cover;
   background-position: center;
   height: 20vw;
-  margin-top
 }
 
 #ORDER_AT_THE_HANS_STORE_ONLINE {
@@ -709,6 +735,12 @@ header:hover .overlay {
   height: 15vw;
   left: 17.65%;
   top: 2vw;
+}
+
+@media screen and (max-width: 1440px) {
+  #order {
+    margin-top: 80px;
+  }
 }
 
 #mall {
