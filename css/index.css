@@ -436,15 +436,13 @@ header:hover .overlay {
   .prev {
     width: 36px;
     height: auto;
-    top: 50vw;
-    transform: translateY(-50);
+    top: 55vw;
   }
 
   .next {
     width: 36px;
     height: auto;
-    top: 50vw;
-    transform: translateY(-50);
+    top: 55vw;
   }
 
   .single-item div {
@@ -471,7 +469,7 @@ header:hover .overlay {
 
   #line1, #line2 {
     width: 55px;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -606,6 +604,12 @@ header:hover .overlay {
 #morebtn5 {
   margin-top: 530px;
   margin-left: 1120px;
+}
+
+@media screen and (max-width: 1440px) {
+  #scroll {
+    display: block;
+  }
 }
 
 #point {
