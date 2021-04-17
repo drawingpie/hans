@@ -238,6 +238,7 @@ header:hover .overlay {
 
   .mobilenavbar {
     display: inline-block;
+    position: fixed;
   }
 
   .desktop {
@@ -248,14 +249,13 @@ header:hover .overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 11;
+    z-index: 10;
     top: 0;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    display: block;
   }
 
   .sidebar a {
@@ -421,7 +421,6 @@ header:hover .overlay {
   height: 46px;
   left: 24.6%;
   top: 400px;
-  overflow: visible;
   font-size: 0;
 }
 
@@ -431,72 +430,65 @@ header:hover .overlay {
   height: 46px;
   left: 44.5%;
   top: 450px;
-  overflow: visible;
 }
 
 @media screen and (max-width: 1440px) {
+  .prev {
+    width: 36px;
+    height: auto;
+    top: 50vw;
+    transform: translateY(-50);
+  }
+
+  .next {
+    width: 36px;
+    height: auto;
+    top: 50vw;
+    transform: translateY(-50);
+  }
+
+  .single-item div {
+    text-align: center;
+    position: relative;
+  }
+
   .single-item div img {
     margin-top: 0;
-    margin-bottom: -75px;
+    margin-bottom: -23px;
   }
 
   .single-item div .mobile {
     width: 100%;
   }
 
-  #section0 div:nth-child(1) {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  #text1 {
+  #text1, #text3 {
     font-size: 16px;
-    /*     top: 180px;
-    margin-left: 180px; */
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
   }
 
-  #text3 {
-    font-size: 16px;
-    /*     margin-top: -50px;
-    margin-left: 180px; */
-  }
-
-  #line1 {
+  #line1, #line2 {
     width: 55px;
-    /*     margin-top: -60px;
-    margin-left: 180px; */
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
-  #line2 {
-    width: 55px;
-    /*     margin-top: -60px;
-    margin-left: 180px; */
-  }
-
-  #text2 {
-    /*     left: 27%;
-    top: 300px; */
+  #text2, #text4 {
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 30px;
   }
 
-  #text4 {
-    /*     left: 42%;
-    top: 351px; */
-    font-size: 30px;
-  }
-
-  #detailbtn1 {
+  #detailbtn1, #detailbtn2 {
     width: 75px;
     height: auto;
-    /*     left: 24.6%;
-    top: 400px; */
-  }
-
-  #detailbtn2 {
-    width: 75px;
-    height: auto;
-    /*     left: 44.5%;
-    top: 450px; */
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -530,6 +522,31 @@ header:hover .overlay {
   font-weight: 400;
   font-size: 25px;
   color: #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .noticebg {
+    display: block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .noticebtn {
+    height: 32px;
+    width: 32px;
+    left: 50%;
+    top: 30%;
+    left: 80%;
+    transform: translateX(-80%);
+  }
+
+  .noticebg ul li span {
+    font-size: 22px;
+    left: 30%;
+    transform: translateX(-30%);
+  }
 }
 
 #recommend {
