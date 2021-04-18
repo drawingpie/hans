@@ -977,6 +977,45 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
 }
 
+@media screen and (max-width: 1440px) {
+  #store {
+    background-image: url("../image/mobilestorebg.png");
+    height: 720px;
+  }
+
+  #storetext {
+    width: 283px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+
+  }
+
+  .form input[type=text] {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75%;
+    width: 286px;
+  }
+
+  #storestory {
+    width: 262px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60%;
+    line-height: 19px;
+    text-align: center;
+    font-size: 13px;
+
+  }
+  .mobile_br {
+
+  }
+}
+
 footer {
   position: relative;
   max-width: 100%;
