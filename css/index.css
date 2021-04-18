@@ -1088,18 +1088,26 @@ footer {
   top: 0%;
 }
 
-#contentbody {
+.contentbody {
   position: absolute;
-  width: 801px;
+  display: block;
+  width: 686px;
   height: 88px;
   left: 17%;
   top: 80px;
+  line-height: 18px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
 }
 
-#copyright {
+.copyright {
   opacity: 0.1;
-  left: 0%;
-  top: 64px;
+  left: 17%;
+  top: 204px;
   position: absolute;
   width: 802px;
   white-space: nowrap;
@@ -1171,7 +1179,7 @@ footer {
     left: 70%;
     font-size: 12px;
   }
-#qna {
+  #qna {
     display: inline-block;
     width: 145px;
     height: auto;
