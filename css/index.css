@@ -1088,7 +1088,7 @@ footer {
   top: 0%;
 }
 
-#content {
+#contentbody {
   position: absolute;
   width: 801px;
   height: 88px;
@@ -1096,23 +1096,7 @@ footer {
   top: 80px;
 }
 
-#add {
-  left: 0%;
-  top: 27px;
-  position: absolute;
-  width: 579px;
-  white-space: nowrap;
-  line-height: 29px;
-  margin-top: -7.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 1);
-}
-
-#Copyright {
+#copyright {
   opacity: 0.1;
   left: 0%;
   top: 64px;
@@ -1126,22 +1110,6 @@ footer {
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
-  color: rgba(255, 255, 255, 1);
-}
-
-#business {
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  width: 690px;
-  white-space: nowrap;
-  line-height: 21px;
-  margin-top: -3.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 14px;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -1190,52 +1158,42 @@ footer {
   }
 
   #footermenu01 {
-    left: 10%;
+    left: 20%;
     font-size: 12px;
   }
 
   #footermenu02 {
-    left: 47%;
+    left: 50%;
     font-size: 12px;
   }
 
   #footermenu03 {
-    left: 235px;
+    left: 70%;
     font-size: 12px;
   }
-
+#qna {
+    display: inline-block;
+    width: 145px;
+    height: auto;
+    left: 20%;
+    top: 75px;
+  }
   #insta {
-    display: block;
+    display: inline-block;
     left: 70%;
     top: 70px;
   }
 
-  #content {
+  #contentbody {
     width: 216px;
     height: 68px;
     left: 50%;
     transform: translateX(-50%);
-    top: 150px;
+    top: 198px;
   }
 
-  #add {
+  #copyright {
     font-size: 12px;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  #Copyright {
-    font-size: 12px;
-  }
-
-  #business {
-    font-size: 12px;
-  }
-
-  #qna {
-    width: 145px;
-    height: auto;
-    left: 0px;
-    top: 75px;
   }
 
   .footer_line {
