@@ -890,18 +890,17 @@ header:hover .overlay {
   }
   #HANS_CAKE_MALL {
     width: 274px;
-    top: 40%;
+    top: 55%;
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
     line-height: 44px;
     font-size: 42px;
-    white-space: none;
   }
 
   #mallonline {
     width: 254px;
-    top: 70%;
+    top: 77%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -918,23 +917,11 @@ header:hover .overlay {
   }
 
   #cakeimg {
-    max-width: 100px;
+    transform: scale(.5);
     top: 0px;
+    left: 50%;
+    margin-left: -215px;
   }
-  #mallcake1 {
-    /*   width: 110.19px; */
-
-
-  }
-
-  #mallcake2 {
-    /*   width: 111.53px; */
-  }
-
-  #mallcake3 {
-    /*   width: 78px; */
-  }
-
 }
 
 #store {
