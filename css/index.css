@@ -1091,11 +1091,11 @@ footer {
 .contentbody {
   position: absolute;
   display: block;
-  width: 686px;
+  width: 699px;
   height: 88px;
   left: 17%;
   top: 80px;
-  line-height: 18px;
+  line-height: 24px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1107,7 +1107,7 @@ footer {
 .copyright {
   opacity: 0.1;
   left: 17%;
-  top: 204px;
+  top: 150px;
   position: absolute;
   width: 802px;
   white-space: nowrap;
@@ -1192,16 +1192,20 @@ footer {
     top: 70px;
   }
 
-  #contentbody {
+  .contentbody {
     width: 216px;
     height: 68px;
     left: 50%;
     transform: translateX(-50%);
-    top: 198px;
+    top: 200px;
+    font-size: 12px;
+    text-align: center;
   }
 
-  #copyright {
+  .copyright {
     font-size: 12px;
+    left: 17%;
+    top: 300px;
   }
 
   .footer_line {
@@ -1218,5 +1222,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     top: 130px;
+    display: inline-block;
+    height: 40px;
   }
 }
