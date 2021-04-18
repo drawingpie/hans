@@ -769,7 +769,7 @@ header:hover .overlay {
   }
   #ORDER_AT_THE_HANS_STORE_ONLINE {
     text-align: center;
-    top: 240px;
+    top: 260px;
     font-size: 28px;
 
   }
@@ -777,7 +777,7 @@ header:hover .overlay {
   #detailbtn4 img {
     width: 117px;
     margin: 0 auto;
-    margin-top: 350px;
+    margin-top: 330px;
   }
 
   #ordermobile {
@@ -1011,7 +1011,7 @@ header:hover .overlay {
     line-height: 19px;
     text-align: center;
     font-size: 13px;
-    
+
   }
   .mobile_br {
     display: block;
@@ -1025,157 +1025,232 @@ footer {
   height: 337px;
 }
 
-#footer {}
+#footermenu {
+  position: relative;
+  max-width: 1093px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  top: 75px;
+}
+
+#footermenu01 {
+  left: 5px;
+  top: 8px;
+  position: absolute;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu02 {
+  left: 155px;
+  top: 8px;
+  position: absolute;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footermenu03 {
+  left: 245px;
+  top: 8px;
+  position: absolute;
+  width: 60px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#insta {
+  position: absolute;
+  width: 39.957px;
+  height: 39.743px;
+  left: 96.3%;
+  top: 0%;
+}
+
+#content {
+  position: absolute;
+  width: 801px;
+  height: 88px;
+  left: 17%;
+  top: 80px;
+}
+
+#add {
+  left: 0%;
+  top: 27px;
+  position: absolute;
+  width: 579px;
+  white-space: nowrap;
+  line-height: 29px;
+  margin-top: -7.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Copyright {
+  opacity: 0.1;
+  left: 0%;
+  top: 64px;
+  position: absolute;
+  width: 802px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#business {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 690px;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#qna {
+  position: absolute;
+  width: 198px;
+  height: 38px;
+  left: 833px;
+  top: 1px;
+}
+
+.footer_line {
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 56px;
+}
+
+#topbtn {
+  left: 48.3%;
+  top: -30px;
+  position: absolute;
+}
+
+#topbtn.show {
+  opacity: 1;
+  overflow: visible;
+}
+
+#footerlogo {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+@media screen and (max-width: 1440px) {
+  footer {
+    height: 416.13px;
+  }
 
   #footermenu {
-    position: relative;
-    max-width: 1093px;
+    max-width: 80%;
+    top: 66px;
+    text-align: center;
     margin: 0 auto;
-    box-sizing: border-box;
-    top: 75px;
   }
 
   #footermenu01 {
-    left: 5px;
-    top: 8px;
-    position: absolute;
-    white-space: nowrap;
-    line-height: 24px;
-    margin-top: -4px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
+    left: 10%;
+    font-size: 12px;
   }
 
   #footermenu02 {
-    left: 155px;
-    top: 8px;
-    position: absolute;
-    width: 60px;
-    white-space: nowrap;
-    line-height: 24px;
-    margin-top: -4px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
+    left: 47%;
+    font-size: 12px;
   }
 
   #footermenu03 {
-    left: 245px;
-    top: 8px;
-    position: absolute;
-    width: 60px;
-    white-space: nowrap;
-    line-height: 24px;
-    margin-top: -4px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
+    left: 235px;
+    font-size: 12px;
   }
 
   #insta {
-    position: absolute;
-    width: 39.957px;
-    height: 39.743px;
-    left: 96.3%;
-    top: 0%;
+    display: block;
+    left: 70%;
+    top: 70px;
   }
 
   #content {
-    position: absolute;
-    width: 801px;
-    height: 88px;
-    left: 17%;
-    top: 80px;
+    width: 216px;
+    height: 68px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
   }
 
   #add {
-    left: 0%;
-    top: 27px;
-    position: absolute;
-    width: 579px;
-    white-space: nowrap;
-    line-height: 29px;
-    margin-top: -7.5px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
     color: rgba(255, 255, 255, 1);
   }
 
   #Copyright {
-    opacity: 0.1;
-    left: 0%;
-    top: 64px;
-    position: absolute;
-    width: 802px;
-    white-space: nowrap;
-    line-height: 24px;
-    margin-top: -4px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
   }
 
   #business {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    width: 690px;
-    white-space: nowrap;
-    line-height: 21px;
-    margin-top: -3.5px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
   }
 
   #qna {
-    position: absolute;
-    width: 198px;
-    height: 38px;
-    left: 833px;
-    top: 1px;
+    width: 145px;
+    height: auto;
+    left: 0px;
+    top: 75px;
   }
 
   .footer_line {
-    border-bottom: 1px solid #fff;
-    position: absolute;
-    width: 100%;
     left: 0%;
     top: 56px;
   }
 
   #topbtn {
-    left: 48.3%;
-    top: -30px;
-    position: absolute;
-  }
-
-  #topbtn.show {
-    opacity: 1;
-    overflow: visible;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   #footerlogo {
-    position: absolute;
-    left: 0;
-    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130px;
   }
+}
