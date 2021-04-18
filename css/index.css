@@ -1032,52 +1032,20 @@ footer {
   box-sizing: border-box;
   top: 75px;
 }
-
-#footermenu01 {
-  left: 5px;
-  top: 8px;
-  position: absolute;
-  white-space: nowrap;
-  line-height: 24px;
-  margin-top: -4px;
-  text-align: left;
+.footermenucontainer {
+  float: left;
+  list-style: none;
+  padding: 0!important;
+}
+#footermenu .footermenucontainer li {
+  display: inline-block;
+  margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
   color: rgba(255, 255, 255, 1);
-}
-
-#footermenu02 {
-  left: 155px;
-  top: 8px;
-  position: absolute;
-  width: 60px;
-  white-space: nowrap;
-  line-height: 24px;
-  margin-top: -4px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
-}
-
-#footermenu03 {
-  left: 245px;
-  top: 8px;
-  position: absolute;
-  width: 60px;
-  white-space: nowrap;
-  line-height: 24px;
-  margin-top: -4px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
+  margin-right: 30px;
 }
 
 #insta {
@@ -1091,7 +1059,7 @@ footer {
 .contentbody {
   position: absolute;
   display: block;
-  width: 699px;
+  width: 720px;
   height: 88px;
   left: 17%;
   top: 80px;
@@ -1099,7 +1067,7 @@ footer {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 14px;
   color: #fff;
 }
@@ -1164,31 +1132,23 @@ footer {
     text-align: center;
     margin: 0 auto;
   }
-
-  #footermenu01 {
-    left: 10%;
-    font-size: 12px;
-  }
-
-  #footermenu02 {
+  .footermenucontainer {
+    margin-top: -10px;
+    position: relative;
     left: 50%;
-    font-size: 12px;
+    transform: translateX(-50%);
   }
 
-  #footermenu03 {
-    left: 75%;
-    font-size: 12px;
-  }
   #qna {
     display: inline-block;
     width: 145px;
     height: auto;
-    left: 10%;
+    left: 29%;
     top: 35px;
   }
   #insta {
     display: inline-block;
-    left: 75%;
+    left: 62%;
     top: 30px;
   }
 
@@ -1212,7 +1172,7 @@ footer {
     left: 0%;
     top: 80px;
   }
-
+  
   #topbtn {
     left: 50%;
     transform: translateX(-50%);
