@@ -769,7 +769,7 @@ header:hover .overlay {
   }
   #ORDER_AT_THE_HANS_STORE_ONLINE {
     text-align: center;
-    top: 258px;
+    top: 240px;
     font-size: 28px;
 
   }
@@ -807,7 +807,7 @@ header:hover .overlay {
 }
 
 #HANS_CAKE_MALL {
-  right: 55%;
+  left: 35%;
   top: 30%;
   position: absolute;
   line-height: 5rem;
@@ -833,7 +833,7 @@ header:hover .overlay {
 
 #mallonline {
   display: inline-block;
-  right: 55%;
+  left: 26%;
   top: 57%;
   position: absolute;
   text-align: right;
@@ -846,7 +846,7 @@ header:hover .overlay {
 }
 
 #ENTER_HANS_CAKE_MALL {
-  right: 55%;
+  left: 34%;
   top: 65%;
   position: absolute;
   white-space: nowrap;
@@ -889,30 +889,37 @@ header:hover .overlay {
     text-align: center;
   }
   #HANS_CAKE_MALL {
+    width: 274px;
+    top: 40%;
     text-align: center;
     left: 50%;
-    /*    transform: translateX(-50%); */
+    transform: translateX(-50%);
     line-height: 44px;
     font-size: 42px;
     white-space: none;
   }
 
   #mallonline {
+    width: 254px;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     line-height: 21px;
     font-size: 16px;
   }
 
   #ENTER_HANS_CAKE_MALL {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     font-size: 15px;
   }
 
   #cakeimg {
-    width: 100px;
+    max-width: 100px;
     top: 0px;
-    transform: scale(.5);
-
   }
   #mallcake1 {
     /*   width: 110.19px; */
