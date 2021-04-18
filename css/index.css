@@ -923,7 +923,9 @@ header:hover .overlay {
     margin-left: -215px;
   }
 }
-
+.mobile_br {
+  display: none;
+}
 #store {
   position: relative;
   background-image: url("../image/index_storebg.png");
@@ -987,7 +989,7 @@ header:hover .overlay {
     width: 283px;
     left: 50%;
     transform: translateX(-50%);
-    top: 50%;
+    top: 53%;
     line-height: 30px;
     text-align: center;
     font-size: 18px;
@@ -997,7 +999,7 @@ header:hover .overlay {
   .form input[type=text] {
     left: 50%;
     transform: translateX(-50%);
-    top: 75%;
+    top: 80%;
     width: 286px;
   }
 
@@ -1005,14 +1007,14 @@ header:hover .overlay {
     width: 262px;
     left: 50%;
     transform: translateX(-50%);
-    top: 60%;
+    top: 65%;
     line-height: 19px;
     text-align: center;
     font-size: 13px;
-
+    
   }
   .mobile_br {
-
+    display: block;
   }
 }
 
