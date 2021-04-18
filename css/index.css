@@ -66,7 +66,6 @@ html {
 }
 
 body {
-  /*   text-align: center; */
   height: auto;
   margin: 0;
   padding: 0;
@@ -673,7 +672,7 @@ header:hover .overlay {
   color: #fff;
 }
 
-#detailbtn3 {
+#detailbtn3 img {
   margin-left: 850px;
   margin-top: 30px;
   display: block;
@@ -683,8 +682,7 @@ header:hover .overlay {
   #HACCP {
     background-image: url("../image/mo_haccpbg.png");
     width: 100%;
-    height: 120vw;
-    margin-top: -30px;
+    height: 499px;
     text-align: center;
   }
 
@@ -711,11 +709,12 @@ header:hover .overlay {
     width: 243px;
   }
 
-  #detailbtn3 {
+  #detailbtn3 img {
+    width: 117px;
     margin: 0 auto;
     margin-top: 30px;
   }
-
+}
   #order {
     position: relative;
     background-image: url("../image/index_orderbg.png");
@@ -737,7 +736,7 @@ header:hover .overlay {
     color: rgba(255, 255, 255, 1);
   }
 
-  #detailbtn4 {
+  #detailbtn4 img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -764,8 +763,39 @@ header:hover .overlay {
 
   @media screen and (max-width: 1440px) {
     #order {
-      margin-top: 80px;
+     background-image: url("../image/mo_onlinemallbg.png");
+     height: 660px;
+
     }
+    #ORDER_AT_THE_HANS_STORE_ONLINE {
+      text-align: center;
+      top: 258px;
+     font-size: 28px;
+
+  }
+
+  #detailbtn4 img {
+    width: 117px;
+    margin: 0 auto;
+    margin-top: 350px;
+  }
+
+  #ordermobile {
+    top: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 82.38px;
+    height: auto;
+
+  }
+
+  #orderperson {
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105.72px;
+    height: auto;
+  }
   }
 
   #mall {
@@ -852,6 +882,7 @@ header:hover .overlay {
     top: 75px;
     z-index: 1;
   }
+
 
   #store {
     position: relative;
