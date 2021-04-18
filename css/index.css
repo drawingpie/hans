@@ -715,62 +715,62 @@ header:hover .overlay {
     margin-top: 30px;
   }
 }
+#order {
+  position: relative;
+  background-image: url("../image/index_orderbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20vw;
+}
+
+#ORDER_AT_THE_HANS_STORE_ONLINE {
+  position: absolute;
+  left: 50%;
+  top: 7vw;
+  transform: translateX(-50%);
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+#detailbtn4 img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12vw;
+  overflow: visible;
+  cursor: pointer;
+}
+
+#ordermobile {
+  position: absolute;
+  max-width: 100%;
+  height: 15vw;
+  left: 75.9%;
+  top: 3vw;
+}
+
+#orderperson {
+  position: absolute;
+  max-width: 100%;
+  height: 15vw;
+  left: 17.65%;
+  top: 2vw;
+}
+
+@media screen and (max-width: 1440px) {
   #order {
-    position: relative;
-    background-image: url("../image/index_orderbg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 20vw;
-  }
+    background-image: url("../image/mo_onlinemallbg.png");
+    height: 660px;
 
+  }
   #ORDER_AT_THE_HANS_STORE_ONLINE {
-    position: absolute;
-    left: 50%;
-    top: 7vw;
-    transform: translateX(-50%);
-    font-family: Louis George Café;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2.5rem;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  #detailbtn4 img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 12vw;
-    overflow: visible;
-    cursor: pointer;
-  }
-
-  #ordermobile {
-    position: absolute;
-    max-width: 100%;
-    height: 15vw;
-    left: 75.9%;
-    top: 3vw;
-  }
-
-  #orderperson {
-    position: absolute;
-    max-width: 100%;
-    height: 15vw;
-    left: 17.65%;
-    top: 2vw;
-  }
-
-  @media screen and (max-width: 1440px) {
-    #order {
-     background-image: url("../image/mo_onlinemallbg.png");
-     height: 660px;
-
-    }
-    #ORDER_AT_THE_HANS_STORE_ONLINE {
-      text-align: center;
-      top: 258px;
-     font-size: 28px;
+    text-align: center;
+    top: 258px;
+    font-size: 28px;
 
   }
 
@@ -796,155 +796,155 @@ header:hover .overlay {
     width: 105.72px;
     height: auto;
   }
-  }
+}
 
-  #mall {
-    position: relative;
-    background-image: url("../image/index_mallbg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vw;
-  }
+#mall {
+  position: relative;
+  background-image: url("../image/index_mallbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+}
 
+#HANS_CAKE_MALL {
+  right: 55%;
+  top: 30%;
+  position: absolute;
+  line-height: 5rem;
+  text-align: right;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1700px) {
   #HANS_CAKE_MALL {
-    right: 55%;
-    top: 30%;
-    position: absolute;
-    line-height: 5rem;
-    text-align: right;
-    font-family: Louis George Café;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 5rem;
-    color: rgba(255, 255, 255, 1);
+    top: 27%;
   }
+}
 
-  @media screen and (max-width: 1700px) {
-    #HANS_CAKE_MALL {
-      top: 27%;
-    }
+@media screen and (max-width: 1550px) {
+  #HANS_CAKE_MALL {
+    top: 25%;
   }
+}
 
-  @media screen and (max-width: 1550px) {
-    #HANS_CAKE_MALL {
-      top: 25%;
-    }
-  }
+#mallonline {
+  display: inline-block;
+  right: 55%;
+  top: 57%;
+  position: absolute;
+  text-align: right;
+  line-height: 29px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+}
 
-  #mallonline {
-    display: inline-block;
-    right: 55%;
-    top: 57%;
-    position: absolute;
-    text-align: right;
-    line-height: 29px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: rgba(255, 255, 255, 1);
-  }
+#ENTER_HANS_CAKE_MALL {
+  right: 55%;
+  top: 65%;
+  position: absolute;
+  white-space: nowrap;
+  text-align: right;
+  text-decoration: underline;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 1);
+}
 
-  #ENTER_HANS_CAKE_MALL {
-    right: 55%;
-    top: 65%;
-    position: absolute;
-    white-space: nowrap;
-    text-align: right;
-    text-decoration: underline;
-    font-family: Louis George Café;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 1);
-  }
+#cakeimg {
+  position: absolute;
+  left: 52%;
+  top: 28.7%;
+}
 
-  #cakeimg {
-    position: absolute;
-    left: 52%;
-    top: 28.7%;
-  }
+#mallcake1 {
+  z-index: 2;
+}
 
-  #mallcake1 {
-    z-index: 2;
-  }
+#mallcake2 {
+  position: absolute;
+  left: 180px;
+  top: -20px;
+  z-index: 3;
+}
 
-  #mallcake2 {
-    position: absolute;
-    left: 180px;
-    top: -20px;
-    z-index: 3;
-  }
-
-  #mallcake3 {
-    position: absolute;
-    left: 420px;
-    top: 75px;
-    z-index: 1;
-  }
+#mallcake3 {
+  position: absolute;
+  left: 420px;
+  top: 75px;
+  z-index: 1;
+}
 
 
-  #store {
-    position: relative;
-    background-image: url("../image/index_storebg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 31.98vw;
-  }
+#store {
+  position: relative;
+  background-image: url("../image/index_storebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31.98vw;
+}
 
-  #storetext {
-    position: absolute;
-    left: 57.5%;
-    top: 5vw;
-    line-height: 29px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 26px;
-    color: rgba(115, 2, 32, 1);
-  }
+#storetext {
+  position: absolute;
+  left: 57.5%;
+  top: 5vw;
+  line-height: 29px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  color: rgba(115, 2, 32, 1);
+}
 
-  .form {
-    display: inline-block;
-  }
+.form {
+  display: inline-block;
+}
 
-  .form input[type=text] {
-    left: 57.5%;
-    top: 18vw;
-    position: absolute;
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid rgba(221, 221, 221, 1);
-    border-radius: 6px;
-    width: 409px;
-    color: rgba(38, 11, 1, 1);
-    background: #fff;
-  }
+.form input[type=text] {
+  left: 57.5%;
+  top: 18vw;
+  position: absolute;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgba(221, 221, 221, 1);
+  border-radius: 6px;
+  width: 409px;
+  color: rgba(38, 11, 1, 1);
+  background: #fff;
+}
 
-  #storestory {
-    left: 57.5%;
-    top: 10vw;
-    position: absolute;
-    white-space: nowrap;
-    line-height: 25px;
-    margin-top: -4px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    color: rgba(38, 11, 1, 1);
-  }
+#storestory {
+  left: 57.5%;
+  top: 10vw;
+  position: absolute;
+  white-space: nowrap;
+  line-height: 25px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  color: rgba(38, 11, 1, 1);
+}
 
-  footer {
-    position: relative;
-    max-width: 100%;
-    background-color: #260B01;
-    height: 337px;
-  }
+footer {
+  position: relative;
+  max-width: 100%;
+  background-color: #260B01;
+  height: 337px;
+}
 
-  #footer {}
+#footer {}
 
   #footermenu {
     position: relative;
