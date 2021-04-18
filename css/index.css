@@ -882,7 +882,38 @@ header:hover .overlay {
   top: 75px;
   z-index: 1;
 }
+@media screen and (max-width: 1440px) {
+  #mall {
+    background-image: url("../image/mobilemallbg.png");
+    height:554px;
+    text-align: center;
+  }
+  #HANS_CAKE_MALL {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 44px;
+    font-size: 42px;
+    
+  }
 
+  #mallonline {
+    text-align: center;
+    line-height: 21px;
+    font-size: 16px;
+  }
+
+  #ENTER_HANS_CAKE_MALL {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #cakeimg {
+    transform: scale(.5);
+    top: 0;
+    left: 50%;
+  }
+
+}
 
 #store {
   position: relative;
