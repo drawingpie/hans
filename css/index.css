@@ -614,6 +614,7 @@ header:hover .overlay {
     display: inline-block;
     background-image: url("../image/mo_recommendbg.png");
     margin-top: 0px;
+    width: 100%;
     height: 400px;
   }
 
