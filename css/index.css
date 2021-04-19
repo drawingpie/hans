@@ -962,12 +962,12 @@ header:hover .overlay {
 
 .form {
   display: inline-block;
+  left: 57.5%;
+  top: 18vw;
+  position: relative;
 }
 
 .form input[type=text] {
-  left: 57.5%;
-  top: 18vw;
-  position: absolute;
   padding: 10px;
   font-size: 15px;
   border: 1px solid rgba(221, 221, 221, 1);
@@ -976,8 +976,6 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
   background: #fff;
 }
-
-.form button {}
 
 #storestory {
   left: 57.5%;
