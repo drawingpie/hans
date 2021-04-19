@@ -225,7 +225,9 @@ header:hover .overlay {
 .mobile {
   display: none !important;
 }
-
+#menu-container {
+  display: none;
+}
 @media screen and (max-width: 1440px) {
   .navbar, .overlay {
     display: none;
