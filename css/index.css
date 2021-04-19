@@ -299,9 +299,9 @@ header:hover .overlay {
     margin-top: 15px;
     margin-left: 10px;
   } */
-  #mainwrap {
+  /* #mainwrap {
     transition: margin-right .5s;
-  }
+  } */
 
   ul {
     list-style: none;
@@ -310,11 +310,6 @@ header:hover .overlay {
   a {
     text-decoration: none;
     color: black;
-  }
-
-  body {
-    font-family: 'Dosis', sans-serif;
-    background: #333
   }
 
   #menu-wrapper {
