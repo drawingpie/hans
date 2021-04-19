@@ -617,6 +617,7 @@ header:hover .overlay {
   }
 
   #recommend #scroll img {
+    max-width: 100%;
     margin-top: 30px;
   }
 }
@@ -965,6 +966,7 @@ header:hover .overlay {
   left: 57.5%;
   top: 18vw;
   position: relative;
+  vertical-align: middle;
 }
 
 .form input[type=text] {
@@ -975,8 +977,18 @@ header:hover .overlay {
   width: 409px;
   color: rgba(38, 11, 1, 1);
   background: #fff;
+  outline: none;
 }
+.form button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-top: 3px;
+}
+.form button:hover {
+  color: rgba(115, 2, 32, 1);
 
+}
 #storestory {
   left: 57.5%;
   top: 10vw;
