@@ -607,7 +607,7 @@ header:hover .overlay {
 
 @media screen and (max-width: 1440px) {
   #scroll {
-    border: 1px solid transparent;
+    background-image: url("../image/mo_recommendbg.png")
     height: 400px;
   }
 
