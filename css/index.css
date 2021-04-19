@@ -244,7 +244,9 @@ header:hover .overlay {
   .desktop {
     display: none !important;
   }
-
+  #menu-container {
+    display: block;
+  }
   /* .sidebar {
     height: 100%;
     width: 0;
