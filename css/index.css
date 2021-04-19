@@ -606,9 +606,14 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  #recommend {
+    font-size: 0;
+  }
+
   #scroll {
-    background-image: url("../image/mo_recommendbg.png")
-    height: 400px;
+    display: inline-block;
+    background-image: url("../image/mo_recommendbg.png") hbackground-position: contain;
+    margin-top: 0px;
   }
 
   #recommend #scroll img {
@@ -715,6 +720,7 @@ header:hover .overlay {
     margin-top: 30px;
   }
 }
+
 #order {
   position: relative;
   background-image: url("../image/index_orderbg.png");
@@ -741,7 +747,6 @@ header:hover .overlay {
   left: 50%;
   transform: translateX(-50%);
   top: 12vw;
-  overflow: visible;
   cursor: pointer;
 }
 
@@ -765,19 +770,19 @@ header:hover .overlay {
   #order {
     background-image: url("../image/mo_onlinemallbg.png");
     height: 660px;
-
   }
+
   #ORDER_AT_THE_HANS_STORE_ONLINE {
+    width: 190px;
     text-align: center;
     top: 260px;
     font-size: 28px;
-
   }
 
   #detailbtn4 img {
     width: 117px;
     margin: 0 auto;
-    margin-top: 330px;
+    top: 390px;
   }
 
   #ordermobile {
@@ -786,7 +791,6 @@ header:hover .overlay {
     transform: translateX(-50%);
     width: 82.38px;
     height: auto;
-
   }
 
   #orderperson {
@@ -859,9 +863,11 @@ header:hover .overlay {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 1);
 }
+
 #ENTER_HANS_CAKE_MALL {
   left: 29%;
 }
+
 #cakeimg {
   position: absolute;
   left: 52%;
@@ -885,12 +891,14 @@ header:hover .overlay {
   top: 75px;
   z-index: 1;
 }
+
 @media screen and (max-width: 1440px) {
   #mall {
     background-image: url("../image/mobilemallbg.png");
-    height:554px;
+    height: 554px;
     text-align: center;
   }
+
   #HANS_CAKE_MALL {
     width: 274px;
     top: 55%;
@@ -926,9 +934,11 @@ header:hover .overlay {
     margin-left: -215px;
   }
 }
+
 .mobile_br {
   display: none;
 }
+
 #store {
   position: relative;
   background-image: url("../image/index_storebg.png");
@@ -967,6 +977,8 @@ header:hover .overlay {
   background: #fff;
 }
 
+.form button {}
+
 #storestory {
   left: 57.5%;
   top: 10vw;
@@ -996,7 +1008,6 @@ header:hover .overlay {
     line-height: 30px;
     text-align: center;
     font-size: 18px;
-
   }
 
   .form input[type=text] {
@@ -1014,8 +1025,8 @@ header:hover .overlay {
     line-height: 19px;
     text-align: center;
     font-size: 13px;
-
   }
+
   .mobile_br {
     display: block;
   }
@@ -1035,11 +1046,13 @@ footer {
   box-sizing: border-box;
   top: 75px;
 }
+
 .footermenucontainer {
   float: left;
   list-style: none;
   padding: 0;
 }
+
 #footermenu .footermenucontainer li {
   display: inline-block;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1049,12 +1062,14 @@ footer {
   color: rgba(255, 255, 255, 1);
   margin-right: 30px;
 }
+
 .footermenuicon {
   font-size: 0;
   float: right;
   padding: 0;
   text-align: center;
 }
+
 #footermenu .footermenuicon li {
   display: inline-block;
   margin-left: 30px;
@@ -1117,6 +1132,7 @@ footer {
   left: 0;
   top: 80px;
 }
+
 @media screen and (max-width: 1440px) {
   footer {
     height: 416.13px;
@@ -1128,19 +1144,22 @@ footer {
     text-align: center;
     margin: 0 auto;
   }
+
   .footermenucontainer {
     font-size: 0;
-    float:none;
+    float: none;
   }
 
   #footermenu .footermenucontainer li {
     font-size: 12px;
     margin-right: 20px;
   }
+
   .footermenuicon {
     font-size: 0;
-    float:none;
+    float: none;
   }
+
   #footermenu .footermenuicon li {
     margin-left: -20px;
     vertical-align: middle;
@@ -1150,9 +1169,11 @@ footer {
   #insta {
     margin-left: 50px;
   }
+
   #qna {
     width: 145px;
   }
+
   .contentbody {
     width: 230px;
     height: 68px;
