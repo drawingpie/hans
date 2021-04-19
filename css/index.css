@@ -468,7 +468,7 @@ header:hover .overlay {
 
   #line1, #line2 {
     width: 55px;
-    top: 55%;
+    top: 38vw;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -568,7 +568,7 @@ header:hover .overlay {
 
 #recommend #scroll img {
   text-align: center;
-  width: 100%;
+  width: 100vw;
   margin-top: 70px;
 }
 
@@ -612,18 +612,19 @@ header:hover .overlay {
 
   #scroll {
     display: inline-block;
-    background-image: url("../image/mo_recommendbg.png") hbackground-position: contain;
+    background-image: url("../image/mo_recommendbg.png");
     margin-top: 0px;
+    height: 400px;
   }
 
   #recommend #scroll img {
-    max-width: 100%;
     margin-top: 30px;
   }
 }
 
 #point {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1440px) {
@@ -979,16 +980,18 @@ header:hover .overlay {
   background: #fff;
   outline: none;
 }
+
 .form button {
   background-color: transparent;
   border: none;
   outline: none;
   padding-top: 3px;
 }
+
 .form button:hover {
   color: rgba(115, 2, 32, 1);
-
 }
+
 #storestory {
   left: 57.5%;
   top: 10vw;
@@ -1002,6 +1005,27 @@ header:hover .overlay {
   font-weight: 900;
   font-size: 17px;
   color: rgba(38, 11, 1, 1);
+}
+
+@media screen and (max-width: 1440px) {
+  .form {
+    text-align: center;
+    left: 50%;
+    top: 80%;
+    font-size: 0;
+  }
+
+  .form input[type=text] {
+    width: 228px !important;
+  }
+
+  .form button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-top: 3px;
+    margin-left: -230px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
