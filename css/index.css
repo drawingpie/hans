@@ -39,26 +39,12 @@
   font-weight: 900;
   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
 }
-
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
-  font-family: 'Louis George Café';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Louis George Café Regular'), url('font/Louis George Cafe.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Louis George Café Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Louis George Café Bold'), url('font/Louis George Cafe Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Louis George Café Light Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Louis George Café Light Regular'), url('font/Louis George Cafe Light.woff') format('woff');
+  font-family:"Louis George Café";
+  src:url("Louis_George_Cafe.eot?") format("eot"),url("Louis_George_Cafe.woff") format("woff"),url("Louis_George_Cafe.ttf") format("truetype"),url("Louis_George_Cafe.svg#LouisGeorgeCafe") format("svg");
+  font-weight:normal;
+  font-style:normal;
 }
 
 html {
