@@ -243,10 +243,6 @@ header:hover .overlay {
     color: black;
   }
 
-  #menu-container {
-    max-width: 100%;
-  }
-
   #menu-wrapper {
     background-color: #fff;
     overflow: hidden;
@@ -257,6 +253,7 @@ header:hover .overlay {
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.2);
   }
 
   #menu-wrapper #hamburger-menu {
