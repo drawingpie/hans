@@ -806,7 +806,9 @@ header:hover .overlay {
   font-size: 16px;
   color: rgba(38,11,1,1);
 }
-
+#cake {
+  position: relative;
+}
 #cake01 {
   position: absolute;
   width: 364px;
