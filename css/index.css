@@ -42,7 +42,7 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family:"Louis George Café";
-  src:url("Louis_George_Cafe.eot?") format("eot"),url("Louis_George_Cafe.woff") format("woff"),url("Louis_George_Cafe.ttf") format("truetype"),url("Louis_George_Cafe.svg#LouisGeorgeCafe") format("svg");
+  src:url("../font/Louis_George_Cafe.eot?") format("eot"),url("../font/Louis_George_Cafe.woff") format("woff"),url("../font/Louis_George_Cafe.ttf") format("truetype"),url("../font/Louis_George_Cafe.svg") format("svg");
   font-weight:normal;
   font-style:normal;
 }
