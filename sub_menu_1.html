@@ -176,7 +176,6 @@
 		<!-- menu-list accordion-->
 	</div>
 
-
 	<div id="menu_visual"><img class="menu_visual" src="image/menu_visual.png"></div>
 	<div id="headline"><span>케이크</span></div>
 
@@ -300,5 +299,31 @@
 		</div>
 	</footer>
 
+	<script>
+		$(function() {
+			function slideMenu() {
+				var activeState = $("#menu-container .menu-list").hasClass("active");
+				$("#menu-container .menu-list").animate({
+					right: activeState ? "0%" : "-100%"
+				}, 400);
+			}
+			$("#menu-wrapper").click(function(event) {
+				event.stopPropagation();
+				$("#hamburger-menu").toggleClass("open");
+				$("#menu-container .menu-list").toggleClass("active");
+				slideMenu();
+
+				$("body").toggleClass("overflow-hidden");
+			});
+
+			$(".menu-list").find(".accordion-toggle").click(function() {
+				$(this).next().toggleClass("open").slideToggle("fast");
+				$(this).toggleClass("active-tab").find(".menu-link").toggleClass("active");
+
+				$(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
+				$(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
+			});
+		}); // jQuery load
+	</script>
 </body>
 </html>
