@@ -105,6 +105,7 @@ body {
   height: 103.29px;
   background-color: white;
   z-index: 5;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.2);
 }
 
 a {
