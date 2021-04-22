@@ -432,27 +432,44 @@ header:hover .overlay {
     opacity: 0;
   }
 }
+
 #visual {
   position: relative;
   background-image: url("../image/menu_visual.png");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
+  background-position: center;
+  height: 285px;
+  margin-top: 103.28px;
 }
+
 #headline {
   filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 46.9%;
-  top: 214px;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   overflow: visible;
-  width: 120px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 43px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 1440px) {
+  #visual {
+    height: 152px;
+    margin-top: 52.7px;
+  }
+
+  #headline {
+    top: 70px;
+    font-size: 30px;
+  }
+}
+
 #smallmenu {
   position: relative;
   width: 100%;
@@ -461,6 +478,7 @@ header:hover .overlay {
   top: 388px;
   overflow: visible;
 }
+
 #home-black-18dp_cfg {
   position: absolute;
   width: 17.869px;
@@ -469,9 +487,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #home {
   fill: transparent;
 }
+
 .home {
   overflow: visible;
   position: absolute;
@@ -479,11 +499,13 @@ header:hover .overlay {
   height: 17.869px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
   overflow: visible;
   position: absolute;
@@ -491,17 +513,19 @@ header:hover .overlay {
   height: 12.657px;
   left: 1.489px;
   top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home2 {
   overflow: visible;
   position: absolute;
@@ -509,17 +533,19 @@ header:hover .overlay {
   height: 12px;
   left: 24.7%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home3 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home3 {
   overflow: visible;
   position: absolute;
@@ -527,8 +553,9 @@ header:hover .overlay {
   height: 12px;
   left: 30.5%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
   left: 25.2%;
   top: 17px;
@@ -541,8 +568,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_classic {
   left: 31.1%;
   top: 17px;
@@ -555,8 +583,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_arrow01 {
   position: absolute;
   width: 18px;
@@ -565,9 +594,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
   overflow: visible;
   position: absolute;
@@ -575,17 +606,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow2 {
   overflow: visible;
   position: absolute;
@@ -593,8 +626,9 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_arrow02 {
   position: absolute;
   width: 18px;
@@ -603,9 +637,11 @@ header:hover .overlay {
   top: 17px;
   overflow: visible;
 }
+
 #arrow3 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow3 {
   overflow: visible;
   position: absolute;
@@ -613,17 +649,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow4 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow4 {
   overflow: visible;
   position: absolute;
@@ -631,7 +669,7 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 #ssmallmenu {
@@ -642,6 +680,7 @@ header:hover .overlay {
   top: 477px;
   overflow: visible;
 }
+
 #classic {
   position: absolute;
   width: 339px;
@@ -650,9 +689,11 @@ header:hover .overlay {
   top: 0px;
   overflow: visible;
 }
+
 #ssmallmenu01 {
-  fill: rgba(115,2,32,1);
+  fill: rgba(115, 2, 32, 1);
 }
+
 .ssmallmenu01 {
   overflow: visible;
   position: absolute;
@@ -660,8 +701,9 @@ header:hover .overlay {
   height: 59px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #classictext {
   left: 148px;
   top: 18px;
@@ -674,7 +716,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
 
 #spacial {
@@ -686,15 +728,17 @@ header:hover .overlay {
   overflow: visible;
   cursor: pointer;
 }
+
 #ssmallmenu02 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .ssmallmenu02 {
   overflow: visible;
   position: absolute;
@@ -702,8 +746,9 @@ header:hover .overlay {
   height: 49px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #spacialtext {
   left: 139px;
   top: 13px;
@@ -716,8 +761,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #premium {
   position: absolute;
   width: 339px;
@@ -727,15 +773,17 @@ header:hover .overlay {
   overflow: visible;
   cursor: pointer;
 }
+
 #ssmallmenu03 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .ssmallmenu03 {
   position: absolute;
   overflow: visible;
@@ -744,6 +792,7 @@ header:hover .overlay {
   left: 0px;
   top: 0px;
 }
+
 #premiumtext {
   left: 140px;
   top: 13px;
@@ -756,8 +805,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #season {
   position: absolute;
   width: 339px;
@@ -766,15 +816,17 @@ header:hover .overlay {
   top: 10px;
   cursor: pointer;
 }
+
 #ssmallmenu04 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .ssmallmenu04 {
   overflow: visible;
   position: absolute;
@@ -782,8 +834,9 @@ header:hover .overlay {
   height: 49px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #seasontext {
   left: 155px;
   top: 13px;
@@ -796,11 +849,13 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake {
   position: relative;
 }
+
 #cake01 {
   position: absolute;
   width: 364px;
@@ -809,6 +864,7 @@ header:hover .overlay {
   top: 592px;
   overflow: visible;
 }
+
 #cake01text {
   left: 20.3%;
   top: 958px;
@@ -821,7 +877,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
 
 #cake02 {
@@ -832,6 +888,7 @@ header:hover .overlay {
   top: 592px;
   overflow: visible;
 }
+
 #cake02text {
   left: 44.2%;
   top: 958px;
@@ -844,8 +901,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake03 {
   position: absolute;
   width: 364px;
@@ -854,6 +912,7 @@ header:hover .overlay {
   top: 592px;
   overflow: visible;
 }
+
 #cake03text {
   left: 71.5%;
   top: 958px;
@@ -866,8 +925,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake04 {
   position: absolute;
   width: 364px;
@@ -876,6 +936,7 @@ header:hover .overlay {
   top: 1107px;
   overflow: visible;
 }
+
 #cake04text {
   left: 20.3%;
   top: 1473px;
@@ -888,7 +949,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
 
 #cake05 {
@@ -899,6 +960,7 @@ header:hover .overlay {
   top: 1107px;
   overflow: visible;
 }
+
 #cake05text {
   left: 44.2%;
   top: 1473px;
@@ -911,8 +973,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake06 {
   position: absolute;
   width: 364px;
@@ -921,6 +984,7 @@ header:hover .overlay {
   top: 1107px;
   overflow: visible;
 }
+
 #cake06text {
   left: 73.1%;
   top: 1473px;
@@ -933,8 +997,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake07 {
   position: absolute;
   width: 364px;
@@ -943,6 +1008,7 @@ header:hover .overlay {
   top: 1634px;
   overflow: visible;
 }
+
 #cake07text {
   left: 21%;
   top: 1999px;
@@ -955,7 +1021,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
 
 #cake08 {
@@ -966,6 +1032,7 @@ header:hover .overlay {
   top: 1633px;
   overflow: visible;
 }
+
 #cake08text {
   left: 45.5%;
   top: 1999px;
@@ -978,8 +1045,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake09 {
   position: absolute;
   width: 364px;
@@ -988,6 +1056,7 @@ header:hover .overlay {
   top: 1633px;
   overflow: visible;
 }
+
 #cake09text {
   left: 72.4%;
   top: 1999px;
@@ -1000,8 +1069,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake10 {
   position: absolute;
   width: 364px;
@@ -1010,6 +1080,7 @@ header:hover .overlay {
   top: 2159px;
   overflow: visible;
 }
+
 #cake10text {
   left: 20.3%;
   top: 2525px;
@@ -1022,7 +1093,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
 
 #cake11 {
@@ -1033,6 +1104,7 @@ header:hover .overlay {
   top: 2160px;
   overflow: visible;
 }
+
 #cake11text {
   left: 46.25%;
   top: 2525px;
@@ -1045,8 +1117,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake12 {
   position: absolute;
   width: 364px;
@@ -1055,6 +1128,7 @@ header:hover .overlay {
   top: 2160px;
   overflow: visible;
 }
+
 #cake12text {
   left: 72.2%;
   top: 2525px;
@@ -1067,8 +1141,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake13 {
   position: absolute;
   width: 364px;
@@ -1077,6 +1152,7 @@ header:hover .overlay {
   top: 2685px;
   overflow: visible;
 }
+
 #cake13text {
   left: 18.5%;
   top: 3051px;
@@ -1089,8 +1165,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #cake14 {
   position: absolute;
   width: 364px;
@@ -1099,6 +1176,7 @@ header:hover .overlay {
   top: 2685px;
   overflow: visible;
 }
+
 #cake14text {
   left: 46.4%;
   top: 3051px;
@@ -1111,7 +1189,7 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
 
 footer {
