@@ -729,324 +729,65 @@ header:hover .overlay {
   position: relative;
   max-width: 1352px;
   margin: 0 auto;
+  display: flex;
+  flex: 1;
+  text-align: center;
 }
 
-.ssmallmenu_box {
-  position: absolute;
+.ssmallmenu_box:nth-child(1) {
+  position: relative;
   width: 339px;
   height: 59px;
   background-color: rgba(115, 2, 32, 1);
-  left: 0px;
-  top: 0px;
-  display: inline-block;
-}
-
-#ssmallmenu .ssmallmenu_box span {
-  margin: 0 auto;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
-}
-#ssmallmenu .ssmallmenu_box a {
-  border: apx solid rgba(140, 133, 125, 1);
-}
-/* #spacial {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 1013px;
-  top: 10px;
-  overflow: visible;
-  cursor: pointer;
-}
-
-#ssmallmenu02 {
-  fill: rgba(255, 255, 255, 1);
-  stroke: rgba(140, 133, 125, 1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.ssmallmenu02 {
-  overflow: visible;
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-#spacialtext {
-  left: 139px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(38, 11, 1, 1);
-}
-
-#premium {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 677px;
-  top: 10px;
-  overflow: visible;
-  cursor: pointer;
-}
-
-#ssmallmenu03 {
-  fill: rgba(255, 255, 255, 1);
-  stroke: rgba(140, 133, 125, 1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.ssmallmenu03 {
-  position: absolute;
-  overflow: visible;
-  width: 339px;
-  height: 49px;
+  border: 1px solid rgba(115, 2, 32, 1) !important;
   left: 0px;
   top: 0px;
 }
 
-#premiumtext {
-  left: 140px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 60px;
-  white-space: nowrap;
-  text-align: left;
+.ssmallmenu_box:nth-child(1n+1) {
+  width: 339px;
+  height: 59px;
+  border: 1px solid rgba(140, 133, 125, 1);
+}
+
+.ssmallmenu_box:nth-child(1) span {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(38, 11, 1, 1);
+  color: rgba(255, 255, 255, 1) !important;
+  margin-top: 15px;
+  display: block;
 }
 
-#season {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 339px;
-  top: 10px;
-  cursor: pointer;
-}
-
-#ssmallmenu04 {
-  fill: rgba(255, 255, 255, 1);
-  stroke: rgba(140, 133, 125, 1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.ssmallmenu04 {
-  overflow: visible;
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-#seasontext {
-  left: 155px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 30px;
-  white-space: nowrap;
-  text-align: left;
+.ssmallmenu_box:nth-child(1n+1) span {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  color: rgba(38, 11, 1, 1);
-} */
+  color: #260B01;
+  margin-top: 15px;
+  display: block;
+}
 
 @media screen and (max-width: 1440px) {
   #ssmallmenu {
     display: grid;
+    grid-gap: 3px;
     grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    box-sizing: border-box;
   }
 
-  #classic {
+  .ssmallmenu_box:nth-child(1n+1) {
     width: 144px;
     height: 30px;
+    border: 1px solid rgba(140, 133, 125, 1);
   }
 
-  .ssmallmenu01 {
-    width: 144px;
-    height: 30px;
-  }
-
-  #classictext {
-    left: 148px;
-    top: 18px;
-    position: absolute;
-    overflow: visible;
-    width: 45px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+  .ssmallmenu_box:nth-child(1n+1) span {
     font-size: 12px;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  #spacial {
-    position: absolute;
-    width: 339px;
-    height: 49px;
-    left: 1013px;
-    top: 10px;
-    overflow: visible;
-    cursor: pointer;
-  }
-
-  #ssmallmenu02 {
-    fill: rgba(255, 255, 255, 1);
-    stroke: rgba(140, 133, 125, 1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-  }
-
-  .ssmallmenu02 {
-    overflow: visible;
-    position: absolute;
-    width: 339px;
-    height: 49px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
-
-  #spacialtext {
-    left: 139px;
-    top: 13px;
-    position: absolute;
-    overflow: visible;
-    width: 45px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(38, 11, 1, 1);
-  }
-
-  #premium {
-    position: absolute;
-    width: 339px;
-    height: 49px;
-    left: 677px;
-    top: 10px;
-    overflow: visible;
-    cursor: pointer;
-  }
-
-  #ssmallmenu03 {
-    fill: rgba(255, 255, 255, 1);
-    stroke: rgba(140, 133, 125, 1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-  }
-
-  .ssmallmenu03 {
-    position: absolute;
-    overflow: visible;
-    width: 339px;
-    height: 49px;
-    left: 0px;
-    top: 0px;
-  }
-
-  #premiumtext {
-    left: 140px;
-    top: 13px;
-    position: absolute;
-    overflow: visible;
-    width: 60px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(38, 11, 1, 1);
-  }
-
-  #season {
-    position: absolute;
-    width: 339px;
-    height: 49px;
-    left: 339px;
-    top: 10px;
-    cursor: pointer;
-  }
-
-  #ssmallmenu04 {
-    fill: rgba(255, 255, 255, 1);
-    stroke: rgba(140, 133, 125, 1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-  }
-
-  .ssmallmenu04 {
-    overflow: visible;
-    position: absolute;
-    width: 339px;
-    height: 49px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
-
-  #seasontext {
-    left: 155px;
-    top: 13px;
-    position: absolute;
-    overflow: visible;
-    width: 30px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(38, 11, 1, 1);
+    margin-top: 7px;
   }
 }
 
@@ -1072,6 +813,27 @@ header:hover .overlay {
   font-weight: 400;
   font-size: 30px;
   color: rgba(38, 11, 1, 1);
+}
+
+@media screen and (max-width: 1440px) {
+  #cake {
+    max-width: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #cake article {
+    padding-bottom: 50px;
+  }
+
+  #cake article a span {
+    font-size: 16px;
+  }
+
+  #cake article a img {
+    width: 130px;
+  }
 }
 
 footer {
