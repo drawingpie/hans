@@ -669,6 +669,62 @@ header:hover .overlay {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+@media screen and (max-width: 1440px) {
+  #smallmenu {
+    margin: 0 auto;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+
+  #home-black-18dp_cfg {
+    left: 0;
+  }
+
+  .home2 {
+    left: 8%;
+  }
+
+  .home3 {
+    left: 55%;
+  }
+
+  #smallmenu_cake {
+    left: 15%;
+  }
+
+  #smallmenu_classic {
+    left: 60%;
+  }
+
+  #smallmenu_arrow01 {
+    left: 45%;
+  }
+
+  #smallmenu_arrow02 {
+    left: 90%;
+  }
+
+  #arrow4 {
+    fill: transparent;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+
+  .arrow4 {
+    overflow: visible;
+    position: absolute;
+    width: 7.303px;
+    height: 4.941px;
+    left: 6.186px;
+    top: 7.512px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
 #ssmallmenu {
   position: relative;
   width: 1352px;
@@ -855,9 +911,11 @@ header:hover .overlay {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 #cake article {
   padding-bottom: 100px;
 }
+
 #cake article a span {
   white-space: nowrap;
   text-align: center;
