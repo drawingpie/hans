@@ -474,9 +474,6 @@ header:hover .overlay {
   position: relative;
   width: 100%;
   height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
 }
 
 #home-black-18dp_cfg {
@@ -676,9 +673,7 @@ header:hover .overlay {
   position: relative;
   width: 1352px;
   height: 59px;
-  left: 14.6%;
-  top: 477px;
-  overflow: visible;
+  margin: 0 auto;
 }
 
 #classic {
@@ -687,7 +682,6 @@ header:hover .overlay {
   height: 59px;
   left: 0px;
   top: 0px;
-  overflow: visible;
 }
 
 #ssmallmenu01 {
@@ -852,20 +846,16 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
 }
 
-#cake {
+section #cake {
   position: relative;
 }
 
-#cake01 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 14.4%;
-  top: 592px;
-  overflow: visible;
+section #cake article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-#cake01text {
+#cake01text span {
   left: 20.3%;
   top: 958px;
   position: absolute;
@@ -880,7 +870,7 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
 }
 
-#cake02 {
+section #cake #cake02 {
   position: absolute;
   width: 364px;
   height: 364px;
