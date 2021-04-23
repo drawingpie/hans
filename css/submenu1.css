@@ -750,7 +750,7 @@ header:hover .overlay {
   border: 1px solid rgba(140, 133, 125, 1);
 }
 .ssmallmenu_box:nth-child(1n+1):hover {
-  background-color: rgba(140, 133, 125, 1);
+   background-color: #DBDBDB;
 }
 
 .ssmallmenu_box:nth-child(1) span {
