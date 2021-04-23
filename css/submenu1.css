@@ -846,16 +846,29 @@ header:hover .overlay {
   color: rgba(38, 11, 1, 1);
 }
 
-section #cake {
+#cake {
   position: relative;
+  max-width: 1370px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-section #cake article {
+#cake article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#cake01text span {
+#cake article a span {
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(38, 11, 1, 1);
+}
+
+/* #cake01text span {
   left: 20.3%;
   top: 958px;
   position: absolute;
@@ -1180,8 +1193,7 @@ section #cake #cake02 {
   font-weight: 400;
   font-size: 30px;
   color: rgba(38, 11, 1, 1);
-}
-
+} */
 footer {
   position: relative;
   max-width: 100%;
