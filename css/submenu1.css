@@ -738,7 +738,8 @@ header:hover .overlay {
   position: relative;
   width: 339px;
   height: 59px;
-  background-color: rgba(115, 2, 32, 1) !important;;
+  background-color: rgba(115, 2, 32, 1) !important;
+  ;
   border: 1px solid rgba(115, 2, 32, 1) !important;
   left: 0px;
   top: 0px;
@@ -749,8 +750,9 @@ header:hover .overlay {
   height: 59px;
   border: 1px solid rgba(140, 133, 125, 1);
 }
+
 .ssmallmenu_box:nth-child(1n+1):hover {
-   background-color: #DBDBDB;
+  background-color: #DBDBDB;
 }
 
 .ssmallmenu_box:nth-child(1) span {
@@ -1016,5 +1018,15 @@ footer {
     top: 100px;
     display: inline-block;
     height: 40px;
+  }
+}
+
+.mobile_br {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .mobile_br {
+    display: block;
   }
 }
