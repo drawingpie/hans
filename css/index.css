@@ -247,10 +247,10 @@ header:hover .overlay {
   #menu-wrapper {
     background-color: #fff;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     cursor: pointer;
     height: 52.71px;
-    z-index: 99;
+    z-index: 999 !important;
     position: fixed;
     top: 0;
     left: 0;
