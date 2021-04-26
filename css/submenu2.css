@@ -794,12 +794,18 @@ header:hover .overlay {
     margin-top: 7px;
   }
 }
-   #cake_intro {
-/*   position: relative; */
+
+#cake_intro {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+#cake_intro span: nth-of-type(5) {
+  text
+}
+
 #classictitle {
   display: block;
   margin-top: 53px;
@@ -809,17 +815,27 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 29px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
+
 #strawcake {
   border: 3px solid red;
   display: inline-block;
   float: left;
-
+  margin-right: 50px;
 }
+
+#detail_img {
+  margin: 0 auto;
+  position: absolute;
+  top: 588px;
+}
+
 .detail {
   text-align: center;
+  display: inline-block;
 }
+
 #zoom {
   position: absolute;
   width: 57px;
@@ -828,9 +844,11 @@ header:hover .overlay {
   top: 1016px;
   overflow: visible;
 }
+
 #zoomin {
-  fill: rgba(136,136,136,0.271);
+  fill: rgba(136, 136, 136, 0.271);
 }
+
 .zoomin {
   position: absolute;
   overflow: visible;
@@ -839,8 +857,23 @@ header:hover .overlay {
   left: 0%;
   top: 0px;
 }
+
+#iconmonstr-magnifier-4_bu {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.iconmonstr-magnifier-4_bu {
+  overflow: visible;
+  position: absolute;
+  width: 31.817px;
+  height: 32.064px;
+  left: 20%;
+  top: 12px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
 #title {
-  display: inline-block;
+  display: block;
   width: 111px;
   white-space: nowrap;
   text-align: left;
@@ -848,217 +881,62 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
-/* #body01 {
-  left: 50%;
-  top: 698px;
-  position: absolute;
-  overflow: visible;
-  width: 351px;
+
+#body {
+  display: inline-block;
+  margin-top: 10px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
+.line {
+  border-top: 2px solid #260B01;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: 520px;
+  width: 572px;
+}
+
+.line:nth-of-type(4), .line:nth-of-type(5) {
+  border-top: 1px solid #8C857D;
+}
+
+.smallhead {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgba(38, 11, 1, 1);
+  margin-bottom: 10px;
+}
+
+.smallhead:nth-of-type(17) {
+  float: left;
+  vertical-align: middle;
+  margin-top: 70px;
+}
+
 #caption01 {
-  left: 50%;
-  top: 1137px;
-  position: absolute;
-  overflow: visible;
-  width: 529px;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: rgba(52,64,34,1);
+  color: rgba(52, 64, 34, 1);
 }
-#detail {
-  position: absolute;
-  width: 565px;
-  height: 27px;
-  left: 50%;
-  top: 793px;
-  overflow: visible;
-}
-#price {
-  left: 0%;
-  top: 0px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(38,11,1,1);
-}
-#detailbody {
-  left: 12%;
-  top: 3px;
-  position: absolute;
-  overflow: visible;
-  width: 334px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 15px;
-  color: rgba(140,133,125,1);
-}
-#material {
-  position: absolute;
-  width: 564px;
-  height: 27px;
-  left: 50%;
-  top: 861px;
-  overflow: visible;
-}
-#recipy {
-  left: 0%;
-  top: 0px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(38,11,1,1);
-}
-#Kinds {
-  left: 20.6%;
-  top: 3px;
-  position: absolute;
-  overflow: visible;
-  width: 168px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  color: rgba(140,133,125,1);
-}
-#section {
-  position: absolute;
-  width: 44px;
-  height: 27px;
-  left: 50%;
-  top: 929px;
-  overflow: visible;
-}
-#section01 {
-  left: 0%;
-  top: 0px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(38,11,1,1);
-}
-#ex {
-  overflow: visible;
-  position: absolute;
-  width: 383px;
-  height: 167px;
-  left: 59.8%;
-  top: 929px;
-}
-#line01 {
-  fill: transparent;
-  stroke: rgba(38,11,1,1);
-  stroke-width: 2px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.line01 {
-  overflow: visible;
-  position: absolute;
-  width: 572.593px;
-  height: 2px;
-  left: 50%;
-  top: 772.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#line02 {
-  fill: rgba(0,0,0,0);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.line02 {
-  overflow: visible;
-  position: absolute;
-  width: 572.593px;
-  height: 1px;
-  left: 50%;
-  top: 840.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#line03 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.line03 {
-  overflow: visible;
-  position: absolute;
-  width: 572.593px;
-  height: 1px;
-  left: 50%;
-  top: 908.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#line04 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 2px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.line04 {
-  overflow: visible;
-  position: absolute;
-  width: 572.593px;
-  height: 2px;
-  left: 50%;
-  top: 1116.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#strawcake {
-  position: absolute;
-  width: 466px;
-  height: 497px;
-  left: 21.4%;
-  top: 611px;
-  overflow: visible;
-}
+
+/*
+
 #detail01 {
   position: absolute;
   width: 103px;
@@ -1091,38 +969,7 @@ header:hover .overlay {
   top: 1126px;
   overflow: visible;
 }
-#zoom {
-  position: absolute;
-  width: 57px;
-  height: 57px;
-  left: 40.6%;
-  top: 1016px;
-  overflow: visible;
-}
-#zoomin {
-  fill: rgba(136,136,136,0.271);
-}
-.zoomin {
-  position: absolute;
-  overflow: visible;
-  width: 57px;
-  height: 57px;
-  left: 0%;
-  top: 0px;
-}
-#iconmonstr-magnifier-4_bu {
-  fill: rgba(255,255,255,1);
-}
-.iconmonstr-magnifier-4_bu {
-  overflow: visible;
-  position: absolute;
-  width: 31.817px;
-  height: 32.064px;
-  left: 20%;
-  top: 12px;
-  transform: matrix(1,0,0,1,0,0);
-} */
-
+*/
 footer {
   position: relative;
   max-width: 100%;
