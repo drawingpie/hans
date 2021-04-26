@@ -815,20 +815,17 @@ header:hover .overlay {
 }
 
 #strawcake {
-  border: 3px solid red;
+  /*   border: 3px solid red; */
   display: inline-block;
   float: left;
   margin-right: 50px;
 }
 
-#detail_img {
-  margin: 0 auto;
-  display: inline-block;
-}
-
 .detail {
   text-align: center;
-  display: inline-block;
+  display: block;
+  float: left;
+  margin-right: 17px;
 }
 
 #zoom {
@@ -920,6 +917,7 @@ header:hover .overlay {
 }
 
 #caption01 {
+  margin-top: 10px;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -929,46 +927,12 @@ header:hover .overlay {
   color: rgba(52, 64, 34, 1);
 }
 
-/*
-
-#detail01 {
-  position: absolute;
-  width: 103px;
-  height: 110px;
-  left: 21.4%;
-  top: 1126px;
-  overflow: visible;
-}
-#detail02 {
-  position: absolute;
-  width: 103px;
-  height: 110px;
-  left: 27.7%;
-  top: 1126px;
-  overflow: visible;
-}
-#detail03 {
-  position: absolute;
-  width: 103px;
-  height: 110px;
-  left: 34%;
-  top: 1126px;
-  overflow: visible;
-}
-#detail04 {
-  position: absolute;
-  width: 103px;
-  height: 110px;
-  left: 40.3%;
-  top: 1126px;
-  overflow: visible;
-}
-*/
 footer {
   position: relative;
   max-width: 100%;
   background-color: #260B01;
   height: 337px;
+  margin-top: 200px;
 }
 
 #footermenu {
