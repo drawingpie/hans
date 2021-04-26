@@ -897,6 +897,15 @@ header:hover .overlay {
   border-top: 1px solid #8C857D;
 }
 
+.line:nth-of-type(6) {
+  padding-top: 80px;
+}
+
+.line:nth-of-type(7) {
+  border-top: 2px solid #260B01;
+  margin-top: 90px;
+}
+
 .smallhead {
   display: inline-block;
   white-space: nowrap;
@@ -911,9 +920,9 @@ header:hover .overlay {
 }
 
 .smallhead:nth-of-type(17) {
-  float: left;
-  vertical-align: middle;
-  margin-top: 70px;
+  display: block !important;
+  vertical-align: middle !important;
+  padding-top: 170px !important;
 }
 
 .smallbody {
@@ -921,7 +930,9 @@ header:hover .overlay {
 }
 
 #ex {
-  margin-left: 150px display: inline-block;
+  margin-top: -70px;
+  display: block;
+  float: right;
 }
 
 #caption01 {
