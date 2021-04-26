@@ -794,13 +794,15 @@ header:hover .overlay {
     margin-top: 7px;
   }
 }
-
+   #cake_intro {
+/*   position: relative; */
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 #classictitle {
-  left: 22.1%;
-  top: 589px;
-  position: absolute;
-  overflow: visible;
-  width: 81px;
+  display: block;
+  margin-top: 53px;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -809,11 +811,36 @@ header:hover .overlay {
   font-size: 29px;
   color: rgba(38,11,1,1);
 }
-#title01 {
-  left: 50%;
-  top: 653px;
+#strawcake {
+  border: 3px solid red;
+  display: inline-block;
+  float: left;
+
+}
+.detail {
+  text-align: center;
+}
+#zoom {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 40.6%;
+  top: 1016px;
+  overflow: visible;
+}
+#zoomin {
+  fill: rgba(136,136,136,0.271);
+}
+.zoomin {
   position: absolute;
   overflow: visible;
+  width: 57px;
+  height: 57px;
+  left: 0%;
+  top: 0px;
+}
+#title {
+  display: inline-block;
   width: 111px;
   white-space: nowrap;
   text-align: left;
@@ -823,7 +850,7 @@ header:hover .overlay {
   font-size: 24px;
   color: rgba(38,11,1,1);
 }
-#body01 {
+/* #body01 {
   left: 50%;
   top: 698px;
   position: absolute;
@@ -1094,9 +1121,9 @@ header:hover .overlay {
   left: 20%;
   top: 12px;
   transform: matrix(1,0,0,1,0,0);
-}
+} */
 
-/* footer { */
+footer {
   position: relative;
   max-width: 100%;
   background-color: #260B01;
