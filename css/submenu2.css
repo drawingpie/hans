@@ -335,7 +335,7 @@ header:hover .overlay {
   }
 
   #menu-container .menu-list {
-    margin-top: 52.71px;
+    margin-top: 0px;
     padding-left: 0;
     display: block;
     position: fixed;
