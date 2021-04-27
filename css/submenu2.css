@@ -917,6 +917,7 @@ header:hover .overlay {
 
 @media screen and (max-width: 1440px) {
   #cake_intro {
+    position: relative;
     max-width: 286px;
   }
 
@@ -932,16 +933,20 @@ header:hover .overlay {
     transform: translateX(-50%);
   }
 
+  #detail_img {
+    position: absolute;
+    top: 400px;
+  }
+
   .detail {
     width: 65px;
-    margin-right: 10px;
-    display: inline-block margin-top: -500px;
+    margin-right: 5px;
   }
 
   #zoom {
     position: absolute;
     left: 70%;
-    top: 60%;
+    top: 45%;
     width: 37px;
   }
 
@@ -963,6 +968,7 @@ header:hover .overlay {
   }
 
   .line {
+    display: block;
     padding: 0;
     margin-top: 0px;
     margin-left: 0px;
@@ -971,51 +977,92 @@ header:hover .overlay {
   }
 
   .line:nth-of-type(1) {
-    margin-top: -75px;
+    /* margin-top: -75px; */
+    position: absolute;
+    top: 85px;
   }
 
   .line:nth-of-type(3) {
-    margin-top: -50px;
+    position: absolute;
+    top: 485px;
   }
 
   .line:nth-of-type(5) {
-    margin-top: -320px;
+    position: absolute;
+    top: 585px;
   }
 
   .line:nth-of-type(6) {
-    margin-top: 70px;
-    margin-bottom: 00px;
+    border-top: 1px solid #8C857D;
+    position: absolute;
+    top: 565px;
   }
 
   .smallhead {
     font-size: 13px;
-    margin-top: 400px;
-    float: initial;
+  }
+
+  .smallhead:nth-of-type(4) {
+    position: absolute;
+    top: 500px;
+  }
+
+  .smallhead:nth-of-type(5) {
+    position: absolute;
+    top: 600px;
+  }
+
+  .smallhead:nth-of-type(6) {
+    position: absolute;
+    top: 655px;
   }
 
   .smallbody {
+    position: absolute;
     font-size: 13px;
     text-align: right;
+    float: initial;
+    right: 0;
+    color: #8C857D !important;
+  }
+
+  .smallbody span:nth-child(2) {
+    color: #8C857D !important;
+  }
+
+  .smallbody span:nth-child(5) {
+    color: #8C857D !important;
+  }
+
+  .smallbody span:nth-child(8) {
+    color: #8C857D !important;
+  }
+
+  .smallbody:nth-of-type(2) {
+    top: 495px;
     width: 100px;
-    margin-top: 400px;
+  }
+
+  .smallbody:nth-of-type(4) {
+    top: 600px;
   }
 
   #ex {
-    margin-top: -90px;
-    display: block;
-    float: right;
+    width: 222px;
+    /*     display: block; */
+    /* float: right; */
+    /* position: absolute; */
+    margin-top: 480px;
   }
 
   #caption {
-    display: inline-block;
-    margin-bottom: 20px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    color: rgba(52, 64, 34, 1);
+    font-weight: 700;
+    font-size: 12px;
+    color: red;
+  }
+
+  .mobile_br {
+    display: none !important;
   }
 }
 
