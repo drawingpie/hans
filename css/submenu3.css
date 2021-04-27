@@ -809,23 +809,32 @@ header:hover .overlay {
   max-width: 1370px;
   box-sizing: border-box;
   margin: 50px auto;
-  text-align: center;
+  text-align: center !important;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 #cake article {
   padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+#cake04 {
+  display: block;
 }
 
 #cake article a span {
   white-space: nowrap;
-  text-align: center;
+  text-align: center !important;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   color: rgba(38, 11, 1, 1);
+}
+
+.cake_con a span:nth-child(2) {
+  text-align: center !important;
 }
 
 @media screen and (max-width: 1440px) {
@@ -841,14 +850,18 @@ header:hover .overlay {
   }
 
   #cake article a span {
+    white-space: initial;
+    display: inline-block;
     font-size: 16px;
+    width: 95px !important;
+    height: 32px !important;
+    line-height: 20px !important;
   }
 
   #cake article a img {
     width: 130px;
   }
 }
-
 footer {
   position: relative;
   max-width: 100%;
