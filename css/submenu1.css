@@ -829,10 +829,6 @@ header:hover .overlay {
   margin: 0 auto;
 }
 
-#cake04 {
-  display: block;
-}
-
 #cake article a span {
   white-space: nowrap;
   text-align: center !important;
@@ -841,10 +837,6 @@ header:hover .overlay {
   font-weight: 400;
   font-size: 30px;
   color: rgba(38, 11, 1, 1);
-}
-
-.cake_con a span:nth-child(2) {
-  text-align: center !important;
 }
 
 @media screen and (max-width: 1440px) {
