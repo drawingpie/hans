@@ -834,7 +834,7 @@ header:hover .overlay {
 }
 
 .cake_con a span:nth-child(2) {
-  text-align: center !important;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1440px) {
