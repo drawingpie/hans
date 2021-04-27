@@ -733,7 +733,7 @@ header:hover .overlay {
   text-align: center;
 }
 
-.ssmallmenu_box:nth-child(2) {
+.ssmallmenu_box:nth-child(1) {
   position: relative;
   width: 339px;
   height: 59px;
@@ -743,7 +743,7 @@ header:hover .overlay {
   top: 0px;
 }
 
-.ssmallmenu_box:nth-child(1),
+.ssmallmenu_box:nth-child(2),
 .ssmallmenu_box:nth-child(3),
 .ssmallmenu_box:nth-child(4) {
   width: 339px;
@@ -751,13 +751,13 @@ header:hover .overlay {
   border: 1px solid rgba(140, 133, 125, 1);
 }
 
-.ssmallmenu_box:nth-child(1):hover,
+.ssmallmenu_box:nth-child(2):hover,
 .ssmallmenu_box:nth-child(3):hover,
 .ssmallmenu_box:nth-child(4):hover {
   background-color: #DBDBDB;
 }
 
-.ssmallmenu_box:nth-child(2) span {
+.ssmallmenu_box:nth-child(1) span {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -767,7 +767,7 @@ header:hover .overlay {
   display: block;
 }
 
-.ssmallmenu_box:nth-child(1) span,
+.ssmallmenu_box:nth-child(2) span,
 .ssmallmenu_box:nth-child(3) span,
 .ssmallmenu_box:nth-child(4) span {
   font-family: 'Noto Sans KR', sans-serif;
@@ -788,17 +788,17 @@ header:hover .overlay {
     box-sizing: border-box;
   }
 
-  .ssmallmenu_box:nth-child(2) {
+  .ssmallmenu_box:nth-child(1) {
     width: 144px;
     height: 30px;
   }
 
-  .ssmallmenu_box:nth-child(2) span {
+  .ssmallmenu_box:nth-child(1) span {
     font-size: 12px;
     margin-top: 7px;
   }
 
-  .ssmallmenu_box:nth-child(1),
+  .ssmallmenu_box:nth-child(2),
   .ssmallmenu_box:nth-child(3),
   .ssmallmenu_box:nth-child(4) {
     width: 144px;
@@ -806,7 +806,7 @@ header:hover .overlay {
     border: 1px solid rgba(140, 133, 125, 1);
   }
 
-  .ssmallmenu_box:nth-child(1) span,
+  .ssmallmenu_box:nth-child(2) span,
   .ssmallmenu_box:nth-child(3) span,
   .ssmallmenu_box:nth-child(4) span {
     font-size: 12px;
