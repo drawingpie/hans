@@ -788,12 +788,27 @@ header:hover .overlay {
     box-sizing: border-box;
   }
 
+  .ssmallmenu_box:nth-child(2) {
+    position: relative;
+    width: 144px;
+    height: 30px;
+    background-color: rgba(115, 2, 32, 1) !important;
+    border: 1px solid rgba(115, 2, 32, 1) !important;
+    left: 0px;
+    top: 0px;
+  }
+
   .ssmallmenu_box:nth-child(1),
   .ssmallmenu_box:nth-child(3),
   .ssmallmenu_box:nth-child(4) {
     width: 144px;
     height: 30px;
     border: 1px solid rgba(140, 133, 125, 1);
+  }
+
+  .ssmallmenu_box:nth-child(2) span {
+    font-size: 12px;
+    margin-top: 7px;
   }
 
   .ssmallmenu_box:nth-child(1) span,
@@ -862,6 +877,7 @@ header:hover .overlay {
     width: 130px;
   }
 }
+
 footer {
   position: relative;
   max-width: 100%;
