@@ -432,44 +432,49 @@ header:hover .overlay {
   }
 }
 
-#menu_visual {
-  position: absolute;
-  width: 100%;
+#visual {
+  position: relative;
+  background-image: url("../image/menu_visual.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+  margin-top: 103.28px;
 }
 
 #headline {
   filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 46.9%;
-  top: 214px;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   overflow: visible;
-  width: 120px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 43px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+  #visual {
+    height: 152px;
+    margin-top: 52.7px;
+  }
+
+  #headline {
+    top: 70px;
+    font-size: 30px;
+  }
 }
 
 #smallmenu {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
 }
+
 #home-black-18dp_cfg {
   position: absolute;
   width: 17.869px;
@@ -478,9 +483,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #home {
   fill: transparent;
 }
+
 .home {
   overflow: visible;
   position: absolute;
@@ -488,11 +495,13 @@ header:hover .overlay {
   height: 17.869px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
   overflow: visible;
   position: absolute;
@@ -500,17 +509,19 @@ header:hover .overlay {
   height: 12.657px;
   left: 1.489px;
   top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home2 {
   overflow: visible;
   position: absolute;
@@ -518,17 +529,19 @@ header:hover .overlay {
   height: 12px;
   left: 24.7%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home3 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home3 {
   overflow: visible;
   position: absolute;
@@ -536,8 +549,9 @@ header:hover .overlay {
   height: 12px;
   left: 30.5%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
   left: 25.2%;
   top: 17px;
@@ -550,8 +564,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_classic {
   left: 31.1%;
   top: 17px;
@@ -564,8 +579,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_arrow01 {
   position: absolute;
   width: 18px;
@@ -574,9 +590,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
   overflow: visible;
   position: absolute;
@@ -584,17 +602,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow2 {
   overflow: visible;
   position: absolute;
@@ -602,8 +622,9 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_arrow02 {
   position: absolute;
   width: 18px;
@@ -612,9 +633,11 @@ header:hover .overlay {
   top: 17px;
   overflow: visible;
 }
+
 #arrow3 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow3 {
   overflow: visible;
   position: absolute;
@@ -622,17 +645,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow4 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow4 {
   overflow: visible;
   position: absolute;
@@ -640,306 +665,188 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width: 1440px) {
+  #smallmenu {
+    margin: 0 auto;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+
+  #home-black-18dp_cfg {
+    left: 0;
+  }
+
+  .home2 {
+    left: 8%;
+  }
+
+  .home3 {
+    left: 55%;
+  }
+
+  #smallmenu_cake {
+    left: 15%;
+  }
+
+  #smallmenu_classic {
+    left: 60%;
+  }
+
+  #smallmenu_arrow01 {
+    left: 45%;
+  }
+
+  #smallmenu_arrow02 {
+    left: 90%;
+  }
+
+  #arrow4 {
+    fill: transparent;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+
+  .arrow4 {
+    overflow: visible;
+    position: absolute;
+    width: 7.303px;
+    height: 4.941px;
+    left: 6.186px;
+    top: 7.512px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
 }
 
 #ssmallmenu {
-  position: absolute;
-  width: 1352px;
-  height: 59px;
-  left: 14.6%;
-  top: 477px;
-  overflow: visible;
-}
-#classic {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 10px;
-  overflow: visible;
-  cursor: pointer;
-}
-#ssmallmenu01 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.ssmallmenu01 {
-  overflow: visible;
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#classictext {
-  left: 148px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(38,11,1,1);
+  position: relative;
+  max-width: 1352px;
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+  text-align: center;
 }
 
-#spacial {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 1013px;
-  top: 10px;
-  overflow: visible;
-  cursor: pointer;
-}
-#ssmallmenu02 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.ssmallmenu02 {
-  overflow: visible;
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#spacialtext {
-  left: 139px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(38,11,1,1);
-}
-#premium {
-  position: absolute;
-  width: 339px;
-  height: 49px;
-  left: 677px;
-  top: 10px;
-  overflow: visible;
-  cursor: pointer;
-}
-#ssmallmenu03 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.ssmallmenu03 {
-  position: absolute;
-  overflow: visible;
-  width: 339px;
-  height: 49px;
-  left: 0px;
-  top: 0px;
-}
-#premiumtext {
-  left: 140px;
-  top: 13px;
-  position: absolute;
-  overflow: visible;
-  width: 60px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(38,11,1,1);
-}
-#season {
-  position: absolute;
+.ssmallmenu_box:nth-child(2) {
+  position: relative;
   width: 339px;
   height: 59px;
-  left: 339px;
-  top: 0px;
-  overflow: visible;
-}
-#ssmallmenu04 {
-  fill: rgba(115,2,32,1);
-}
-.ssmallmenu04 {
-  overflow: visible;
-  position: absolute;
-  width: 339px;
-  height: 59px;
+  background-color: rgba(115, 2, 32, 1) !important;
+  border: 1px solid rgba(115, 2, 32, 1) !important;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#seasontext {
-  left: 155px;
-  top: 18px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(255,255,255,1);
 }
 
-#cake15 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 14.6%;
-  top: 567px;
-  overflow: visible;
+.ssmallmenu_box:nth-child(1),
+.ssmallmenu_box:nth-child(3),
+.ssmallmenu_box:nth-child(4) {
+  width: 339px;
+  height: 59px;
+  border: 1px solid rgba(140, 133, 125, 1);
 }
-#cake15text {
-  left: 15.8%;
-  top: 931px;
-  position: absolute;
-  overflow: visible;
-  width: 319px;
+
+.ssmallmenu_box:nth-child(1):hover,
+.ssmallmenu_box:nth-child(3):hover,
+.ssmallmenu_box:nth-child(4):hover {
+  background-color: #DBDBDB;
+}
+
+.ssmallmenu_box:nth-child(2) span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1) !important;
+  margin-top: 15px;
+  display: block;
+}
+
+.ssmallmenu_box:nth-child(1) span,
+.ssmallmenu_box:nth-child(3) span,
+.ssmallmenu_box:nth-child(4) span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #260B01;
+  margin-top: 15px;
+  display: block;
+}
+
+@media screen and (max-width: 1440px) {
+  #ssmallmenu {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+
+  .ssmallmenu_box:nth-child(1),
+  .ssmallmenu_box:nth-child(3),
+  .ssmallmenu_box:nth-child(4) {
+    width: 144px;
+    height: 30px;
+    border: 1px solid rgba(140, 133, 125, 1);
+  }
+
+  .ssmallmenu_box:nth-child(1) span,
+  .ssmallmenu_box:nth-child(3) span,
+  .ssmallmenu_box:nth-child(4) span {
+    font-size: 12px;
+    margin-top: 7px;
+  }
+}
+
+#cake {
+  position: relative;
+  max-width: 1370px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#cake article {
+  padding-bottom: 100px;
+}
+
+#cake article a span {
   white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  color: rgba(38,11,1,1);
+  color: rgba(38, 11, 1, 1);
 }
-#cake16 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 40.5%;
-  top: 567px;
-  overflow: visible;
-}
-#cake16text {
-  left: 43.1%;
-  top: 931px;
-  position: absolute;
-  overflow: visible;
-  width: 263px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
-}
-#cake17 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 66.5%;
-  top: 567px;
-  overflow: visible;
-}
-#cake17text {
-  left: 68.4%;
-  top: 931px;
-  position: absolute;
-  overflow: visible;
-  width: 291px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
-}
-#cake18 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 14.6%;
-  top: 1082px;
-  overflow: visible;
-}
-#cake18text {
-  left: 21.9%;
-  top: 1446px;
-  position: absolute;
-  overflow: visible;
-  width: 83px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
-}
-#cake19 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 40.5%;
-  top: 1082px;
-  overflow: visible;
-}
-#cake19text {
-  left: 46.2%;
-  top: 1446px;
-  position: absolute;
-  overflow: visible;
-  width: 145px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
-}
-#cake20 {
-  position: absolute;
-  width: 364px;
-  height: 364px;
-  left: 66.5%;
-  top: 1082px;
-  overflow: visible;
-}
-#cake20text {
-  left: 70.8%;
-  top: 1446px;
-  position: absolute;
-  overflow: visible;
-  width: 201px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
+
+@media screen and (max-width: 1440px) {
+  #cake {
+    max-width: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #cake article {
+    padding-bottom: 50px;
+  }
+
+  #cake article a span {
+    font-size: 16px;
+  }
+
+  #cake article a img {
+    width: 130px;
+  }
 }
 
 footer {
