@@ -219,11 +219,6 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
   .navbar, .overlay {
     display: none;
   }
@@ -252,10 +247,10 @@ header:hover .overlay {
   #menu-wrapper {
     background-color: #fff;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     cursor: pointer;
     height: 52.71px;
-    z-index: 999 !important;
+    z-index: 99;
     position: fixed;
     top: 0;
     left: 0;
@@ -738,7 +733,7 @@ header:hover .overlay {
   text-align: center;
 }
 
-.ssmallmenu_box:nth-child(1) {
+.ssmallmenu_box:nth-child(2) {
   position: relative;
   width: 339px;
   height: 59px;
@@ -748,17 +743,21 @@ header:hover .overlay {
   top: 0px;
 }
 
-.ssmallmenu_box:nth-child(1n+1) {
+.ssmallmenu_box:nth-child(1),
+.ssmallmenu_box:nth-child(3),
+.ssmallmenu_box:nth-child(4) {
   width: 339px;
   height: 59px;
   border: 1px solid rgba(140, 133, 125, 1);
 }
 
-.ssmallmenu_box:nth-child(1n+1):hover {
+.ssmallmenu_box:nth-child(1):hover,
+.ssmallmenu_box:nth-child(3):hover,
+.ssmallmenu_box:nth-child(4):hover {
   background-color: #DBDBDB;
 }
 
-.ssmallmenu_box:nth-child(1) span {
+.ssmallmenu_box:nth-child(2) span {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -768,7 +767,9 @@ header:hover .overlay {
   display: block;
 }
 
-.ssmallmenu_box:nth-child(1n+1) span {
+.ssmallmenu_box:nth-child(1) span,
+.ssmallmenu_box:nth-child(3) span,
+.ssmallmenu_box:nth-child(4) span {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -787,13 +788,27 @@ header:hover .overlay {
     box-sizing: border-box;
   }
 
-  .ssmallmenu_box:nth-child(1n+1) {
+  .ssmallmenu_box:nth-child(2) {
+    width: 144px;
+    height: 30px;
+  }
+
+  .ssmallmenu_box:nth-child(2) span {
+    font-size: 12px;
+    margin-top: 7px;
+  }
+
+  .ssmallmenu_box:nth-child(1),
+  .ssmallmenu_box:nth-child(3),
+  .ssmallmenu_box:nth-child(4) {
     width: 144px;
     height: 30px;
     border: 1px solid rgba(140, 133, 125, 1);
   }
 
-  .ssmallmenu_box:nth-child(1n+1) span {
+  .ssmallmenu_box:nth-child(1) span,
+  .ssmallmenu_box:nth-child(3) span,
+  .ssmallmenu_box:nth-child(4) span {
     font-size: 12px;
     margin-top: 7px;
   }
@@ -804,23 +819,32 @@ header:hover .overlay {
   max-width: 1370px;
   box-sizing: border-box;
   margin: 50px auto;
-  text-align: center;
+  text-align: center !important;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 #cake article {
   padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+#cake04 {
+  display: block;
 }
 
 #cake article a span {
   white-space: nowrap;
-  text-align: center;
+  text-align: center !important;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   color: rgba(38, 11, 1, 1);
+}
+
+.cake_con a span:nth-child(2) {
+  text-align: center !important;
 }
 
 @media screen and (max-width: 1440px) {
