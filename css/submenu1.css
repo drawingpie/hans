@@ -860,7 +860,12 @@ header:hover .overlay {
   }
 
   #cake article a span {
+    white-space: initial;
+    display: inline-block;
     font-size: 16px;
+    width: 95px !important;
+    height: 32px !important;
+    line-height: 20px !important;
   }
 
   #cake article a img {
