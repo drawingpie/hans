@@ -689,7 +689,7 @@ header:hover .overlay {
   overflow: hidden;
 }
 
-.modla_con1, .modla_con2, .modla_con3 {
+.modalimg1, .modalimg2, .modalimg3 {
   position: absolute;
   top: -50px;
   left: 50%;
@@ -745,7 +745,7 @@ header:hover .overlay {
 .modalimg1, .modalimg2, .modalimg3 {
     display: none;
 }
-  .modla_con1, .modla_con2, .modla_con3 {
+  .modalimg1_mobile, .modalimg2_mobile, .modalimg3_mobile {
     position: absolute;
     top: -50px;
     left: 50%;
