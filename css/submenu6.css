@@ -483,9 +483,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #home {
   fill: transparent;
 }
+
 .home {
   overflow: visible;
   position: absolute;
@@ -493,11 +495,13 @@ header:hover .overlay {
   height: 17.869px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
   overflow: visible;
   position: absolute;
@@ -505,17 +509,19 @@ header:hover .overlay {
   height: 12.657px;
   left: 1.489px;
   top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home2 {
   overflow: visible;
   position: absolute;
@@ -523,8 +529,9 @@ header:hover .overlay {
   height: 12px;
   left: 24.7%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
   left: 25.2%;
   top: 17px;
@@ -537,8 +544,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_classic {
   left: 31.1%;
   top: 17px;
@@ -551,8 +559,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
+
 #smallmenu_arrow01 {
   position: absolute;
   width: 18px;
@@ -561,9 +570,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
   overflow: visible;
   position: absolute;
@@ -571,17 +582,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow2 {
   overflow: visible;
   position: absolute;
@@ -589,8 +602,9 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 @media screen and (max-width: 1440px) {
   #smallmenu {
     margin: 0 auto;
@@ -623,7 +637,7 @@ header:hover .overlay {
   }
 }
 
-#drink{
+#drink {
   background-image: url("../image/menu602.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -631,34 +645,77 @@ header:hover .overlay {
   position: relative;
   width: 100%;
   height: 816px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
+
 #drink span:nth-child(1) {
+  display: block;
+  text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   color: #fff;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 #drink span:nth-child(2) {
+  display: block;
+  text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .drink_info {
-    margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+
 #drink .drink_info a img {
-    margin-top: 250px;
+  margin-top: 250px;
+  margin-right: 50px;
 }
+
 @media screen and (max-width: 1440px) {
-  #drink{
+  #drink {
+    background-image: url("../image/mobile_drinkbg.png");
+    height: 1288px;
+  }
+
+  .drink_info {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  #drink .drink_info a img {
+    width: 225px;
+    margin-top: 50px;
+    margin-right: 0;
+    display: inline-block;
+  }
+
+  #drink span:nth-child(1) {
+    font-size: 18px;
+  }
+
+  #drink span:nth-child(2) {
+    white-space: nowrap;
+    font-size: 13px;
+    top: 135px;
+  }
 }
+
 footer {
   position: relative;
   max-width: 100%;
