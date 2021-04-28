@@ -720,15 +720,8 @@ header:hover .overlay {
   }
 
   .drink_info {
+    max-width: 225px;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 50px;
-  }
-
-  #drink .drink_info a img {
-    width: 225px;
-    margin-top: 50px;
-    margin-right: 0;
-    display: inline-block;
   }
 
   #drink span:nth-child(1) {
@@ -740,6 +733,34 @@ header:hover .overlay {
     white-space: nowrap;
     font-size: 13px;
     top: 50px;
+  }
+
+  .modla_con a img {
+    width: 225px;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .modalimg1, .modalimg2, .modalimg3 {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 99;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .modal {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+  }
+
+  #marginTop {
+    margin-top: 120px;
   }
 }
 
