@@ -689,9 +689,9 @@ header:hover .overlay {
   overflow: hidden;
 }
 
-.modalimg1, .modalimg2, .modalimg3 {
+.modla_con1, .modla_con2, .modla_con3 {
   position: absolute;
-  top: -50px;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   display: none;
@@ -699,9 +699,11 @@ header:hover .overlay {
   background-color: #fff;
   overflow: hidden;
 }
+
 .modalimg1_mobile, .modalimg2_mobile, .modalimg3_mobile {
   display: none;
 }
+
 .modal {
   z-index: 99;
   display: none;
@@ -742,21 +744,26 @@ header:hover .overlay {
     margin-top: 20px;
     margin-right: 0;
   }
-.modalimg1, .modalimg2, .modalimg3 {
+
+  .modalimg1, .modalimg2, .modalimg3 {
     display: none;
-}
+  }
+
   .modalimg1_mobile, .modalimg2_mobile, .modalimg3_mobile {
+    display: block;
+  }
+
+  .modla_con1, .modla_con2, .modla_con3 {
     position: absolute;
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
     display: ;
-    z-index: 99;
+    z-index: 9999 !important;
     background-color: #fff;
     overflow: hidden;
-    display: block;
+    display: none;
   }
-
 
   .modal {
     width: 100%;
