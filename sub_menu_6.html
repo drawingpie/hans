@@ -292,12 +292,13 @@
 		$(function() {
 
 			$(".button1").click(function() {
-				$('.modalimg1').show();
+				$('.modalimg1 .dsktop').show();
 				$('.modalimg1 .mobile').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
+				$('.modalimg1 .dsktop').hide();
 				$('.modalimg1 .mobile').hide();
 				$(".modal").fadeOut();
 
@@ -306,11 +307,13 @@
 		$(function() {
 
 			$(".button2").click(function() {
+				$('.modalimg2 .dsktop').show();
 				$('.modalimg2 .mobile').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
+				$('.modalimg2 .dsktop').hide();
 				$('.modalimg2 .mobile').hide();
 				$(".modal").fadeOut();
 
@@ -319,11 +322,13 @@
 		$(function() {
 
 			$(".button3").click(function() {
+				$('.modalimg3 .dsktop').show();
 				$('.modalimg3 .mobile').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
+				$('.modalimg3 .dsktop').hide();
 				$('.modalimg3 .mobile').hide();
 				$(".modal").fadeOut();
 
