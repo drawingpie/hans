@@ -696,6 +696,7 @@ header:hover .overlay {
 
   .drink_info {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
   }
 
   #drink .drink_info a img {
@@ -706,13 +707,14 @@ header:hover .overlay {
   }
 
   #drink span:nth-child(1) {
+    top: 20px;
     font-size: 18px;
   }
 
   #drink span:nth-child(2) {
     white-space: nowrap;
     font-size: 13px;
-    top: 135px;
+    top: 50px;
   }
 }
 
