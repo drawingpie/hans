@@ -683,12 +683,12 @@ header:hover .overlay {
   grid-template-columns: repeat(3, 1fr);
 }
 .modla_con a img {
-  
+
 }
 .modalimg {
   margin-top: 250px;
   margin-right: 50px;
-  overflow: hidden;
+  display: none;
 }
 
 .modal {
