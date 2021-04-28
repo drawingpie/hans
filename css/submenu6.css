@@ -691,7 +691,7 @@ header:hover .overlay {
 
 .modalimg1, .modalimg2, .modalimg3 {
   position: absolute;
-  top: 50px;
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   display: none;
@@ -748,7 +748,7 @@ footer {
   max-width: 100%;
   background-color: #260B01;
   height: 337px;
-  z-index: -99;
+  /*   z-index: -99; */
 }
 
 #footermenu {
