@@ -634,8 +634,25 @@ header:hover .overlay {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+#drink span:nth-child(1) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  color: #fff;
+}
+#drink span:nth-child(2) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
 .drink_info {
     margin: 0 auto;
+}
+#drink .drink_info a img {
+    margin-top: 250px;
 }
 @media screen and (max-width: 1440px) {
   #drink{
