@@ -683,9 +683,30 @@ header:hover .overlay {
   grid-template-columns: repeat(3, 1fr);
 }
 
-#drink .drink_info .modal_con img {
+.modalimg {
   margin-top: 250px;
   margin-right: 50px;
+}
+.modal {
+  position:relative;
+  width:100%;
+  height:100%;
+  z-index:1;
+}
+.modal_con button {
+  display:inline-block;
+  width:100px;
+  margin-left:calc(100% - 100px - 10px);
+}
+
+.modal {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);
+  z-index:-1;
 }
 
 @media screen and (max-width: 1440px) {
