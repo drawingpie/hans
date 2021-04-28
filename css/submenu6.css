@@ -683,13 +683,13 @@ header:hover .overlay {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.modla_con img {
+.drink_info a img {
   margin-right: 25px;
   margin-top: 250px;
   overflow: hidden;
 }
 
-.modalimg1, .modalimg2, .modalimg3 {
+.modla_con1, .modla_con2, .modla_con3 {
   position: absolute;
   top: -50px;
   left: 50%;
@@ -735,13 +735,13 @@ header:hover .overlay {
     top: 50px;
   }
 
-  .modla_con a img {
+  .drink_info a img {
     width: 225px;
     margin-top: 20px;
     margin-right: 0;
   }
 
-  .modalimg1.desktop, .modalimg2.desktop, .modalimg3.desktop {
+  .modalimg1 .desktop, .modalimg2 .desktop, .modalimg3 .desktop {
     position: absolute;
     top: -50px;
     left: 50%;
@@ -752,10 +752,6 @@ header:hover .overlay {
     overflow: hidden;
   }
 
-  .modalimg1 .mobile, .modalimg2 .mobile, .modalimg3 .mobile {
-    display: none !important;
-    overflow: hidden !important;
-  }
 
   .modal {
     width: 100%;

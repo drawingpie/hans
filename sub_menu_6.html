@@ -217,22 +217,24 @@
 		<span>한스케익에서 만날 수 있는 다양한 음료를 즐겨보세요.</span>
 		<div class="drink_info">
 			<div class="modal"></div>
-			<div class="modla_con">
-				<a href="#drink" class="button1"><img id="marginTop" src="image/menu604.png"></a>
-				<img class="modalimg1 desktop" src="image/hanshotdrink.png">
-				<img class="modalimg1 mobile" src="image/hanshotdrink_mobile.png">
+			<a href="#drink" class="button1"><img id="marginTop" src="image/menu604.png"></a>
+			<a href="#drink" class="button2"><img src="image/menu603.png"></a>
+			<a href="#drink" class="button3"><img src="image/menu605.png"></a>
+
+			<div class="modla_con1">
+				<img class="modalimg1" src="image/hanshotdrink.png">
+				<img class="modalimg1_mobile" src="image/hanshotdrink_mobile.png">
 			</div>
-			<div class="modla_con">
-				<a href="#drink" class="button2"><img src="image/menu603.png"></a>
-				<img class="modalimg2 desktop" src="image/hanshotdrink.png">
-				<img class="modalimg2 mobile" src="image/hanshotdrink_mobile.png">
+			<div class="modla_con2">
+				<img class="modalimg2" src="image/hanshotdrink.png">
+				<img class="modalimg2_mobile" src="image/hanshotdrink_mobile.png">
 			</div>
-			<div class="modla_con">
-				<a href="#drink" class="button3"><img src="image/menu605.png"></a>
-				<img class="modalimg3 desktop" src="image/hanshotdrink.png">
-				<img class="modalimg3 mobile" src="image/hanshotdrink_mobile.png">
+			<div class="modla_con3">
+				<img class="modalimg3" src="image/hanshotdrink.png">
+				<img class="modalimg3_mobile" src="image/hanshotdrink_mobile.png">
 			</div>
 		</div>
+
 	</section>
 
 	<footer>
@@ -292,14 +294,12 @@
 		$(function() {
 
 			$(".button1").click(function() {
-				$('.modalimg1 .dsktop').show();
-				$('.modalimg1 .mobile').show();
+				$('.modalimg1').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
-				$('.modalimg1 .dsktop').hide();
-				$('.modalimg1 .mobile').hide();
+				$('.modalimg1').hide();
 				$(".modal").fadeOut();
 
 			});
@@ -307,14 +307,12 @@
 		$(function() {
 
 			$(".button2").click(function() {
-				$('.modalimg2.dsktop').show();
-				$('.modalimg2.mobile').show();
+				$('.modalimg2').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
-				$('.modalimg2.dsktop').hide();
-				$('.modalimg2.mobile').hide();
+				$('.modalimg2').hide();
 				$(".modal").fadeOut();
 
 			});
@@ -322,14 +320,12 @@
 		$(function() {
 
 			$(".button3").click(function() {
-				$('.modalimg3.dsktop').show();
-				$('.modalimg3.mobile').show();
+				$('.modalimg3').show();
 				$(".modal").fadeIn();
 			});
 
 			$(".modal").click(function() {
-				$('.modalimg3.dsktop').hide();
-				$('.modalimg3.mobile').hide();
+				$('.modalimg3').hide();
 				$(".modal").fadeOut();
 
 			});
