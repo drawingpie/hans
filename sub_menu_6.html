@@ -216,21 +216,17 @@
 		<span>한스 음료</span>
 		<span>한스케익에서 만날 수 있는 다양한 음료를 즐겨보세요.</span>
 		<div class="drink_info">
-			<a href="#"><img src="image/menu604.png"></a>
-			<div class="modal_con">
-				<div class="modal"></div>
-				<img class="modalimg"src="image/hanshotdrink.png">
-			</div>
-
-			<a href="#"><img src="image/menu603.png"></a>
-			<div class="modal_con">
-				<div class="modal"></div>
+			<div class="modal"></div>
+			<div class="modla_con">
+				<a href="#"><img src="image/menu604.png"></a>
 				<img class="modalimg" src="image/hanshotdrink.png">
 			</div>
-
-			<a href="#"><img src="image/menu605.png"></a>
-			<div class="modal_con">
-				<div class="modal"></div>
+			<div class="modla_con">
+				<a href="#"><img src="image/menu603.png"></a>
+				<img class="modalimg" src="image/hanshotdrink.png">
+			</div>
+			<div class="modla_con">
+				<a href="#"><img src="image/menu605.png"></a>
 				<img class="modalimg" src="image/hanshotdrink.png">
 			</div>
 		</div>
@@ -288,18 +284,21 @@
 		}); // jQuery load
 	</script>
 
-<!--모달창-->
+	<!--모달창-->
 	<script>
-	$(function() {
-		$(".button").click(function() {
-			$('.modalimg').show();
-			$(".modal").fadeIn();
+		$(function() {
+
+			$(".open03").click(function() {
+				$('.modlacontent03').show();
+				$(".mask").fadeIn();
+			});
+
+			$(".mask").click(function() {
+				$('.modlacontent03').hide();
+				$(".mask").fadeOut();
+
+			});
 		});
-		$(".modal").click(function() {
-			$('.modalimg').hide();
-			$(".modal").fadeOut();
-		});
-	});
 	</script>
 
 </body>

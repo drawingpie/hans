@@ -682,19 +682,13 @@ header:hover .overlay {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
+.modla_con a img {
+  
+}
 .modalimg {
   margin-top: 250px;
   margin-right: 50px;
   overflow: hidden;
-}
-
-.modal_con button {
-
-  width:328px;
-  height: auto;
-  margin-top: 250px;
-  margin-right: 50px;
 }
 
 .modal {
@@ -705,7 +699,7 @@ header:hover .overlay {
   height:100%;
   background:rgba(0, 0, 0, 0.5);
   z-index:-1;
-  overflow: hidden;
+  display: none;
 }
 
 @media screen and (max-width: 1440px) {
