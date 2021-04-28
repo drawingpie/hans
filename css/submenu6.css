@@ -699,7 +699,9 @@ header:hover .overlay {
   background-color: #fff;
   overflow: hidden;
 }
-
+.modalimg1_mobile, .modalimg2_mobile, .modalimg3_mobile {
+  display: none;
+}
 .modal {
   z-index: 99;
   display: none;
@@ -740,7 +742,9 @@ header:hover .overlay {
     margin-top: 20px;
     margin-right: 0;
   }
-
+.modalimg1, .modalimg2, .modalimg3 {
+    display: none;
+}
   .modalimg1 .desktop, .modalimg2 .desktop, .modalimg3 .desktop {
     position: absolute;
     top: -50px;
