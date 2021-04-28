@@ -218,15 +218,15 @@
 		<div class="drink_info">
 			<div class="modal"></div>
 			<div class="modla_con">
-				<a href="#"><img src="image/menu604.png"></a>
+				<a href="#" class="button"><img src="image/menu604.png"></a>
 				<img class="modalimg" src="image/hanshotdrink.png">
 			</div>
 			<div class="modla_con">
-				<a href="#"><img src="image/menu603.png"></a>
+				<a href="#" class="button"><img src="image/menu603.png"></a>
 				<img class="modalimg" src="image/hanshotdrink.png">
 			</div>
 			<div class="modla_con">
-				<a href="#"><img src="image/menu605.png"></a>
+				<a href="#" class="button"><img src="image/menu605.png"></a>
 				<img class="modalimg" src="image/hanshotdrink.png">
 			</div>
 		</div>
@@ -288,14 +288,14 @@
 	<script>
 		$(function() {
 
-			$(".open03").click(function() {
-				$('.modlacontent03').show();
-				$(".mask").fadeIn();
+			$(".button").click(function() {
+				$('.modalimg').show();
+				$(".modal").fadeIn();
 			});
 
-			$(".mask").click(function() {
-				$('.modlacontent03').hide();
-				$(".mask").fadeOut();
+			$(".modal").click(function() {
+				$('.modalimg').hide();
+				$(".modal").fadeOut();
 
 			});
 		});
