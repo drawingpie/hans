@@ -745,7 +745,7 @@ header:hover .overlay {
 .modalimg1, .modalimg2, .modalimg3 {
     display: none;
 }
-  .modalimg1 .desktop, .modalimg2 .desktop, .modalimg3 .desktop {
+  .modla_con1, .modla_con2, .modla_con3 {
     position: absolute;
     top: -50px;
     left: 50%;
@@ -754,6 +754,7 @@ header:hover .overlay {
     z-index: 99;
     background-color: #fff;
     overflow: hidden;
+    display: block;
   }
 
 
