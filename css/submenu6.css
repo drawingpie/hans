@@ -685,7 +685,7 @@ header:hover .overlay {
 .modla_con a img {
 
 }
-.modalimg {
+.modalimg1, .modalimg2, .modalimg3{
   margin-top: 250px;
   margin-right: 50px;
   display: none;
