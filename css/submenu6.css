@@ -741,15 +741,20 @@ header:hover .overlay {
     margin-right: 0;
   }
 
-  .modalimg1, .modalimg2, .modalimg3 {
+  .modalimg1.desktop, .modalimg2.desktop, .modalimg3.desktop {
     position: absolute;
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    display: none;
+    display: ;
     z-index: 99;
     background-color: #fff;
     overflow: hidden;
+  }
+
+  .modalimg1 .mobile, .modalimg2 .mobile, .modalimg3 .mobile {
+    display: none !important;
+    overflow: hidden !important;
   }
 
   .modal {
