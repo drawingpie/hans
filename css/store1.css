@@ -347,6 +347,7 @@ header:hover .overlay {
     overflow-y: auto;
     overflow-x: hidden;
     right: -100%;
+}
 
   #menu-container .menu-list li.accordion-toggle, #menu-container .menu-list .menu-login {
     font-size: 16px;
