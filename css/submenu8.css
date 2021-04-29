@@ -702,7 +702,7 @@ header:hover .overlay {
 
   #cake article a span {
     white-space: initial;
-    margin-bottom: 10px !important;
+    margin-bottom: 18px !important;
     font-size: 16px;
     width: 140px !important;
     height: 32px !important;
@@ -710,9 +710,15 @@ header:hover .overlay {
   }
 
   #cake article a span:nth-of-type(2) {
+    width: 140px !important;
     font-size: 14px;
     margin-bottom: 40px !important;
     display: block !important;
+  }
+
+  #cake article a span.marginBottom {
+    display: block !important;
+    margin-bottom: 50px !important;
   }
 
   #cake article a span:nth-of-type(3) {
