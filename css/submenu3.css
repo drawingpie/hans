@@ -223,7 +223,7 @@ header:hover .overlay {
     max-width: 100%;
     overflow-x: hidden;
   }
-  
+
   .navbar, .overlay {
     display: none;
   }
@@ -340,7 +340,7 @@ header:hover .overlay {
   }
 
   #menu-container .menu-list {
-    margin-top: 0;
+    margin-top: 52.71px;
     padding-left: 0;
     display: block;
     position: fixed;
