@@ -219,6 +219,10 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .navbar, .overlay {
     display: none;
   }
