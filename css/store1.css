@@ -708,14 +708,14 @@ td {
 }
 
 .pagination a.active {
-  border-bottom: 1px solid #73352F;
-  padding-bottom: 5px;
-  color: #73352F;
+  background-color: #73352F;
+  color: white;
+  border-radius: 5px;
 }
 
 .pagination a:hover:not(.active) {
-  border-bottom: 1px solid  #ddd;
-  color: #ddd;
+  background-color: #ddd;
+  border-radius: 5px;
 }
 
 footer {
