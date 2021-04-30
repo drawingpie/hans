@@ -679,7 +679,9 @@ input[type=text] {
   text-align: center;
   margin: 0 auto !important;
 }
-
+.mobile_br {
+  display: none;
+}
 table {
   margin-bottom: 200px;
   border-collapse: collapse;
