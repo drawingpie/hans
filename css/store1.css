@@ -811,10 +811,11 @@ td {
 
 .pagination {
   display: inline-block;
-  position: relative;
-  top: -100px;
+  text-align: center;
+  position: absolute;
+  top: 1350px;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .pagination a {
@@ -837,6 +838,12 @@ td {
 .pagination a:hover:not(.active) {
   background-color: #ddd;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+  .pagination a {
+    font-size: 10px;
+  }
 }
 
 footer {
