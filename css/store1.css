@@ -788,19 +788,19 @@ td {
   }
 
   td:nth-child(4) {
-    display: inline-block;
-    position: absolute;
-    right: 110px;
-    width: 20px;
+    display: block;
+    /*     position: relative; */
+    right: 0px;
     margin-right: 10px;
     float: right;
+    text-align: right !important;
     margin-top: -110px;
     margin-left: 110px;
   }
 
-  td:nth-child(5) {
-    margin-top: 00px;
-    /*     border-bottom: 1px solid #8C857D !important; */
+  tr:nth-child(3) td:nth-child(4),
+  tr:nth-child(4) td:nth-child(4) {
+    margin-top: -90px;
   }
 
   tr:nth-child(6) td:nth-child(5) {
