@@ -618,8 +618,15 @@ header:hover .overlay {
   }
 }
 
+#searchform {
+  position: relative;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}
+
 #searchbar {
-  width: 82px;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -653,8 +660,15 @@ button {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+#store {
+  position: relative;
+  display: block;
+  margin-top: 150px;
+}
+
 th {
   border-top: 2px solid rgba(38, 11, 1, 1);
+  border-right: 2px solid rgba(38, 11, 1, 1);
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -666,6 +680,7 @@ th {
 
 td {
   border-top: 1px solid rgba(140, 133, 125, 1);
+  border-right: 1px solid rgba(140, 133, 125, 1);
   cursor: pointer;
   text-align: center;
   text-decoration: none;
