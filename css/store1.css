@@ -347,7 +347,7 @@ header:hover .overlay {
     overflow-y: auto;
     overflow-x: hidden;
     right: -100%;
-}
+  }
 
   #menu-container .menu-list li.accordion-toggle, #menu-container .menu-list .menu-login {
     font-size: 16px;
@@ -434,7 +434,7 @@ header:hover .overlay {
 
 #visual {
   position: relative;
-  background-image: url("../image/menu601.png");
+  background-image: url("../image/store_visual.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -630,6 +630,7 @@ header:hover .overlay {
 }
 
 form.example input[type=text] {
+  display: block;
   font-size: 17px;
   border: 1px solid #8C857D;
   float: left;
@@ -661,8 +662,9 @@ th {
   font-size: 14px;
   color: rgba(38, 11, 1, 1);
 }
+
 td {
-  border-top: 2px solid rgba(140, 133, 125, 1);
+  border-top: 1px solid rgba(140, 133, 125, 1);
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -672,7 +674,6 @@ td {
   font-size: 18px;
   color: rgba(38, 11, 1, 1);
 }
-
 
 footer {
   position: relative;
