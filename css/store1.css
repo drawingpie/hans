@@ -651,18 +651,8 @@ form.example input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-button {
-  outline: none;
-}
-
-#iconmonstr-magnifier-4_ca {
-  fill: rgba(38, 11, 1, 1);
-}
-
-.iconmonstr-magnifier-4_ca {
-  width: 17.678px;
-  height: 17.815px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+input[type=text]:focus {
+  width: 100%;
 }
 
 #store {
