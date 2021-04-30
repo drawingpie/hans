@@ -653,6 +653,25 @@ input[type=text] {
   padding: 12px 20px 12px 20px;
 }
 
+@media screen and (max-width: 1440px) {
+  #searchform {
+    max-width: 600px !important;
+    display: block;
+    margin: 30px auto !important;
+  }
+
+  #searchbar {
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+
+  input[type=text] {
+    width: 287px;
+    background-position: 250px 5px;
+    padding: 5px 20px 5px 20px;
+  }
+}
+
 #store {
   position: relative;
   max-width: 1200px;
@@ -694,6 +713,42 @@ td {
   font-size: 18px;
   color: rgba(38, 11, 1, 1);
   padding: 30px 25px;
+}
+
+@media screen and (max-width: 1440px) {
+  #store {
+    max-width: 286px;
+  }
+
+  table {
+    width: 250px;
+  }
+
+  th {
+    border-top: 2px solid rgba(38, 11, 1, 1);
+    border-right: 0px solid rgba(38, 11, 1, 1);
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(38, 11, 1, 1);
+    padding: 20px;
+  }
+
+  td {
+    border-top: 1px solid rgba(140, 133, 125, 1);
+    border-right: 0px solid rgba(140, 133, 125, 1);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(38, 11, 1, 1);
+    padding: 30px 25px;
+  }
 }
 
 .pagination {
