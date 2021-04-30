@@ -661,6 +661,7 @@ th {
   font-weight: 400;
   font-size: 14px;
   color: rgba(38, 11, 1, 1);
+  padding: 20px;
 }
 
 td {
@@ -673,6 +674,7 @@ td {
   font-weight: 400;
   font-size: 18px;
   color: rgba(38, 11, 1, 1);
+  padding: 30px;
 }
 
 footer {
