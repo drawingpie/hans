@@ -753,11 +753,6 @@ td {
     text-align: left;
   }
 
-  th {
-    display: block;
-    border-top: 2px solid rgba(38, 11, 1, 1) !important;
-  }
-
   td:nth-child(1) {
     color: rgba(38, 11, 1, 1);
     font-family: 'Noto Sans KR', sans-serif;
@@ -766,6 +761,10 @@ td {
     font-size: 16px;
     margin-top: 20px;
     border-top: 1px solid #8C857D !important;
+  }
+
+  tr:nth-child(2) td:nth-child(1) {
+    border-top: 2px solid rgba(38, 11, 1, 1) !important;
   }
 
   td:nth-child(2) {
@@ -801,7 +800,12 @@ td {
 
   td:nth-child(5) {
     margin-top: 00px;
-    border-bottom: 1px solid #8C857D !important;
+    /*     border-bottom: 1px solid #8C857D !important; */
+  }
+
+  tr:nth-child(6) td:nth-child(5) {
+    border-bottom: 2px solid rgba(38, 11, 1, 1) !important;
+    padding-bottom: 20px;
   }
 }
 
