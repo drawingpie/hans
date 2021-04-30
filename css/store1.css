@@ -620,45 +620,54 @@ header:hover .overlay {
 
 #searchform {
   position: relative;
-  max-width: 1200px;
-  display: block;
-  margin: 0 auto !important;
+  max-width: 600px !important;
+  display: flex;
+  text-align: center;
+  margin: 100px auto !important;
   box-sizing: border-box;
 }
 
 #searchbar {
+  display: inline-block;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   color: rgba(38, 11, 1, 1);
+  padding: 5px 15px;
 }
 
-form.example input[type=text] {
-  width: 130px;
+input[type=text] {
+  display: inline-block;
+  width: 402px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
   background-image: url('../image/iconmonstr-magnifier-4.png');
-  background-position: 10px 10px;
+  background-position: 350px 10px;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 100%;
+  padding: 12px 20px 12px 20px;
 }
 
 #store {
   position: relative;
+  max-width: 1200px;
   display: block;
-  margin-top: 150px;
+  text-align: center;
+  margin: 0 auto !important;
+}
+
+table {
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+tr th:nth-child(5), tr td:nth-child(5) {
+  border-right: 0px;
 }
 
 th {
@@ -684,7 +693,29 @@ td {
   font-weight: 400;
   font-size: 18px;
   color: rgba(38, 11, 1, 1);
-  padding: 30px;
+  padding: 30px 25px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  border-bottom: 1px solid #73352F;
+  padding-bottom: 5px;
+  color: #73352F;
+}
+
+.pagination a:hover:not(.active) {
+  border-bottom: 1px solid  #ddd;
+  color: #ddd;
 }
 
 footer {
