@@ -662,7 +662,7 @@ input[type=text] {
 }
 
 table {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   border-collapse: collapse;
 }
 
@@ -698,13 +698,21 @@ td {
 
 .pagination {
   display: inline-block;
+  position: relative;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .pagination a {
-  color: black;
+  color: rgba(38, 11, 1, 1);
   float: left;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .pagination a.active {
