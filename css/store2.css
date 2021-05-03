@@ -701,7 +701,6 @@ td:nth-child(2) {
   tr:nth-child(1) th img {
     display: inline-block !important;
     margin-left: 140px;
-    float: right !important;
   }
 
   tr:nth-child(2) td img {
