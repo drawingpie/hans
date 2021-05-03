@@ -634,6 +634,11 @@ header:hover .overlay {
 table {
   width: 1000px;
   border-collapse: collapse;
+  display: inline-block;
+}
+
+tr:nth-child(1) th img {
+  float: right;
 }
 
 th {
@@ -646,6 +651,13 @@ th {
   font-weight: 400;
   font-size: 34px;
   color: rgba(38, 11, 1, 1);
+}
+
+td {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(38, 11, 1, 1) !important;
+  vertical-align: middle !important;
+  margin: auto 0;
 }
 
 td:nth-child(1) {
@@ -667,7 +679,9 @@ td:nth-child(2) {
   color: rgba(140, 133, 125, 1);
 }
 
-table tr th img {}
+table tr td img {
+  display: inline-block;
+}
 
 footer {
   position: relative;
