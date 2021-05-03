@@ -686,10 +686,49 @@ td:nth-child(2) {
 @media screen and (max-width: 1440px) {
   #store01 {
     max-width: 286px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
   }
 
-  table {
+  table, td, tr {
+    display: block;
     width: 286px;
+    border-bottom: 0px solid rgba(38, 11, 1, 1) !important;
+  }
+
+  tr:nth-child(2) td img {
+    width: 285px;
+  }
+
+  th {
+    border-bottom: 0px solid rgba(38, 11, 1, 1) !important;
+    font-size: 18px;
+  }
+
+  tr:nth-child(2) {
+    border-bottom: 2px solid rgba(38, 11, 1, 1) !important;
+  }
+
+  tr:nth-child(3), tr:nth-child(4), tr:nth-child(5) {
+    border-bottom: 1px solid #8C857D !important;
+  }
+
+  tr:nth-child(3) td {
+    display: block;
+    width: 260px;
+    white-space: initial
+  }
+
+  td {
+    padding: 10px 0;
+    border-bottom: 0px solid rgba(38, 11, 1, 1) !important;
+  }
+
+  #map {
+    width: 285px;
+    margin-top: 40px;
   }
 }
 
