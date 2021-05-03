@@ -698,6 +698,12 @@ td:nth-child(2) {
     border-bottom: 0px solid rgba(38, 11, 1, 1) !important;
   }
 
+  tr:nth-child(1) th img {
+    display: inline-block !important;
+    margin-left: 140px;
+    float: right !important;
+  }
+
   tr:nth-child(2) td img {
     width: 285px;
   }
