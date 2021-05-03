@@ -628,39 +628,46 @@ header:hover .overlay {
   max-width: 1200px;
   display: block;
   text-align: center;
-  margin: 0 auto !important;
+  margin: 100px auto !important;
 }
+
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
 th {
-white-space: nowrap;
-text-align: left;
-font-family: 'Noto Sans KR', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 34px;
-color: rgba(38, 11, 1, 1);
+  border-bottom: 2px solid rgba(38, 11, 1, 1);
+  padding-bottom: 20px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  color: rgba(38, 11, 1, 1);
 }
+
 td:nth-child(1) {
-text-align: left;
-font-family: 'Noto Sans KR', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-color: rgba(38, 11, 1, 1);
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(38, 11, 1, 1);
 }
+
 td:nth-child(2) {
-white-space: nowrap;
-text-align: left;
-font-family: 'Noto Sans KR', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-color: rgba(140, 133, 125, 1);
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(140, 133, 125, 1);
 }
 
-table tr th img {
-
-}
-
+table tr th img {}
 
 footer {
   position: relative;
