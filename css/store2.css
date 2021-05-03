@@ -683,6 +683,16 @@ td:nth-child(2) {
   margin-top: 80px;
 }
 
+@media screen and (max-width: 1440px) {
+  #store01 {
+    max-width: 286px;
+  }
+
+  table {
+    width: 286px;
+  }
+}
+
 footer {
   position: relative;
   max-width: 100%;
