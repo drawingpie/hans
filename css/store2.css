@@ -639,8 +639,15 @@ font-weight: 400;
 font-size: 34px;
 color: rgba(38, 11, 1, 1);
 }
-
 td:nth-child(1) {
+text-align: left;
+font-family: 'Noto Sans KR', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+color: rgba(38, 11, 1, 1);
+}
+td:nth-child(2) {
 white-space: nowrap;
 text-align: left;
 font-family: 'Noto Sans KR', sans-serif;
@@ -649,14 +656,7 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(140, 133, 125, 1);
 }
-td:nth-child(2) {
-text-align: left;
-font-family: 'Noto Sans KR', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-color: rgba(38, 11, 1, 1);
-}
+
 table tr th img {
 
 }
