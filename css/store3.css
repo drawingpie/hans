@@ -677,11 +677,12 @@ dl dt span {
 
 dl dd img {
 	display: inline-block;
+	margin-top: 50px;
 }
 
 #ordernumber span {
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 25px;
 	float: left;
 	text-align: left !important;
 	font-family: 'Noto Sans KR', sans-serif;
