@@ -693,14 +693,19 @@ dl dd img {
 }
 
 #order2 {
+	display: block;
 	background-color: #F5EDEF;
 	position: relative;
-	max-width: 1433px;
-	box-sizing: border-box;
-	margin: 0 auto;
+	max-width: 100% !important;
+	box-sizing: border-box !important;
+	margin: 85px auto !important;
+	margin-bottom: 0px !important;
+	text-align: center;
+	height: 1012px;
 }
 
 #order2head {
+	padding-top: 50px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -710,13 +715,60 @@ dl dd img {
 	color: rgba(115, 2, 32, 1);
 }
 
+#delivery, #pickup {
+	max-width: 1433px !important;
+	box-sizing: border-box;
+	margin: 85px auto !important;
+	display: inline-block !important;
+}
+
+#delivery {
+	margin-right: 100px !important;
+}
+
+.ordericon {
+	display: inline-block !important;
+	float: left !important;
+	margin-right: 50px;
+}
+
+.headcon span {
+	display: block !important;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	color: #8C857D;
+}
+
+.ordertext {
+	/* 	width: 347px !important; */
+	display: block !important;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	color: #8C857D;
+}
+
 #bodyconwrap {
 	display: grid;
+	padding: 10px;
 	grid-template-columns: 1fr 1fr;
+	max-width: 1433px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
 
 .bodycon {
+	background-color: #fff;
 	border: 1px solid #730220;
+	border-radius: 10px;
+	padding: 63px 0;
+	margin: 10px;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
@@ -727,6 +779,10 @@ dl dd img {
 
 #bigorderbtn {
 	cursor: pointer;
+	max-width: 178.26px;
+	box-sizing: border-box;
+	margin: 20px auto;
+	display: block;
 }
 
 footer {
