@@ -716,12 +716,6 @@ dl dd img {
 
 
 #bigorderbtn {
-	position: absolute;
-	width: 178.265px;
-	height: 54.181px;
-	left: 45.3%;
-	top: 2718px;
-	overflow: visible;
 	cursor: pointer;
 }
 
