@@ -623,25 +623,19 @@ header:hover .overlay {
 	}
 }
 
-#line01 {
-	fill: transparent;
-	stroke: rgba(38, 11, 1, 1);
-	stroke-width: 2px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-
 #order1 {
 	position: relative;
-  max-width: 1433px;
-  box-sizing: border-box;
-  margin: 0 auto;
+	max-width: 1433px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
+
 #online {
-	border: 2px solid rgba(38, 11, 1, 1);
-  width: 1433px;
+	border-bottom: 2px solid rgba(38, 11, 1, 1);
+	padding-bottom: 85px;
+	margin-top: 85px;
+	margin-bottom: 85px;
+	width: 1433px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -650,7 +644,9 @@ header:hover .overlay {
 	font-size: 53px;
 	color: rgba(38, 11, 1, 1);
 }
+
 #special {
+	margin-bottom: 50px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -659,10 +655,17 @@ header:hover .overlay {
 	font-size: 43px;
 	color: rgba(38, 11, 1, 1);
 }
+
 #howto {
-  border: 1px solid #8C857D;
+	border: 1px solid #8C857D;
+	height: 825px;
+	border-radius: 16px;
+	text-align: center;
 }
+
 dl dt span {
+	display: inline-block;
+	margin-top: 20px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -671,12 +674,16 @@ dl dt span {
 	font-size: 34px;
 	color: rgba(38, 11, 1, 1);
 }
+
 dl dd img {
 	display: inline-block;
 }
 
 #ordernumber span {
-	text-align: left;
+	display: inline-block;
+	margin-top: 50px;
+	float: left;
+	text-align: left !important;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -685,12 +692,13 @@ dl dd img {
 }
 
 #order2 {
-  background-color: #F5EDEF;
-  position: relative;
-  max-width: 1433px;
-  box-sizing: border-box;
-  margin: 0 auto;
+	background-color: #F5EDEF;
+	position: relative;
+	max-width: 1433px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
+
 #order2head {
 	white-space: nowrap;
 	text-align: center;
@@ -700,13 +708,15 @@ dl dd img {
 	font-size: 43px;
 	color: rgba(115, 2, 32, 1);
 }
+
 #bodyconwrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
+
 .bodycon {
-  border: 1px solid #730220;
-  text-align: center;
+	border: 1px solid #730220;
+	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -714,11 +724,9 @@ dl dd img {
 	color: rgba(115, 2, 32, 1);
 }
 
-
 #bigorderbtn {
 	cursor: pointer;
 }
-
 
 footer {
 	position: relative;
