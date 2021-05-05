@@ -542,6 +542,38 @@ dl dd {
 	color: rgba(140, 133, 125, 1);
 }
 
+#confirm {
+	margin-top: 10px;
+	white-space: nowrap;
+	float: left;
+	display: block;
+	margin-left: 110px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(140, 133, 125, 1);
+}
+
+input {
+	display: inline-block;
+}
+
+label {
+	text-align: right;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(140, 133, 125, 1);
+}
+
+#section .container:nth-child(3) img:nth-child(2) {
+	display: inline-block;
+	margin-top: 50px;
+	float: left;
+}
+
 footer {
 	position: relative;
 	max-width: 100%;
