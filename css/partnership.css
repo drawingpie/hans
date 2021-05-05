@@ -489,7 +489,7 @@ header:hover .overlay {
 
 .container {
 	margin-bottom: 30px;
-	display: block;
+	display: block !important;
 }
 
 .part_icon {
@@ -543,7 +543,7 @@ dl dd {
 }
 
 #confirm {
-	margin-top: 10px;
+	/* 	margin-top: 10px; */
 	white-space: nowrap;
 	float: left;
 	display: block;
@@ -555,9 +555,14 @@ dl dd {
 	color: rgba(140, 133, 125, 1);
 }
 
+#confirm span {
+	display: block;
+	margin-bottom: 10px;
+}
+
 .form {
 	display: block;
-	float: right;
+	text-align: right;
 }
 
 label {
@@ -579,6 +584,7 @@ footer {
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
+  margin-top: 150px;
 }
 
 #footermenu {
