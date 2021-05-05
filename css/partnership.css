@@ -469,8 +469,10 @@ header:hover .overlay {
 	}
 
 	#headline {
-		top: 70px;
-		font-size: 30px;
+		top: 40px;
+		font-size: 28px;
+		width: 228px;
+		text-align: center;
 	}
 }
 
@@ -579,12 +581,97 @@ label {
 	float: left;
 }
 
+@media screen and (max-width: 1440px) {
+	#section {
+		max-width: 285px;
+	}
+
+	#beafamily_640_01 {
+		width: 285px;
+		margin-bottom: 40px;
+	}
+
+	.container {
+		margin-bottom: 30px;
+		display: block !important;
+	}
+
+	.part_icon {
+		margin: 0 auto;
+		float: initial !important;
+		display: block;
+		text-align: center;
+	}
+
+	dl {
+		width: 279px !important;
+		text-align: center;
+		float: inherit;
+		padding: 10px 3px;
+	}
+
+	.head {
+		white-space: break-spaces;
+		width: 281px;
+		background-color: transparent;
+		text-align: left;
+		font-size: 16px;
+	}
+
+	.body, dl dd {
+		white-space: initial;
+		width: 281px;
+		display: block;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+
+	dl dd {
+		margin-left: 0px;
+		white-space: initial;
+		width: 281px;
+	}
+
+	.bodyhead, dl dt {
+		font-size: 14px;
+	}
+
+	#confirm {
+		margin-left: 10px;
+		font-size: 13px;
+		display: block;
+		width: 286px;
+	}
+
+	#confirm span {
+		margin-bottom: 10px;
+		display: block;
+	}
+
+	.form {
+		display: block;
+		text-align: right;
+		width: 286px;
+	}
+
+	label {
+		display: block;
+		font-size: 13px;
+	}
+
+	#btn {
+		display: inline-block;
+		margin-top: 100px;
+		float: left;
+	}
+}
+
 footer {
 	position: relative;
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
-  margin-top: 150px;
+	margin-top: 150px;
 }
 
 #footermenu {
