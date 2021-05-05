@@ -657,14 +657,15 @@ header:hover .overlay {
 }
 
 #howto {
+	display: grid;
+	grid-template-columns: 1fr;
 	border: 1px solid #8C857D;
 	height: 825px;
 	border-radius: 16px;
-	text-align: center;
 }
 
-dl dt span {
-	display: inline-block;
+#howto dl dt span {
+	display: block;
 	margin-top: 20px;
 	white-space: nowrap;
 	text-align: center;
@@ -675,14 +676,16 @@ dl dt span {
 	color: rgba(38, 11, 1, 1);
 }
 
-dl dd img {
-	display: inline-block;
-	margin-top: 50px;
+#howto dl dd img {
+	width: 1433px !important;
+	display: inline-block !important;
+	margin: 0 auto !important;
+	text-align: center !important;
 }
 
 #ordernumber span {
-	display: inline-block;
-	margin-top: 25px;
+	display: block;
+	margin-top: 0px;
 	float: left;
 	text-align: left !important;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -690,6 +693,51 @@ dl dd img {
 	font-weight: 400;
 	font-size: 18px;
 	color: rgba(140, 133, 125, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#order1 {
+		max-width: 286px;
+	}
+
+	#online {
+		padding-bottom: 29px;
+		margin-top: 29px;
+		margin-bottom: 29px;
+		width: 285px;
+		font-size: 18px;
+	}
+
+	#special {
+		margin-bottom: 30px;
+		font-size: 17px;
+	}
+
+	#howto {
+		height: 448px;
+		border-radius: 10px;
+	}
+
+	dl dt span {
+		margin-top: 5px;
+		font-weight: 700;
+		font-size: 14px;
+	}
+
+	dl dd img {
+		display: inline-block;
+		margin-top: 20px;
+		width: 266px;
+		height: auto;
+	}
+
+	#ordernumber span {
+		font-size: 13px;
+	}
+
+	#use {
+		margin: 0px -30px;
+	}
 }
 
 #order2 {
