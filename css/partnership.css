@@ -497,6 +497,15 @@ header:hover .overlay {
 	float: left;
 }
 
+dl {
+	border: 1px solid #8C857D;
+	border-radius: 6px;
+	width: 662px;
+	text-align: left;
+	float: left;
+	padding: 10px 30px;
+}
+
 .head {
 	white-space: nowrap;
 	text-align: left;
@@ -507,7 +516,7 @@ header:hover .overlay {
 	color: rgba(38, 11, 1, 1);
 }
 
-.body {
+.body, dl dd {
 	display: block;
 	margin-top: 10px;
 	white-space: nowrap;
@@ -519,7 +528,11 @@ header:hover .overlay {
 	color: rgba(140, 133, 125, 1);
 }
 
-.bodyhead {
+dl dd {
+	margin-left: 0px;
+}
+
+.bodyhead, dl dt {
 	white-space: nowrap;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
