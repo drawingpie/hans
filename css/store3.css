@@ -656,16 +656,20 @@ header:hover .overlay {
 	color: rgba(38, 11, 1, 1);
 }
 
-#howto {
-	display: grid;
-	grid-template-columns: 1fr;
+#use {
+	display: block;
 	border: 1px solid #8C857D;
+	max-width: 1396px;
+	width: 1396px;
 	height: 825px;
 	border-radius: 16px;
+	margin: 0 auto !important;
+	text-align: center;
+	box-sizing: border-box;
 }
 
-#howto dl dt span {
-	display: block;
+dt span {
+	display: inline-block;
 	margin-top: 20px;
 	white-space: nowrap;
 	text-align: center;
@@ -676,16 +680,22 @@ header:hover .overlay {
 	color: rgba(38, 11, 1, 1);
 }
 
-#howto dl dd img {
-	width: 1433px !important;
+dd {
+	margin: 0;
+}
+
+dd img {
+	width: 1396px !important;
 	display: inline-block !important;
 	margin: 0 auto !important;
 	text-align: center !important;
+	margin-top: 40px !important;
 }
 
 #ordernumber span {
 	display: block;
-	margin-top: 0px;
+	margin-left: 50px;
+	margin-top: 30px;
 	float: left;
 	text-align: left !important;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -713,30 +723,30 @@ header:hover .overlay {
 		font-size: 17px;
 	}
 
-	#howto {
+	#use {
+		max-width: 286px;
 		height: 448px;
 		border-radius: 10px;
 	}
 
-	dl dt span {
-		margin-top: 5px;
+	dt span {
+		margin-top: 20px;
 		font-weight: 700;
 		font-size: 14px;
 	}
 
-	dl dd img {
-		display: inline-block;
-		margin-top: 20px;
-		width: 266px;
-		height: auto;
+	dd img {
+		width: 284px !important;
+		display: inline-block !important;
+		margin: 0 auto !important;
+		text-align: center !important;
+		margin-top: 25px !important;
 	}
 
 	#ordernumber span {
+		margin-left: 25px;
 		font-size: 13px;
-	}
-
-	#use {
-		margin: 0px -30px;
+		width: 237px;
 	}
 }
 
@@ -1011,13 +1021,4 @@ footer {
 		display: inline-block;
 		height: 40px;
 	}
-}
-.mobile_br {
-  display: none;
-}
-
-@media screen and (max-width: 1440px) {
-  .mobile_br {
-    display: block;
-  }
 }
