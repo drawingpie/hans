@@ -555,12 +555,12 @@ dl dd {
 	color: rgba(140, 133, 125, 1);
 }
 
-input {
-	display: inline-block;
+.form {
+	display: block;
+	float: right;
 }
 
 label {
-	text-align: right;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 400;
