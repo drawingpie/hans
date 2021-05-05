@@ -477,13 +477,19 @@ header:hover .overlay {
 #section {
 	position: relative;
 	max-width: 838px;
-	margin: 0 auto;
+	margin: 68px auto;
 	box-sizing: border-box;
 	text-align: center;
 }
 
 #beafamily_640_01 {
 	display: block;
+	margin-bottom: 40px;
+}
+
+.icon {
+	display: inline-block;
+	float: left;
 }
 
 .head {
