@@ -914,3 +914,12 @@ footer {
     height: 40px;
   }
 }
+.mobile_br {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .mobile_br {
+    display: block;
+  }
+}
