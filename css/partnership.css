@@ -479,7 +479,7 @@ header:hover .overlay {
 	max-width: 838px;
 	margin: 68px auto;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 }
 
 #beafamily_640_01 {
@@ -487,8 +487,13 @@ header:hover .overlay {
 	margin-bottom: 40px;
 }
 
-.icon {
-	display: inline-block;
+.container {
+	margin-bottom: 30px;
+	display: block;
+}
+
+.part_icon {
+	margin-right: 20px;
 	float: left;
 }
 
@@ -503,6 +508,8 @@ header:hover .overlay {
 }
 
 .body {
+	display: block;
+	margin-top: 10px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
@@ -703,11 +710,11 @@ footer {
 }
 
 .mobile_br {
-  display: none;
+	display: none;
 }
 
 @media screen and (max-width: 1440px) {
-  .mobile_br {
-    display: block;
-  }
+	.mobile_br {
+		display: block;
+	}
 }
