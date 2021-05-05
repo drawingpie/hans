@@ -775,13 +775,14 @@ dd img {
 
 #delivery, #pickup {
 	max-width: 1433px !important;
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 	margin: 85px auto !important;
 	display: inline-block !important;
+	text-align: center !important;
 }
 
 #delivery {
-	margin-right: 100px !important;
+	margin-right: 0 !important;
 }
 
 .ordericon {
@@ -841,6 +842,80 @@ dd img {
 	box-sizing: border-box;
 	margin: 20px auto;
 	display: block;
+}
+
+@media screen and (max-width: 1440px) {
+	#order2 {
+		height: 1318px;
+	}
+
+	#order2head {
+		font-size: 18px;
+	}
+
+	#delivery, #pickup {
+		max-width: 286px !important;
+		box-sizing: border-box !important;
+		margin: 50px auto !important;
+		display: block !important;
+		text-align: center !important;
+	}
+
+	#delivery {
+		margin-right: inherit !important;
+	}
+
+	.ordericon {
+		width: 163px !important;
+		display: block !important;
+		float: inherit !important;
+		margin-right: 0px;
+		text-align: center !important;
+	}
+
+	.ordericon img {
+		display: block !important;
+		text-align: center !important;
+		padding: 0 auto !important;
+		margin-left: 30px;
+		box-sizing: border-box;
+	}
+
+	#pickup .ordericon img {
+		display: block !important;
+		text-align: center !important;
+		padding: 0 auto !important;
+		margin-left: 50px;
+		box-sizing: border-box;
+	}
+
+	.headcon span {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.ordertext {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	#bodyconwrap {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-top: -20px;
+	}
+
+	.bodycon {
+		font-size: 13px;
+		padding: 30px;
+		border-radius: 6px;
+	}
+
+	#order2 #bigorderbtn img {
+		width: 78.26px;
+		margin-bottom: 170px;
+	}
 }
 
 footer {
