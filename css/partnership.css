@@ -575,10 +575,11 @@ label {
 	color: rgba(140, 133, 125, 1);
 }
 
-#section .container:nth-child(3) img:nth-child(2) {
+#btn {
 	display: inline-block;
-	margin-top: 50px;
-	float: left;
+	margin-top: 30px;
+	margin-left: 110px;
+	/* 	float: left; */
 }
 
 @media screen and (max-width: 1440px) {
@@ -649,20 +650,21 @@ label {
 	}
 
 	.form {
-		display: block;
+		display: inline-block;
 		text-align: right;
 		width: 286px;
 	}
 
 	label {
-		display: block;
+		display: inline-block;
+		margin-top: 15px;
 		font-size: 13px;
 	}
 
 	#btn {
-		display: inline-block;
-		margin-top: 100px;
-		float: left;
+		display: block;
+		margin: 30px auto;
+		text-align: center;
 	}
 }
 
@@ -671,7 +673,7 @@ footer {
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 #footermenu {
