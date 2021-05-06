@@ -476,6 +476,155 @@ header:hover .overlay {
 	}
 }
 
+#smallmenu {
+	position: relative;
+	width: 100%;
+	height: 52px;
+}
+
+#home-black-18dp_cfg {
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
+}
+
+#home {
+	fill: transparent;
+}
+
+.home {
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.home1 {
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home2 {
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.home2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#smallmenu_cake {
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
+}
+
+#smallmenu_arrow01 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 29.1%;
+	top: 18px;
+	overflow: visible;
+}
+
+#arrow1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.arrow1 {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#arrow2 {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.arrow2 {
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
+
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
+}
+
 #section {
 	position: relative;
 	max-width: 838px;
