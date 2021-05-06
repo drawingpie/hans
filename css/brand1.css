@@ -687,9 +687,13 @@ article {
 	color: rgba(38, 11, 1, 1);
 }
 
-#img02 {}
+#img02 {
+	margin-top: 27px;
+}
 
 #body02 {
+	display: block;
+	margin-top: 97px;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
@@ -709,13 +713,22 @@ article {
 	color: rgba(38, 11, 1, 1);
 }
 
-.imgstory {}
+#content1, #content2, #content3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#content1 .imgstory:nth-child(1) {
+	margin-top: 100px;
+	float: right;
+}
+
+.textstory {
+	margin: auto 0;
+	text-align: left;
+}
 
 .textstory span:nth-child(1) {
-	left: 55.3%;
-	top: 1875px;
-	position: absolute;
-	overflow: visible;
 	width: 591px;
 	text-align: left;
 	line-height: 33px;
