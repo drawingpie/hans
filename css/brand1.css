@@ -219,6 +219,11 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
   .navbar, .overlay {
     display: none;
   }
@@ -432,242 +437,221 @@ header:hover .overlay {
   }
 }
 
-#menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+#visual {
+	position: relative;
+	background-image: url("../image/brand_visual.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 285px;
+	margin-top: 103.28px;
 }
 
 #headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 44.8%;
-  top: 214px;
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
+	filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#visual {
+		height: 152px;
+		margin-top: 52.7px;
+	}
+
+	#headline {
+		top: 70px;
+		font-size: 30px;
+	}
 }
 
 #smallmenu {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
+	position: relative;
+	width: 100%;
+	height: 52px;
 }
+
 #home-black-18dp_cfg {
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 23.2%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
 }
+
 #home {
-  fill: transparent;
+	fill: transparent;
 }
+
 .home {
-  overflow: visible;
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
-  overflow: visible;
-  position: absolute;
-  width: 14.891px;
-  height: 12.657px;
-  left: 1.489px;
-  top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .home2 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
-  height: 12px;
-  left: 24.7%;
-  top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
-  left: 25.2%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
 }
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
+
 #smallmenu_arrow01 {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 29.1%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 29.1%;
+	top: 18px;
+	overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
-  overflow: visible;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
-  fill: transparent;
-  stroke: rgba(255,255,255,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .arrow2 {
-  overflow: visible;
-  position: absolute;
-  width: 7.303px;
-  height: 4.941px;
-  left: 6.186px;
-  top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-#img01 {
-  position: absolute;
-  width: 1396px;
-  height: 294px;
-  left: 13.6%;
-  top: 518px;
-  overflow: visible;
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
+
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
 }
 
-#img02 {
-  position: absolute;
-  width: 1396px;
-  height: 207px;
-  left: 13.6%;
-  top: 1395px;
-  overflow: visible;
-}
-#bg02 {
-  position: absolute;
-  width: 390.044px;
-  height: 334.443px;
-  left: -8%;
-  top: 2085px;
-  overflow: visible;
-}
-#bg03 {
-  position: absolute;
-  width: 443.813px;
-  height: 376px;
-  left: 80.3%;
-  top: 2393px;
-  overflow: visible;
+#section {
+  position: relative;
 }
 #bg01 {
   position: absolute;
-  width: 562px;
-  height: 569px;
   left: 39%;
   top: 1800px;
-  overflow: visible;
+}
+#bg02 {
+  position: absolute;
+  left: -8%;
+  top: 2085px;
+}
+#bg03 {
+  position: absolute;
+  left: 80.3%;
+  top: 2393px;
 }
 #bg04 {
   position: absolute;
-  width: 406.946px;
-  height: 329.794px;
   left: 4.4%;
   top: 2795px;
-  overflow: visible;
 }
-#bg_story2 {
-  position: absolute;
-  width: 1920px;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+article {
+  position: relative;
 }
-#body01 {
-  left: 263px;
-  top: 993px;
-  position: absolute;
-  overflow: visible;
-  width: 71.6%;
-  height: 258px;
-  line-height: 40px;
-  margin-top: -7.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  color: rgba(38,11,1,1);
+#img01 {
 }
 #headline01 {
-  left: 14%;
-  top: 854px;
-  position: absolute;
-  overflow: visible;
-  width: 1061px;
-  height: 117px;
   line-height: 54px;
   margin-top: -8.5px;
   text-align: left;
@@ -677,31 +661,42 @@ header:hover .overlay {
   font-size: 37px;
   color: rgba(115,2,32,1);
 }
-#img03 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 14.1%;
-  top: 1759.5px;
-  overflow: visible;
+#body01 {
+  line-height: 40px;
+  margin-top: -7.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(38,11,1,1);
 }
-#img04 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 50%;
-  top: 2207px;
-  overflow: visible;
+
+
+
+#img02 {
 }
-#img05 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 14.2%;
-  top: 2654.5px;
-  overflow: visible;
+#body02 {
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgba(38,11,1,1);
 }
-#text01 {
+#body03 {
+  line-height: 54px;
+  margin-top: -14.5px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(38,11,1,1);
+}
+.imgstory {
+}
+.textstory span:nth-child(1)  {
   left: 55.3%;
   top: 1875px;
   position: absolute;
@@ -715,11 +710,7 @@ header:hover .overlay {
   font-size: 40px;
   color: rgba(115,2,32,1);
 }
-#text02 {
-  left: 14.2%;
-  top: 2335px;
-  position: absolute;
-  overflow: visible;
+.textstory span:nth-child(2) {
   width: 601px;
   text-align: left;
   line-height: 33px;
@@ -729,12 +720,7 @@ header:hover .overlay {
   font-size: 40px;
   color: rgba(115,2,32,1);
 }
-#text03 {
-  left: 55.3%;
-  top: 2833px;
-  position: absolute;
-  overflow: visible;
-  width: 611px;
+.textstory span:nth-child(3) {
   text-align: left;
   line-height: 33px;
   font-family: 'Noto Sans KR', sans-serif;
@@ -743,34 +729,7 @@ header:hover .overlay {
   font-size: 40px;
   color: rgba(115,2,32,1);
 }
-#body02 {
-  left: 14%;
-  top: 1329px;
-  position: absolute;
-  overflow: visible;
-  width: 900px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 30px;
-  color: rgba(38,11,1,1);
-}
-#body03 {
-  left: 13.6%;
-  top: 1624px;
-  position: absolute;
-  overflow: visible;
-  width: 1400px;
-  line-height: 54px;
-  margin-top: -14.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  color: rgba(38,11,1,1);
-}
+
 
 footer {
   position: relative;
