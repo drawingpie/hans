@@ -633,26 +633,28 @@ header:hover .overlay {
 
 #bg01 {
 	position: absolute;
-	left: 39%;
-	top: 0;
+	left: 37%;
+	top: 50%;
 }
 
 #bg02 {
 	position: absolute;
-	left: -8%;
-	top: 0;
+	left: -20%;
+	top: 65%;
+	overflow-y: hidden !important;
 }
 
 #bg03 {
 	position: absolute;
-	left: 80.3%;
-	top: 0;
+	left: 89%;
+	top: 77%;
+	overflow-y: hidden !important;
 }
 
 #bg04 {
 	position: absolute;
-	left: 4.4%;
-	top: 0;
+	left: -20%;
+	top: 88%;
 }
 
 article {
