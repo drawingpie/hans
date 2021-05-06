@@ -641,14 +641,14 @@ header:hover .overlay {
 	position: absolute;
 	left: -20%;
 	top: 65%;
-	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 #bg03 {
 	position: absolute;
 	left: 89%;
 	top: 77%;
-	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 #bg04 {
@@ -736,10 +736,6 @@ article {
 	width: 600px;
 }
 
-.imgstory {
-	padding-left:
-}
-
 .textstory span:nth-of-type(1) {
 	width: 591px;
 	text-align: left;
@@ -760,6 +756,110 @@ article {
 	font-weight: 500;
 	font-size: 20px;
 	color: #260B01;
+}
+
+.textstory span:nth-of-type(3) {
+	display: inline-block;
+}
+
+@media screen and (max-width: 1440px) {
+	#bg01, #bg02, #bg03, #bg04 {
+		display: none;
+	}
+
+	#section {
+		max-width: 285px;
+	}
+
+	#img01 {
+		width: 285px;
+	}
+
+	#headline01 {
+		line-height: 28px;
+		margin-top: 33px;
+		font-size: 18px;
+	}
+
+	#body01 {
+		line-height: 26px;
+		margin-top: 18px;
+		font-size: 16px;
+	}
+
+	#img02 {
+		width: 285px;
+		margin-top: 27px;
+	}
+
+	#body02 {
+		margin-top: 97px;
+		font-size: 16px;
+	}
+
+	#body03 {
+		display: block;
+		line-height: 26px;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	#content1, #content2, #content3 {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	#content1 .imgstory:nth-child(1) {
+		margin-top: 150px;
+		float: inherit;
+		padding-right: 0px;
+	}
+
+	#content2 .imgstory:nth-child(2) {
+		margin-top: -250px;
+		float: inherit;
+		padding-right: 0px;
+	}
+
+	#content3 .imgstory:nth-child(1) {
+		padding-right: 0px;
+	}
+
+	.imgstory {
+		width: 285px;
+	}
+
+	.textstory {
+		max-width: 286px !important;
+		text-align: center;
+		box-sizing: border-box;
+		margin: 0 auto;
+		display: inline-block;
+		margin: 0 auto;
+		white-space: nowrap;
+		/* 	width: 600px !important; */
+	}
+
+	.textstory span:nth-of-type(1) {
+		display: inline-block;
+		margin-top: 26px !important;
+		margin-bottom: -25px !important;
+		font-size: 24px;
+		color: rgba(115, 2, 32, 1);
+	}
+
+	.textstory span:nth-of-type(2) {
+		margin-top: 250px;
+	}
+
+	.textstory span:nth-of-type(2),
+	.textstory span:nth-of-type(3),
+	.textstory span:nth-of-type(4) {
+		line-height: 28px;
+		display: block;
+		font-size: 18px !important;
+		width: 283px;
+	}
 }
 
 footer {
@@ -941,4 +1041,13 @@ footer {
 		display: inline-block;
 		height: 40px;
 	}
+}
+.mobile_br {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .mobile_br {
+    display: block;
+  }
 }
