@@ -219,6 +219,11 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
   .navbar, .overlay {
     display: none;
   }
@@ -432,196 +437,226 @@ header:hover .overlay {
   }
 }
 
-#menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+#visual {
+	position: relative;
+	background-image: url("../image/brand_visual02.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 285px;
+	margin-top: 103.28px;
 }
 
 #headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 43.8%;
-  top: 214px;
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
+	filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#visual {
+		height: 152px;
+		margin-top: 52.7px;
+	}
+
+	#headline {
+		top: 70px;
+		font-size: 30px;
+	}
 }
 
 #smallmenu {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
-}
-#home-black-18dp_cfg {
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 23.2%;
-  top: 18px;
-  overflow: visible;
-}
-#home {
-  fill: transparent;
-}
-.home {
-  overflow: visible;
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#home1 {
-  fill: rgba(140,133,125,1);
-}
-.home1 {
-  overflow: visible;
-  position: absolute;
-  width: 14.891px;
-  height: 12.657px;
-  left: 1.489px;
-  top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#home2 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.home2 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
-  height: 12px;
-  left: 24.7%;
-  top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#smallmenu_cake {
-  left: 25.2%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
-#smallmenu_arrow01 {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 29.1%;
-  top: 18px;
-  overflow: visible;
-}
-#arrow1 {
-  fill: rgba(140,133,125,1);
-}
-.arrow1 {
-  overflow: visible;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#arrow2 {
-  fill: transparent;
-  stroke: rgba(255,255,255,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.arrow2 {
-  overflow: visible;
-  position: absolute;
-  width: 7.303px;
-  height: 4.941px;
-  left: 6.186px;
-  top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+	position: relative;
+	width: 100%;
+	height: 52px;
 }
 
+#home-black-18dp_cfg {
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
+}
+
+#home {
+	fill: transparent;
+}
+
+.home {
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.home1 {
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home2 {
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.home2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#smallmenu_cake {
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
+}
+
+#smallmenu_arrow01 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 29.1%;
+	top: 18px;
+	overflow: visible;
+}
+
+#arrow1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.arrow1 {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#arrow2 {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.arrow2 {
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
+
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
+}
+#section {
+	position: relative;
+	max-width: 1396px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
 #bg08 {
-  position: absolute;
-  width: 343.349px;
-  height: 414px;
   left: 86.8%;
   top: 899px;
-  overflow: visible;
 }
 #bg09 {
   transform: matrix(1,0,0,1,934.8516,1256.5192) rotate(33deg);
   transform-origin: center;
-  position: absolute;
-  width: 415px;
-  height: 396px;
   left: 0%;
   top: -100px;
-  overflow: visible;
 }
 #bg10 {
-  position: absolute;
-  width: 424.743px;
-  height: 520.246px;
   left: -5.4%;
   top: 1547.579px;
-  overflow: visible;
 }
-
+article {
+	position: relative;
+}
+#HANS_space {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Louis George Café;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: rgba(38,11,1,1);
+}
 #text03 {
-  left: 13.6%;
-  top: 889px;
-  position: absolute;
-  overflow: visible;
   line-height: 33px;
-  width: 1205px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -629,12 +664,11 @@ header:hover .overlay {
   font-size: 40px;
   color: rgba(115,2,32,1);
 }
-#text02 {
-  left: 13.7%;
-  top: 1637px;
-  position: absolute;
-  overflow: visible;
-  width: 591px;
+#content1, #content2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.textstory p {
   line-height: 33px;
   margin-top: -6.5px;
   text-align: left;
@@ -644,12 +678,7 @@ header:hover .overlay {
   font-size: 20px;
   color: rgba(115,2,32,1);
 }
-#text01 {
-  left: 54%;
-  top: 1281px;
-  position: absolute;
-  overflow: visible;
-  width: 620px;
+.textstory span {
   line-height: 33px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -658,60 +687,10 @@ header:hover .overlay {
   font-size: 40px;
   color: rgba(38,11,1,1);
 }
-#Love_the_Moment_HANS_Caf_ {
-  left: 54%;
-  top: 1157px;
-  position: absolute;
-  overflow: visible;
-  width: 579px;
-  line-height: 50px;
-  margin-top: -5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  color: rgba(115,2,32,1);
+#content1, #content2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
-#HANS_space {
-  left: 13.6%;
-  top: 493px;
-  position: absolute;
-  overflow: visible;
-  width: 253px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Louis George Café;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 45px;
-  color: rgba(38,11,1,1);
-}
-#img16 {
-  position: absolute;
-  width: 1396px;
-  height: 286px;
-  left: 13.6%;
-  top: 570px;
-  overflow: visible;
-}
-#img14 {
-  position: absolute;
-  width: 688px;
-  height: 376px;
-  left: 13.7%;
-  top: 1106px;
-  overflow: visible;
-}
-#img15 {
-  position: absolute;
-  width: 688px;
-  height: 376px;
-  left: 49.5%;
-  top: 1481px;
-  overflow: visible;
-}
-
 footer {
   position: relative;
   max-width: 100%;
@@ -890,4 +869,13 @@ footer {
     display: inline-block;
     height: 40px;
   }
+}
+.mobile_br {
+	display: none;
+}
+
+@media screen and (max-width: 1440px) {
+	.mobile_br {
+		display: block;
+	}
 }
