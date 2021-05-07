@@ -634,21 +634,21 @@ header:hover .overlay {
 #bg08 {
 	position: absolute;
 	left: 86.8%;
-	top: 50%;
+	top: 30%;
 }
 
 #bg09 {
 	position: absolute;
 	transform: matrix(1, 0, 0, 1, 934.8516, 1256.5192) rotate(33deg);
 	transform-origin: center;
-	left: 0%;
-	top: 50%;
+	left: -26%;
+	top: -40%;
 }
 
 #bg10 {
 	position: absolute;
-	left: -5.4%;
-	top: 50%;
+	left: -20%;
+	top: 70%;
 }
 
 article {
@@ -686,6 +686,10 @@ article {
 	font-weight: 400;
 	font-size: 20px;
 	color: rgba(38, 11, 1, 1);
+}
+
+#storestory2 {
+	margin-top: 90px;
 }
 
 #content1, #content2 {
