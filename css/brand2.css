@@ -674,13 +674,24 @@ article {
 #head {
 	white-space: nowrap;
 	line-height: 54px;
-	margin-top: -8.5px;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 37px;
 	color: rgba(115, 2, 32, 1);
+}
+
+#dessertstory1 p {
+	display: inline-block;
+	line-height: 40px;
+	margin-top: 20px;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	color: rgba(38, 11, 1, 1);
 }
 
 #dessertstory2 {
@@ -737,7 +748,7 @@ article {
 	font-family: Louis George Café;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 45px;
+	font-size: 18px;
 	color: rgba(38, 11, 1, 1);
 }
 
@@ -812,6 +823,126 @@ article {
 
 #content4, #content5, #content6 {
 	margin-right: 22px;
+}
+
+@media screen and (max-width: 1440px) {
+	#section {
+		max-width: 286px;
+	}
+
+	img {
+		width: 285px;
+	}
+
+	#bg05, #bg06, #bg07 {
+		display: none;
+	}
+
+	#classic_chic {
+		font-size: 18px;
+	}
+
+	#head {
+		white-space: break-spaces;
+		line-height: 29px;
+		font-size: 18px;
+		width: 280px;
+	}
+
+	#dessertstory1 p {
+		line-height: 25px;
+		font-size: 15px;
+		width: 286px;
+	}
+
+	#dessertstory2 {
+		margin-top: 0px;
+	}
+
+	#content2 {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#content2 .textstory {
+		order: 1;
+	}
+
+	#content1, #content2, #content3 {
+		grid-template-columns: 1fr;
+	}
+
+	.imgstory {
+		margin-top: 20px;
+	}
+
+	.textstory {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	.textstory span {
+		font-size: 24px;
+	}
+
+	.textstory p {
+		line-height: 25px;
+		margin-top: -30px;
+		font-size: 18px;
+		width: 286px;
+	}
+
+	#dessertstory3 {
+		margin-top: 50px;
+	}
+
+	#mariage__harmony {
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+
+	#dessertstory3 p {
+		line-height: 25px;
+		margin-top: -9px;
+		font-size: 16px;
+		white-space: break-spaces;
+	}
+
+	.content4_head {
+		font-size: 16px;
+	}
+
+	.content4_body {}
+
+	#section1 {
+		background-color: rgba(115, 2, 32, 0.1);
+	}
+
+	#dessertstory4 {
+		height: 1199px;
+	}
+
+	.container {
+		display: grid;
+		max-width: 286px;
+		margin: 50px auto;
+	}
+
+	.content4_img {
+		display: block;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+
+	.content4_head {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	#content4, #content5, #content6 {
+		margin-right: 22px;
+	}
 }
 
 footer {
