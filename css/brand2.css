@@ -219,6 +219,10 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
   .navbar, .overlay {
     display: none;
   }
@@ -433,234 +437,233 @@ header:hover .overlay {
 }
 
 #visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+	position: relative;
+	background-image: url("../image/brand_visual.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 285px;
+	margin-top: 103.28px;
 }
 
 #headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 43.8%;
-  top: 214px;
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
+	filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#visual {
+		height: 152px;
+		margin-top: 52.7px;
+	}
+
+	#headline {
+		top: 70px;
+		font-size: 30px;
+	}
 }
 
 #smallmenu {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
+	position: relative;
+	width: 100%;
+	height: 52px;
 }
+
 #home-black-18dp_cfg {
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 23.2%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
 }
+
 #home {
-  fill: transparent;
+	fill: transparent;
 }
+
 .home {
-  overflow: visible;
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
-  overflow: visible;
-  position: absolute;
-  width: 14.891px;
-  height: 12.657px;
-  left: 1.489px;
-  top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .home2 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
-  height: 12px;
-  left: 24.7%;
-  top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
-  left: 25.2%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
 }
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
+
 #smallmenu_arrow01 {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 29.1%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 29.1%;
+	top: 18px;
+	overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
-  overflow: visible;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
-  fill: transparent;
-  stroke: rgba(255,255,255,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .arrow2 {
-  overflow: visible;
-  position: absolute;
-  width: 7.303px;
-  height: 4.941px;
-  left: 6.186px;
-  top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
 
-#img07 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 14.1%;
-  top: 1154px;
-  overflow: visible;
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
 }
-#img08 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 50%;
-  top: 1605px;
-  overflow: visible;
+
+#section {
+	position: relative;
+	max-width: 1396px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
 }
-#img09 {
-  position: absolute;
-  width: 688px;
-  height: 447px;
-  left: 14.1%;
-  top: 2052px;
-  overflow: visible;
+
+#bg05 {
+	position: absolute;
+	left: 82.6%;
+  top: 1074px;
 }
-#text01 {
-  left: 54%;
-  top: 1314px;
-  position: absolute;
-  overflow: visible;
-  width: 606px;
+
+#bg06 {
+	position: absolute;
+	left: 0%;
+  top: 1624px;
+	overflow-x: hidden !important;
+}
+
+#bg07 {
+	position: absolute;
+	left: 61.5%;
+  top: 2216px;
+	overflow-x: hidden !important;
+}
+
+article {
+	position: relative;
+}
+#classic_chic {
+  white-space: nowrap;
   text-align: left;
-  line-height: 33px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: Louis George Café;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
-  color: rgba(115,2,32,1);
+  font-size: 45px;
+  color: rgba(38,11,1,1);
 }
-#text02 {
-  left: 14.3%;
-  top: 1765px;
-  position: absolute;
-  overflow: visible;
-  width: 586px;
-  text-align: left;
-  line-height: 33px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  color: rgba(115,2,32,1);
-}
-#text03 {
-  left: 54.1%;
-  top: 2245px;
-  position: absolute;
-  overflow: visible;
-  width: 681px;
-  text-align: left;
-  line-height: 33px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  color: rgba(115,2,32,1);
-}
+
 #head {
-  left: 13.6%;
-  top: 879px;
-  position: absolute;
-  overflow: visible;
-  width: 792px;
   white-space: nowrap;
   line-height: 54px;
   margin-top: -8.5px;
@@ -671,12 +674,18 @@ header:hover .overlay {
   font-size: 37px;
   color: rgba(115,2,32,1);
 }
-#body {
-  left: 13.6%;
-  top: 955px;
-  position: absolute;
-  overflow: visible;
-  width: 1292px;
+
+.textstory span {
+  text-align: left;
+  line-height: 33px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(115,2,32,1);
+}
+
+.textstory p {
   white-space: nowrap;
   line-height: 40px;
   margin-top: -7.5px;
@@ -687,42 +696,7 @@ header:hover .overlay {
   font-size: 25px;
   color: rgba(38,11,1,1);
 }
-#classic_chic {
-  left: 13.6%;
-  top: 493px;
-  position: absolute;
-  overflow: visible;
-  width: 233px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Louis George Café;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 45px;
-  color: rgba(38,11,1,1);
-}
-#img06 {
-  position: absolute;
-  width: 1396px;
-  height: 286px;
-  left: 13.6%;
-  top: 570px;
-  overflow: visible;
-}
-#img10 {
-  position: absolute;
-  width: 1396px;
-  height: 286px;
-  left: 13.6%;
-  top: 2736px;
-  overflow: visible;
-}
 #mariage__harmony {
-  left: 13.6%;
-  top: 2655px;
-  position: absolute;
-  overflow: visible;
-  width: 409px;
   white-space: nowrap;
   line-height: 64px;
   margin-top: -9.5px;
@@ -733,12 +707,7 @@ header:hover .overlay {
   font-size: 45px;
   color: rgba(38,11,1,1);
 }
-#mariage__harmony_body {
-  left: 13.6%;
-  top: 3058px;
-  position: absolute;
-  overflow: visible;
-  width: 959px;
+#dessertstory3 p {
   white-space: nowrap;
   line-height: 29px;
   margin-top: -4.5px;
@@ -749,39 +718,8 @@ header:hover .overlay {
   font-size: 20px;
   color: rgba(38,11,1,1);
 }
-#mariage__harmony_bg {
-  opacity: 0.07;
-  fill: rgba(115,2,32,1);
-}
-.mariage__harmony_bg {
-  position: absolute;
-  overflow: visible;
-  width: 1920px;
-  height: 620px;
-  left: 0%;
-  top: 3188px;
-}
-#img11 {
-  position: absolute;
-  width: 333px;
-  height: 148px;
-  left: 22.8%;
-  top: 3226px;
-  overflow: visible;
-}
-#img12 {
-  position: absolute;
-  width: 333px;
-  height: 148px;
-  left: 41.3%;
-  top: 3226px;
-  overflow: visible;
-}
-#HANS_blend_coffee {
-  left: 22.8%;
-  top: 3382px;
-  position: absolute;
-  overflow: visible;
+
+.content4_head {
   width: 152px;
   text-align: left;
   font-family: Louis George Café;
@@ -790,25 +728,7 @@ header:hover .overlay {
   font-size: 18px;
   color: rgba(115,2,32,1);
 }
-#caf_HANS {
-  left: 41.3%;
-  top: 3382px;
-  position: absolute;
-  overflow: visible;
-  width: 88px;
-  text-align: left;
-  font-family: Louis George Café;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(115,2,32,1);
-}
-#HANS_blend_coffee_body {
-  left: 22.8%;
-  top: 3412px;
-  position: absolute;
-  overflow: visible;
-  width: 334px;
+.content4_body {
   line-height: 22px;
   margin-top: -4px;
   text-align: left;
@@ -818,82 +738,7 @@ header:hover .overlay {
   font-size: 14px;
   color: rgba(38,11,1,1);
 }
-#caf_HANS_body {
-  left: 41.3%;
-  top: 3412px;
-  position: absolute;
-  overflow: visible;
-  width: 334px;
-  line-height: 22px;
-  margin-top: -4px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(38,11,1,1);
-}
-#img13 {
-  position: absolute;
-  width: 17.3%;
-  height: 148px;
-  left: 1149px;
-  top: 3226px;
-  overflow: visible;
-}
-#HANS_wrap {
-  left: 59.8%;
-  top: 3382px;
-  position: absolute;
-  overflow: visible;
-  width: 95px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Louis George Café;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  color: rgba(115,2,32,1);
-}
-#HANS_wrap_body {
-  left: 59.8%;
-  top: 3412px;
-  position: absolute;
-  overflow: visible;
-  width: 334px;
-  line-height: 22px;
-  margin-top: -4px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(38,11,1,1);
-}
-#bg05 {
-  position: absolute;
-  width: 483.821px;
-  height: 474px;
-  left: 82.6%;
-  top: 1074px;
-  overflow: visible;
-}
-#bg07 {
-  position: absolute;
-  width: 569.088px;
-  height: 377.706px;
-  left: 61.5%;
-  top: 2216px;
-  overflow: visible;
-}
-#bg06 {
-  position: absolute;
-  width: 423.5px;
-  height: 342.551px;
-  left: 0%;
-  top: 1624px;
-  overflow: visible;
-}
+
 footer {
   position: relative;
   max-width: 100%;
