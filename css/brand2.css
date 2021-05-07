@@ -438,7 +438,7 @@ header:hover .overlay {
 
 #visual {
 	position: relative;
-	background-image: url("../image/brand_visual.png");
+	background-image: url("../image/brand_visual02.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -653,6 +653,7 @@ header:hover .overlay {
 article {
 	position: relative;
 }
+
 #classic_chic {
   white-space: nowrap;
   text-align: left;
@@ -916,5 +917,14 @@ footer {
     top: 100px;
     display: inline-block;
     height: 40px;
+  }
+}
+.mobile_br {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .mobile_br {
+    display: block;
   }
 }
