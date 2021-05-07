@@ -792,7 +792,7 @@ p {
 	}
 
 	#body02 {
-		margin-top: 97px;
+		margin-top: 50px;
 		font-size: 16px;
 	}
 
@@ -809,13 +809,13 @@ p {
 	}
 
 	#content1 .imgstory:nth-child(1) {
-		margin-top: 150px;
+		margin-top: 80px;
 		float: inherit;
 		padding-right: 0px;
 	}
 
 	#content2 .imgstory:nth-child(2) {
-		margin-top: -250px;
+		margin-top: 0px;
 		float: inherit;
 		padding-right: 0px;
 	}
@@ -831,6 +831,7 @@ p {
 
 	.textstory {
 		max-width: 286px !important;
+		margin-bottom: 25px;
 	}
 
 	.textstory span:nth-of-type(1) {
@@ -841,6 +842,16 @@ p {
 
 	p {
 		margin-top: -10px;
+	}
+
+	#content2 {
+		display: flex;
+		flex-direction: column;
+		/* 세로로 정렬하겠다는 의미 */
+	}
+
+	#content2 .textstory {
+		order: 2
 	}
 }
 
@@ -949,6 +960,7 @@ footer {
 @media screen and (max-width: 1440px) {
 	footer {
 		height: 416.13px;
+		margin-top: 100px;
 	}
 
 	#footermenu {
