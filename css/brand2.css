@@ -683,6 +683,10 @@ article {
 	color: rgba(115, 2, 32, 1);
 }
 
+#dessertstory2 {
+	margin-top: 100px;
+}
+
 #content1, #content2, #content3 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
