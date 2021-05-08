@@ -632,23 +632,25 @@ header:hover .overlay {
 }
 
 #map01 {
+	z-index: -5 !important;
+	display: block;
 	width: 100%;
 	filter: drop-shadow(0px 3px 99px rgba(0, 0, 0, 0.129));
 }
 
 .addbg {
-	z-index: 5 !important;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translateX(-50%);
 	background: rgba(52, 64, 34, 1);
 	width: 77%;
 	height: 335px;
-	border: 1px solid rgba(52, 64, 34, 1);
 	border-radius: 17px;
-	margin: 20px auto;
-	margin-top: -250px !important;
 }
 
 .addbg span {
-	margin-top: -50px !important;
+	margin-top: 120px !important;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -663,7 +665,6 @@ header:hover .overlay {
 	font-weight: 900 !important;
 	font-size: 20px;
 	color: rgba(255, 255, 255, 1);
-	line-height: 220px
 }
 
 .number {
@@ -675,11 +676,64 @@ header:hover .overlay {
 	color: rgba(255, 255, 255, 1);
 }
 
+@media screen and (max-width: 1440px) {
+	#section {
+		max-width: 290px;
+	}
+
+	#map01 {
+		width: 100vw;
+		position: relative;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.addbg {
+		position: relative;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100vw;
+		height: 198px;
+		border-radius: 0px;
+	}
+
+	.addbg span {
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 120px !important;
+		font-size: 16px;
+		width: 265px;
+		text-align: center;
+	}
+
+	#TELFAX {
+		position: absolute;
+		top: -90px;
+		left: 50%;
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+	.number {
+		position: absolute;
+		top: 0px !important;
+		left: 50%;
+		width: 150px !important;
+		font-size: 16px;
+		width: 265px;
+	}
+}
+
 footer {
 	position: relative;
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
+	margin-top: 300px;
 }
 
 #footermenu {
@@ -779,6 +833,7 @@ footer {
 @media screen and (max-width: 1440px) {
 	footer {
 		height: 416.13px;
+		margin-top: 100px;
 	}
 
 	#footermenu {
