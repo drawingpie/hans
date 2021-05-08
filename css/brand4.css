@@ -587,15 +587,16 @@ header:hover .overlay {
   top: 7.512px;
   transform: matrix(1,0,0,1,0,0);
 }
+#section {
+  position: relative;
+  max-width: 1636px;
+  margin: 100px auto;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 #map01 {
   filter: drop-shadow(0px 3px 99px rgba(0, 0, 0, 0.129));
-  position: absolute;
-  width: 1933px;
-  height: 857px;
-  left: 0%;
-  top: 350px;
-  overflow: visible;
 }
 
 #addbg {
@@ -603,20 +604,12 @@ header:hover .overlay {
 }
 
 .addbg {
-  position: absolute;
-  overflow: visible;
-  width: 1480px;
-  height: 335px;
-  left: 11.1%;
-  top: 988px;
+  background:  rgba(52, 64, 34, 1);
+  border: 1px solid  rgba(52, 64, 34, 1);
+  border-radius: 17px;
 }
 
 #TELFAX {
-  left: 40%;
-  top: 1166px;
-  position: absolute;
-  overflow: visible;
-  width: 375px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -624,12 +617,7 @@ header:hover .overlay {
   color: rgba(255, 255, 255, 1);
 }
 
-#add01 {
-  left: 16.7%;
-  top: 1116px;
-  position: absolute;
-  overflow: visible;
-  width: 1270px;
+.number {
   line-height: 52px;
   margin-top: -14px;
   text-align: center;
