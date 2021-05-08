@@ -633,12 +633,9 @@ header:hover .overlay {
   filter: drop-shadow(0px 3px 99px rgba(0, 0, 0, 0.129));
 }
 
-#addbg {
-  fill: rgba(52, 64, 34, 1);
-}
-
 .addbg {
   background:  rgba(52, 64, 34, 1);
+  height: 335px;
   border: 1px solid  rgba(52, 64, 34, 1);
   border-radius: 17px;
 }
