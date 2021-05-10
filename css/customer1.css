@@ -470,7 +470,7 @@ header:hover .overlay {
 
 	#headline {
 		top: 70px;
-		font-size: 30px;
+		font-size: 27px;
 	}
 }
 
@@ -633,9 +633,11 @@ header:hover .overlay {
 .img01 {
 	margin-top: 50px;
 }
+
 .img01_mobile {
-  display: none;
+	display: none;
 }
+
 form {
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -674,8 +676,9 @@ form.example button {
 }
 
 #qna_container {
-  text-align: center;
+	text-align: center;
 }
+
 .qnaname {
 	display: inline-block;
 	border: 1px solid #8C857D;
@@ -692,17 +695,62 @@ form.example button {
 	font-size: 24px;
 	color: rgba(38, 11, 1, 1);
 }
+
 @media screen and (max-width: 1440px) {
-  #section {
-  	max-width: 286px;
-  }
-  .img01 {
-  	display: none;
-  }
-  .img01_mobile {
-    display: block;
-  }
+	#section {
+		max-width: 286px;
+	}
+
+	.img01 {
+		display: none;
+	}
+
+	.img01_mobile {
+		display: block;
+	}
+
+	form {
+		margin-top: 20px;
+		height: 50px;
+	}
+
+	.searchbg {
+		max-width: 260px;
+	}
+
+	#allbtn {
+		width: 63px;
+		height: 33px;
+		margin-top: 8px;
+	}
+
+	form.example input[type=text] {
+		width: 150px;
+		height: 33px;
+		font-size: 13px;
+		margin-top: 8px;
+	}
+
+	form.example button img {
+		display: inline-block;
+		width: 33px;
+		height: 33px;
+		margin-top: -16px;
+	}
+
+	#qna_container {
+		text-align: center;
+	}
+
+	.qnaname {
+		float: left;
+		width: 130px !important;
+		padding: 5px 3px;
+		margin: 2.5px;
+		font-size: 13px;
+	}
 }
+
 table {
 	margin-top: 50px;
 	text-align: left;
@@ -738,6 +786,19 @@ td:hover {
 #hide {
 	background-color: #f2f2f2;
 	padding-top: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+	table {
+		display: block;
+		margin-top: 210px;
+		font-size: 16px;
+		width: 286px;
+	}
+
+	td, th {
+		padding: 10px;
+	}
 }
 
 .pagination {
