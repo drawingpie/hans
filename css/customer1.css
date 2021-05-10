@@ -670,8 +670,9 @@ form.example button {
 	cursor: pointer;
 	margin-top: 25px;
 }
+
 #qna_container {
-  margin: 0 auto;
+  text-align: center;
 }
 .qnaname {
 	display: inline-block;
