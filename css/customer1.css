@@ -219,6 +219,11 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .navbar, .overlay {
     display: none;
   }
@@ -433,28 +438,22 @@ header:hover .overlay {
 }
 
 #visual {
-  position: absolute;
-  width: 100%;
+  position: relative;
+  background-image: url("../image/customer_visual.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+  margin-top: 103.28px;
 }
 
 #headline {
   filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 43.5%;
-  top: 214px;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   overflow: visible;
-  width: 120px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -463,14 +462,24 @@ header:hover .overlay {
   color: rgba(255, 255, 255, 1);
 }
 
+@media screen and (max-width: 1440px) {
+  #visual {
+    height: 152px;
+    margin-top: 52.7px;
+  }
+
+  #headline {
+    top: 70px;
+    font-size: 30px;
+  }
+}
+
 #smallmenu {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
 }
+
 #home-black-18dp_cfg {
   position: absolute;
   width: 17.869px;
@@ -479,9 +488,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #home {
   fill: transparent;
 }
+
 .home {
   overflow: visible;
   position: absolute;
@@ -489,11 +500,13 @@ header:hover .overlay {
   height: 17.869px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
   overflow: visible;
   position: absolute;
@@ -501,17 +514,19 @@ header:hover .overlay {
   height: 12.657px;
   left: 1.489px;
   top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
   fill: transparent;
-  stroke: rgba(140,133,125,1);
+  stroke: rgba(140, 133, 125, 1);
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .home2 {
   overflow: visible;
   position: absolute;
@@ -519,8 +534,9 @@ header:hover .overlay {
   height: 12px;
   left: 24.7%;
   top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
   left: 25.2%;
   top: 17px;
@@ -533,22 +549,9 @@ header:hover .overlay {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
+  color: rgba(140, 133, 125, 1);
 }
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
+
 #smallmenu_arrow01 {
   position: absolute;
   width: 18px;
@@ -557,9 +560,11 @@ header:hover .overlay {
   top: 18px;
   overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+  fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
   overflow: visible;
   position: absolute;
@@ -567,17 +572,19 @@ header:hover .overlay {
   height: 18px;
   left: 0px;
   top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
   fill: transparent;
-  stroke: rgba(255,255,255,1);
+  stroke: rgba(255, 255, 255, 1);
   stroke-width: 1px;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .arrow2 {
   overflow: visible;
   position: absolute;
@@ -585,8 +592,43 @@ header:hover .overlay {
   height: 4.941px;
   left: 6.186px;
   top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
+@media screen and (max-width: 1440px) {
+  #smallmenu {
+    margin: 0 auto;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+
+  #home-black-18dp_cfg {
+    left: 0;
+  }
+
+  .home2 {
+    left: 8%;
+  }
+
+  #smallmenu_cake {
+    left: 15%;
+  }
+
+  #smallmenu_arrow01 {
+    left: 45%;
+  }
+
+  #smallmenu_arrow02 {
+    left: 90%;
+  }
+}
+#section {
+  position: relative;
+  max-width: 1396px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 #img01 {
   position: absolute;
   width: 1396px;
@@ -595,247 +637,37 @@ header:hover .overlay {
   top: 515px;
   overflow: visible;
 }
-#allbtn {
-  fill: rgba(115,2,32,1);
-  position: absolute;
-  overflow: visible;
-  width: 127px;
-  height: 52px;
-  left: 29%;
-  top: 880px;
-}
+
 .searchbg {
-  opacity: 0.15;
-  background-color: rgba(140,133,125,1);
-  width: 1395px;
+  width: 100%;
   height: 102px;
-  left: 13.6%;
-  top: 853px;
-  overflow: visible;
-  position: absolute;
+  background-color: rgba(140,133,125,0.15);
+}
+#allbtn {
+
 }
 form.example input[type=text] {
-  overflow: visible;
-  position: absolute;
   width: 608px;
   height: 52px;
-  left: 36.1%;
-  top: 880px;
   font-size: 17px;
   border: none;
-  float: left;
   background: #fff;
   padding-left: 10px;
 }
 
 form.example button {
-  width: 52px;
-  height: 52px;
-  left: 68.4%;
-  top: 880px;
-  padding: 10px;
-  overflow: visible;
-  position: absolute;
-  float: left;
-  background: #730220;
-  fill: #fff;
-  border: none;
+  /* border: none; */
   outline: none;
   cursor: pointer;
 }
 
-#qnabtn01 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn01 {
-  position: absolute;
-  overflow: visible;
+.qnaname {
+  border: 1px solid #8C857D;
   width: 456px;
-  height: 101px;
-  left: 13.6%;
-  top: 973px;
-}
-#qnaname01 {
-  left: 23.2%;
-  top: 1006px;
-  position: absolute;
-  overflow: visible;
-  width: 89px;
+  padding: 50px;
   white-space: nowrap;
   line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  color: rgba(38,11,1,1);
-}
-#qnabtn02 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn02 {
-  position: absolute;
-  overflow: visible;
-  width: 456px;
-  height: 101px;
-  left: 38.1%;
-  top: 973px;
-}
-#qnaname02 {
-  left: 47.4%;
-  top: 1006px;
-  position: absolute;
-  overflow: visible;
-  width: 99px;
-  white-space: nowrap;
-  line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  color: rgba(38,11,1,1);
-}
-#qnabtn03 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn03 {
-  position: absolute;
-  overflow: visible;
-  width: 456px;
-  height: 101px;
-  left: 62.6%;
-  top: 973px;
-}
-#qnaname03 {
-  left: 71.6%;
-  top: 1006px;
-  position: absolute;
-  overflow: visible;
-  width: 111px;
-  white-space: nowrap;
-  line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  color: rgba(38,11,1,1);
-}
-#qnabtn04 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn04 {
-  position: absolute;
-  overflow: visible;
-  width: 456px;
-  height: 101px;
-  left: 13.6%;
-  top: 1088px;
-}
-#qnaname04 {
-  left: 22.6%;
-  top: 1121px;
-  position: absolute;
-  overflow: visible;
-  width: 111px;
-  white-space: nowrap;
-  line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  color: rgba(38,11,1,1);
-}
-#qnabtn05 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn05 {
-  position: absolute;
-  overflow: visible;
-  width: 456px;
-  height: 101px;
-  left: 62.6%;
-  top: 1088px;
-}
-#qnaname05 {
-  left: 73.3%;
-  top: 1121px;
-  position: absolute;
-  overflow: visible;
-  width: 45px;
-  white-space: nowrap;
-  line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  color: rgba(38,11,1,1);
-}
-#qnabtn06 {
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.qnabtn06 {
-  position: absolute;
-  overflow: visible;
-  width: 456px;
-  height: 101px;
-  left: 38.1%;
-  top: 1088px;
-}
-#qnaname06 {
-  left: 47.7%;
-  top: 1121px;
-  position: absolute;
-  overflow: visible;
-  width: 89px;
-  white-space: nowrap;
-  line-height: 37px;
-  margin-top: -6.5px;
-  text-align: left;
+  text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -877,168 +709,41 @@ td:hover {
   background-color: #f2f2f2;
   padding-top: 40px;
 }
-#pagenumber {
-  position: absolute;
-  width: 133px;
-  height: 26px;
-  left: 46.5%;
-  top: 2800px;
-  overflow: visible;
-}
-#number01 {
-  left: 37px;
-  top: 8px;
-  position: absolute;
-  overflow: visible;
-  line-height: 20px;
-  margin-top: -6px;
-  text-decoration: none;
+.pagination {
+  display: inline-block;
   text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(115,53,47,1);
-}
-#underline {
-  fill: transparent;
-  stroke: rgba(115,53,47,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.underline {
-  overflow: visible;
   position: absolute;
-  width: 7px;
-  height: 1px;
-  left: 1px;
-  top: 19.5px;
-  transform: matrix(1,0,0,1,0,0);
+  top: 1350px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-#number02 {
-  left: 63px;
-  top: 8px;
-  position: absolute;
-  overflow: visible;
-  width: 9px;
-  white-space: nowrap;
-  line-height: 20px;
-  margin-top: -5px;
-  text-align: center;
+
+.pagination a {
+  color: rgba(38, 11, 1, 1);
+  float: left;
+  padding: 8px 16px;
   text-decoration: none;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: rgba(140,133,125,1);
 }
-#number03 {
-  left: 87px;
-  top: 8px;
-  position: absolute;
-  overflow: visible;
-  width: 9px;
-  white-space: nowrap;
-  line-height: 20px;
-  margin-top: -5px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
+
+.pagination a.active {
+  background-color: #73352F;
+  color: white;
+  border-radius: 5px;
 }
-#rightbtn {
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  left: 107px;
-  top: 0px;
-  overflow: visible;
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
 }
-#rightbtnsqa {
-  opacity: 0.72;
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.rightbtnsqa {
-  position: absolute;
-  overflow: visible;
-  width: 26px;
-  height: 26px;
-  left: 0px;
-  top: 0px;
-}
-#rightbtnarrow {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.rightbtnarrow {
-  overflow: visible;
-  position: absolute;
-  width: 4.039px;
-  height: 7.887px;
-  left: 11.5px;
-  top: 9.501px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#leftbtn {
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-#leftbtnsqa {
-  opacity: 0.72;
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.leftbtnsqa {
-  position: absolute;
-  overflow: visible;
-  width: 26px;
-  height: 26px;
-  left: 0px;
-  top: 0px;
-}
-#leftbtnarrow {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.leftbtnarrow {
-  overflow: visible;
-  position: absolute;
-  width: 4.039px;
-  height: 7.887px;
-  left: 11.667px;
-  top: 9.501px;
-  transform: matrix(1,0,0,1,0,0);
+
+@media screen and (max-width: 1440px) {
+  .pagination a {
+    font-size: 10px;
+  }
 }
 
 footer {
@@ -1218,5 +923,14 @@ footer {
     top: 100px;
     display: inline-block;
     height: 40px;
+  }
+}
+.mobile_br {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .mobile_br {
+    display: block;
   }
 }
