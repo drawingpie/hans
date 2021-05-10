@@ -630,10 +630,12 @@ header:hover .overlay {
 	box-sizing: border-box;
 }
 
-#img01 {
+.img01 {
 	margin-top: 50px;
 }
-
+.img01_mobile {
+  display: none;
+}
 form {
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -690,7 +692,17 @@ form.example button {
 	font-size: 24px;
 	color: rgba(38, 11, 1, 1);
 }
-
+@media screen and (max-width: 1440px) {
+  #section {
+  	max-width: 286px;
+  }
+  .img01 {
+  	display: none;
+  }
+  .img01_mobile {
+    display: block;
+  }
+}
 table {
 	margin-top: 50px;
 	text-align: left;
