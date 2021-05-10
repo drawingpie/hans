@@ -631,7 +631,7 @@ header:hover .overlay {
 }
 
 .img02 {
-	margin-top: 50px;
+	display: block;
 }
 
 .img02_mobile {
