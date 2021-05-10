@@ -730,184 +730,186 @@ form.example button {
 
 
 footer {
-  position: relative;
-  max-width: 100%;
-  background-color: #260B01;
-  height: 337px;
+	position: relative;
+	max-width: 100%;
+	background-color: #260B01;
+	height: 337px;
+	margin-top: 250px;
 }
 
 #footermenu {
-  position: relative;
-  max-width: 1093px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  top: 75px;
+	position: relative;
+	max-width: 1093px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	top: 75px;
 }
 
 .footermenucontainer {
-  float: left;
-  list-style: none;
-  padding: 0;
+	float: left;
+	list-style: none;
+	padding: 0;
 }
 
 #footermenu .footermenucontainer li {
-  display: inline-block;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
-  margin-right: 30px;
+	display: inline-block;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 1);
+	margin-right: 30px;
 }
 
 .footermenuicon {
-  font-size: 0;
-  float: right;
-  padding: 0;
-  text-align: center;
+	font-size: 0;
+	float: right;
+	padding: 0;
+	text-align: center;
 }
 
 #footermenu .footermenuicon li {
-  display: inline-block;
-  margin-left: 30px;
+	display: inline-block;
+	margin-left: 30px;
 }
 
 .contentbody {
-  position: absolute;
-  display: block;
-  width: 720px;
-  height: 88px;
-  left: 17%;
-  top: 80px;
-  line-height: 24px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  color: #fff;
+	position: absolute;
+	display: block;
+	width: 720px;
+	height: 88px;
+	left: 17%;
+	top: 80px;
+	line-height: 24px;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
 }
 
 .copyright {
-  opacity: 0.1;
-  left: 17%;
-  top: 140px;
-  position: absolute;
-  width: 802px;
-  white-space: nowrap;
-  line-height: 24px;
-  margin-top: -4px;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 1);
+	opacity: 0.1;
+	left: 17%;
+	top: 140px;
+	position: absolute;
+	width: 802px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 1);
 }
 
 .footer_line {
-  border-bottom: 1px solid #fff;
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  top: 56px;
+	border-bottom: 1px solid #fff;
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 56px;
 }
 
 #topbtn {
-  left: 48.3%;
-  top: -30px;
-  position: absolute;
+	left: 48.3%;
+	top: -30px;
+	position: absolute;
 }
 
 #topbtn.show {
-  opacity: 1;
-  overflow: visible;
+	opacity: 1;
+	overflow: visible;
 }
 
 #footerlogo {
-  position: absolute;
-  left: 0;
-  top: 80px;
+	position: absolute;
+	left: 0;
+	top: 80px;
 }
 
 @media screen and (max-width: 1440px) {
-  footer {
-    height: 416.13px;
-  }
+	footer {
+		height: 416.13px;
+	}
 
-  #footermenu {
-    max-width: 80%;
-    top: 66px;
-    text-align: center;
-    margin: 0 auto;
-  }
+	#footermenu {
+		max-width: 80%;
+		top: 66px;
+		text-align: center;
+		margin: 0 auto;
+	}
 
-  .footermenucontainer {
-    font-size: 0;
-    float: none;
-  }
+	.footermenucontainer {
+		font-size: 0;
+		float: none;
+	}
 
-  #footermenu .footermenucontainer li {
-    font-size: 12px;
-    margin-right: 20px;
-  }
+	#footermenu .footermenucontainer li {
+		font-size: 12px;
+		margin-right: 20px;
+	}
 
-  .footermenuicon {
-    font-size: 0;
-    float: none;
-  }
+	.footermenuicon {
+		font-size: 0;
+		float: none;
+	}
 
-  #footermenu .footermenuicon li {
-    margin-left: -20px;
-    vertical-align: middle;
-    margin-top: 10px;
-  }
+	#footermenu .footermenuicon li {
+		margin-left: -20px;
+		vertical-align: middle;
+		margin-top: 10px;
+	}
 
-  #insta {
-    margin-left: 50px;
-  }
+	#insta {
+		margin-left: 50px;
+	}
 
-  #qna {
-    width: 145px;
-  }
+	#qna {
+		width: 145px;
+	}
 
-  .contentbody {
-    width: 230px;
-    height: 68px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 160px;
-    font-size: 12px;
-    text-align: center;
-  }
+	.contentbody {
+		width: 230px;
+		height: 68px;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 160px;
+		font-size: 12px;
+		text-align: center;
+	}
 
-  .copyright {
-    left: 17%;
-    top: 310px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 12px;
-  }
+	.copyright {
+		left: 17%;
+		top: 310px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		font-size: 12px;
+	}
 
-  .footer_line {
-    left: 0%;
-    top: 80px;
-  }
+	.footer_line {
+		left: 0%;
+		top: 80px;
+	}
 
-  #topbtn {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+	#topbtn {
+		left: 50%;
+		transform: translateX(-50%);
+	}
 
-  #footerlogo {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 100px;
-    display: inline-block;
-    height: 40px;
-  }
+	#footerlogo {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 100px;
+		display: inline-block;
+		height: 40px;
+	}
 }
+
 .mobile_br {
 	display: none;
 }
