@@ -631,7 +631,7 @@ header:hover .overlay {
 }
 
 .img02 {
-	display: block;
+	margin-top: 50px;
 }
 
 .img02_mobile {
@@ -702,7 +702,6 @@ form.example button img {
 
 @media screen and (max-width: 1440px) {
 	#section {
-		margin-top: 50px;
 		max-width: 286px;
 	}
 
@@ -715,7 +714,7 @@ form.example button img {
 	}
 
 	table {
-		margin-top: 50px;
+		margin-top: 20px;
 		text-align: left;
 		font-size: 14px;
 		width: 286px;
