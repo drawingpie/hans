@@ -1056,6 +1056,7 @@ footer {
 @media screen and (max-width: 1440px) {
 	footer {
 		height: 416.13px;
+    margin-top: 170px;
 	}
 
 	#footermenu {
