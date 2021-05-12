@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -23,7 +24,7 @@
 	<meta name="twitter:image" content="image/cover.png">
 	<meta name="twitter:description" content="소중한 사람에게 특별한 케이크를 선물하세요.">
 
-	<title>HANS 포트폴리오</title>
+	<title>고객_고객의 소리_글쓰기</title>
 
 	<link rel="icon" href="image/pavicon_16.ico" sizes="16x16">
 	<link rel="icon" href="image/pavicon_32.ico" sizes="32x32">
@@ -116,8 +117,8 @@
 		<div id="menu-wrapper">
 			<a href="index.html"><img id="mobilegnblogo" src="image/gnblogo.png"></img></a>
 			<div id="hamburger-menu"><span></span><span></span><span></span></div>
-						<!-- hamburger-menu -->
-			</div>
+			<!-- hamburger-menu -->
+		</div>
 		<!-- menu-wrapper -->
 		<ul class="menu-list accordion">
 			<li id="nav1" class="toggle accordion-toggle">
@@ -177,8 +178,9 @@
 		<!-- menu-list accordion-->
 	</div>
 
-	<div id="visual"><img class="menu_visual" src="image/customer_visual01.png"></div>
-	<div id="headline"><span>고객의 소리</span></div>
+	<section id="visual">
+		<div id="headline"><span>고객의 소리</span></div>
+	</section>
 
 	<div id="smallmenu">
 		<div id="home-black-18dp_cfg">
@@ -188,7 +190,7 @@
 			</svg>
 			<svg class="home1" viewBox="2 3 14.891 12.657">
 				<path id="home1"
-					d="M 7.956380367279053 15.65730857849121 L 7.956380367279053 11.19002342224121 L 10.93457126617432 11.19002342224121 L 10.93457126617432 15.65730857849121 L 14.65730857849121 15.65730857849121 L 14.65730857849121 9.700927734375 L 16.89095115661621 9.700927734375 L 9.445475578308105 3 L 2 9.700927734375 L 4.233642578125 9.700927734375 L 4.233642578125 15.65730857849121 L 7.956380367279053 15.65730857849121 Z">
+				 d="M 7.956380367279053 15.65730857849121 L 7.956380367279053 11.19002342224121 L 10.93457126617432 11.19002342224121 L 10.93457126617432 15.65730857849121 L 14.65730857849121 15.65730857849121 L 14.65730857849121 9.700927734375 L 16.89095115661621 9.700927734375 L 9.445475578308105 3 L 2 9.700927734375 L 4.233642578125 9.700927734375 L 4.233642578125 15.65730857849121 L 7.956380367279053 15.65730857849121 Z">
 				</path>
 			</svg>
 		</div>
@@ -211,57 +213,66 @@
 		</div>
 	</div>
 
-	<img id="img02" src="image/customer_img02.png">
+	<section id="section">
+		<img class="img02" src="image/customer_img02.png">
+		<img class="img02_mobile" src="image/qnaimg02.png">
 
+		<div class="agreewrap">
+			<span class="agreehead">개인정보 수집 및 이용에 대한 안내</span>
+			<span class="agreebody">
+				한스케익은 본 게시판을 이용하는 고객을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.<br />
+				1. 수집 개인정보 항목: 기관명, 주소, 성명, 이메일, 핸드폰,<br />
+				2. 개인정보의 수집 및 이용목적: 고객과의 원할한 의사소통<br />
+				3. 개인정보의 이용기간: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에 해당 정보를 수집 3개월 이후 파기합니다.
+			</span>
 
-	<svg class="rect">
-		<rect id="rect" rx="0" ry="0" x="0" y="0" width="1162.293" height="186.753">
-		</rect>
-	</svg>
-	<div id="info"><span>개인정보 수집 및 이용에 대한 안내</span></div>
-	<div id="agreebody">
-		<span>한스케익은 본 게시판을 이용하는 고객을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.<br/>1. 수집 개인정보 항목: 기관명, 주소, 성명, 이메일, 핸드폰,<br/>2. 개인정보의 수집 및 이용목적: 고객과의 원할한 의사소통<br/>3. 개인정보의 이용기간: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에 해당 정보를 수집 3개월 이후 파기합니다.</span>
-	</div>
-
-	<form action="/action_page.php">
-  <input type="checkbox" id="agree" name="agree" value="agree01">
-  <label for="agree"><span id="agreetext">&nbsp;위의 '개인정보 수집 및 이용'에 동의합니다.</span></label>
-</form>
-
-	<svg class="line" viewBox="0 0 1393.278 2"><path id="line" d="M 0 0 L 1393.27783203125 0"></path></svg>
-
-	<div id="board">
-		<form action="/action_page.php">
-			<label for="head"><span class="form">제목</span></label><br>
-			<input type="text" class="form01" name="head" value="제목"><br>
-			<label for="name"><span class="form">작성자</span></label><br>
-			<input type="text" class="form01" name="name" value="작성자"><br><br>
-			<label for="phone"><span class="form">연락처</span></label><br>
-			<input type="text" class="form01" name="phone" value="연락처"><br>
-			<label for="email"><span class="form">이메일</span></label><br>
-			<input type="text" class="form01" name="email" value="이메일"><br><br>
-			<label for="formtext"><span class="form">내용</span></label><br>
-			<input type="text" id="form02" name="formtext" value="내용"><br>
-			<label for="file"><span class="form">첨부파일</span></label><br>
-			<input type="text" id="form03" name="file" value="첨부파일"><br>
-			<label for="password"><span class="form">비밀번호</span></label><br>
-			<input type="text" id="form04" name="password" value="비밀번호"><br>
-			<input id="submit01" type="submit" value="">
-			<input id="submit02" type="reset" value="">
-		</form>
-
-		<div id="secret">
 			<form action="/action_page.php">
-		  	<input type="checkbox" id="secretcheck" name="secret" value="agree01">
-		  	<label for="agree"><span id="secrettext">&nbsp;비밀글여부</span></label>
+				<input type="checkbox" id="agree" name="agree" value="agree01">
+				<label for="agree"><span id="agreetext">&nbsp;위의 '개인정보 수집 및 이용'에 동의합니다.</span></label>
 			</form>
 		</div>
 
-		<input type=file name='file1' style='display: none;'>
-		<input type='text' name='file2' id='file2' style="display: none;">
-		<img id='filebtn' src='image/customer_filebtn.png' border='0' onclick='document.all.file1.click(); document.all.file2.value=document.all.file1.value'>
+		<div class="line"></div>
 
-	</div>
+		<div id="board">
+			<form action="/action_page.php">
+				<label for="head"><span class="formhead">제목</span></label><br>
+				<input type="text" class="form01" name="head" value="제목"><br>
+
+				<label for="name"><span class="formhead">작성자</span></label><br>
+				<input type="text" class="form01" name="name" value="작성자"><br><br>
+
+				<label for="phone"><span class="formhead">연락처</span></label><br>
+				<input type="text" class="form01" name="phone" value="연락처"><br>
+
+				<label for="email"><span class="formhead">이메일</span></label><br>
+				<input type="text" class="form01" name="email" value="이메일"><br><br>
+
+				<label for="formtext"><span class="formhead">내용</span></label><br>
+				<input type="text" id="form02" name="formtext" value="내용"><br>
+
+				<label for="file"><span class="formhead">첨부파일</span></label><br>
+				<input type="text" id="form03" name="file" value="첨부파일"><br>
+				<input type=file name='file1' style='display: none;'>
+				<input type='text' name='file2' id='file2' style="display: none;">
+				<img id='filebtn' src='image/customer_filebtn.png' border='0' onclick='document.all.file1.click(); document.all.file2.value=document.all.file1.value'>
+
+				<label for="password"><span class="formhead">비밀번호</span></label><br>
+				<input type="text" id="form04" name="password" value="비밀번호"><br>
+				<div id="secret">
+					<form action="/action_page.php">
+						<input type="checkbox" id="secretcheck" name="secret" value="agree01">
+						<label for="agree"><span id="secrettext">&nbsp;비밀글여부</span></label>
+						
+					</form>
+				</div>
+
+				<input id="submit01" type="submit" value="">
+				<input id="submit02" type="reset" value="">
+
+			</form>
+		</div>
+	</section>
 
 
 	<footer>
@@ -318,4 +329,5 @@
 	</script>
 
 </body>
+
 </html>

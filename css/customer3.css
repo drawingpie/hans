@@ -219,6 +219,11 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
   .navbar, .overlay {
     display: none;
   }
@@ -433,168 +438,204 @@ header:hover .overlay {
 }
 
 #visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+	position: relative;
+	background-image: url("../image/customer_visual01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 285px;
+	margin-top: 103.28px;
 }
 
 #headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 46.9%;
-  top: 214px;
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
+	filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#visual {
+		height: 152px;
+		margin-top: 52.7px;
+	}
+
+	#headline {
+		top: 70px;
+		font-size: 27px;
+	}
 }
 
 #smallmenu {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
-}
-#home-black-18dp_cfg {
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 23.2%;
-  top: 18px;
-  overflow: visible;
-}
-#home {
-  fill: transparent;
-}
-.home {
-  overflow: visible;
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#home1 {
-  fill: rgba(140,133,125,1);
-}
-.home1 {
-  overflow: visible;
-  position: absolute;
-  width: 14.891px;
-  height: 12.657px;
-  left: 1.489px;
-  top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#home2 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.home2 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
-  height: 12px;
-  left: 24.7%;
-  top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#smallmenu_cake {
-  left: 25.2%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
-#smallmenu_arrow01 {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 29.1%;
-  top: 18px;
-  overflow: visible;
-}
-#arrow1 {
-  fill: rgba(140,133,125,1);
-}
-.arrow1 {
-  overflow: visible;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
-}
-#arrow2 {
-  fill: transparent;
-  stroke: rgba(255,255,255,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.arrow2 {
-  overflow: visible;
-  position: absolute;
-  width: 7.303px;
-  height: 4.941px;
-  left: 6.186px;
-  top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+	position: relative;
+	width: 100%;
+	height: 52px;
 }
 
-#img02 {
-  position: absolute;
-  width: 1396px;
-  height: 286px;
-  left: 262px;
-  top: 516px;
-  overflow: visible;
+#home-black-18dp_cfg {
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
+}
+
+#home {
+	fill: transparent;
+}
+
+.home {
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.home1 {
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#home2 {
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.home2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#smallmenu_cake {
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
+}
+
+#smallmenu_arrow01 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 31%;
+	top: 18px;
+	overflow: visible;
+}
+
+#arrow1 {
+	fill: rgba(140, 133, 125, 1);
+}
+
+.arrow1 {
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#arrow2 {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.arrow2 {
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
+
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
+}
+
+#section {
+	position: relative;
+	max-width: 1396px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.img02 {
+	margin-top: 50px;
+}
+
+.img02_mobile {
+	display: none;
 }
 
 #rect {
@@ -615,12 +656,7 @@ header:hover .overlay {
   left: 19.4%;
   top: 927.58px;
 }
-#info {
-  left: 20.3%;
-  top: 878.435px;
-  position: absolute;
-  overflow: visible;
-  width: 309px;
+.agreehead {
   white-space: nowrap;
   line-height: 23px;
   margin-top: -0.5px;
@@ -631,6 +667,7 @@ header:hover .overlay {
   font-size: 22px;
   color: rgba(140,133,125,1);
 }
+
 #agreefrom {
   left: 21.5%;
   top: 1131.534px;
@@ -645,15 +682,8 @@ header:hover .overlay {
   font-size: 22px;
   color: rgba(140,133,125,1);
 }
-#agreebody {
-  left: 20.7%;
-  top: 956.839px;
-  position: absolute;
-  overflow: visible;
-  width: 877px;
-  white-space: nowrap;
+.agreebody {
   line-height: 33px;
-  margin-top: -7.5px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -663,46 +693,19 @@ header:hover .overlay {
 }
 
 #agree {
-  position: absolute;
-  overflow: visible;
   width: 19.658px;
   height: 19.658px;
-  left: 20.2%;
-  top: 1131.53px;
 }
 #agreetext {
   color:#8C857D;
-  position: absolute;
-  overflow: visible;
-  left: 21.5%;
-  top: 1131.53px;
 }
 
-#line {
-  fill: transparent;
-  stroke: rgba(38,11,1,1);
-  stroke-width: 2px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
 .line {
-  overflow: visible;
-  position: absolute;
+  border: 2px solid rgba(38,11,1,1);
   width: 1393.277px;
-  height: 2px;
-  left: 13.6%;
-  top: 1208.58px;
-  transform: matrix(1,0,0,1,0,0);
 }
 #board {
-  position: absolute;
-  width: 1062.93px;
-  height: 927.8px;
-  left: 22.2%;
-  top: 1264.228px;
-  overflow: visible;
+
 }
 input {
   border-radius: 0px;
@@ -710,7 +713,7 @@ input {
   border-width: 1px;
   outline: none;
 }
-.form {
+.formhead {
   float: left;
   display: contents;
   position: relative;
@@ -723,12 +726,11 @@ input {
   color: rgba(38,11,1,1);
 }
 .form01 {
-  left: 126px;
-  top: -38px;
+  /* left: 126px;
+  top: -38px; */
   width: 915.34px;
   height: 49.15px;
   position: relative;
-  overflow: visible;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -738,12 +740,11 @@ input {
 
 }
 #form02 {
-  left: 126px;
-  top: -35px;
+  /* left: 126px;
+  top: -35px; */
   width: 915.34px;
   height: 220px;
   position: relative;
-  overflow: visible;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -752,12 +753,11 @@ input {
   color: #8C857D;
 }
 #form03 {
-  left: 126px;
-  top: -35px;
+  /* left: 126px;
+  top: -35px; */
   width: 395.62px;
   height: 49.15px;
   position: relative;
-  overflow: visible;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -765,13 +765,16 @@ input {
   font-size: 18px;
   color: #8C857D;
 }
+#filebtn {
+  width: 213.783px;
+  height: 45.46px;
+}
 #form04 {
-  left: 126px;
-  top: -35px;
+  /* left: 126px;
+  top: -35px; */
   width: 395.62px;
   height: 49.15px;
   position: relative;
-  overflow: visible;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -780,19 +783,9 @@ input {
   color: #8C857D;
 }
 #secret {
-  position: absolute;
-  width: 125.573px;
-  height: 33px;
-  left: 538.2px;
-  top: 739.674px;
-  overflow: visible;
+
 }
 #secrettext {
-  left: 24.573px;
-  top: 0px;
-  position: absolute;
-  overflow: visible;
-  width: 102px;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -802,47 +795,16 @@ input {
   color: rgba(140,133,125,1);
 }
 #secretcheck {
+  border: 1px solid rgba(140,133,125,1);
   fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-  position: absolute;
-  overflow: visible;
-  width: 19.658px;
-  height: 19.658px;
-  left: 0px;
-  top: 8.601px;
-}
-#filebtn {
-  position: absolute;
-  overflow: visible;
-  width: 213.783px;
-  height: 45.46px;
-  left: 538.2px;
-  top: 642px;
 }
 
 #submit01[type="submit"] {
   background-image : url('okbtn.png');
-  position: absolute;
-  width: 176.932px;
-  height: 50.023px;
-  left: 697px;
-  top: 878.772px;
-  overflow: visible;
   border: none;
 }
 #submit02 {
   background-image : url('cancelbtn.png');
-  position: absolute;
-  width: 176.932px;
-  height: 50.023px;
-  left: 886px;
-  top: 878.772px;
-  overflow: visible;
   border: none;
 }
 
@@ -1024,4 +986,13 @@ footer {
     display: inline-block;
     height: 40px;
   }
+}
+.mobile_br {
+	display: none;
+}
+
+@media screen and (max-width: 1440px) {
+	.mobile_br {
+		display: block;
+	}
 }
