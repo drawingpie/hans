@@ -237,34 +237,38 @@
 
 		<div id="board">
 			<form action="/action_page.php">
-				<label for="head" class="formhead">제목</label>
-				<input type="text" class="form01" name="head" value="제목">
+				<div class="grid2">
+					<label for="head" class="formhead">제목</label>
+					<input type="text" class="form01" name="head" value="제목">
 
-				<label for="name" class="formhead">작성자</label>
-				<input type="text" class="form01" name="name" value="작성자">
+					<label for="name" class="formhead">작성자</label>
+					<input type="text" class="form01" name="name" value="작성자">
 
-				<label for="phone" class="formhead">연락처</label>
-				<input type="text" class="form01" name="phone" value="연락처">
+					<label for="phone" class="formhead">연락처</label>
+					<input type="text" class="form01" name="phone" value="연락처">
 
-				<label for="email" class="formhead">이메일</label>
-				<input type="text" class="form01" name="email" value="이메일">
+					<label for="email" class="formhead">이메일</label>
+					<input type="text" class="form01" name="email" value="이메일">
 
-				<label for="formtext" class="formhead">내용</label>
-				<input type="text" id="form02" name="formtext" value="내용">
+					<label for="formtext" class="formhead">내용</label>
+					<input type="text" id="form02" name="formtext" value="내용">
+				</div>
 
-				<label for="file" class="formhead">첨부파일</label>
-				<input type="text" id="form03" name="file" value="첨부파일">
-				<input type=file name='file1' style='display: none;'>
-				<input type='text' name='file2' id='file2' style="display: none;">
-				<img id='filebtn' src='image/customer_filebtn.png' border='0' onclick='document.all.file1.click(); document.all.file2.value=document.all.file1.value'>
+				<div class="grid3">
+					<label for="file" class="formhead">첨부파일</label>
+					<input type="text" id="form03" name="file" value="첨부파일">
+					<input type=file name='file1' style='display: none;'>
+					<input type='text' name='file2' id='file2' style="display: none;">
+					<img id='filebtn' src='image/customer_filebtn.png' border='0' onclick='document.all.file1.click(); document.all.file2.value=document.all.file1.value'>
 
-				<label for="password" class="formhead">비밀번호</label>
-				<input type="text" id="form04" name="password" value="비밀번호">
-				<div id="secret">
-					<form action="/action_page.php">
-						<input type="checkbox" id="secretcheck" name="secret" value="agree01">
-						<label for="agree" id="secrettext">&nbsp;비밀글여부</label>
-					</form>
+					<label for="password" class="formhead">비밀번호</label>
+					<input type="text" id="form04" name="password" value="비밀번호">
+					<div id="secret">
+						<form action="/action_page.php">
+							<input type="checkbox" id="secretcheck" name="secret" value="agree01">
+							<label for="agree" id="secrettext">&nbsp;비밀글여부</label>
+						</form>
+					</div>
 				</div>
 
 			</form>
