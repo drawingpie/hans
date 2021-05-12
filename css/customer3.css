@@ -698,9 +698,28 @@ header:hover .overlay {
 }
 
 .line {
-	border: 2px solid rgba(38, 11, 1, 1);
+	border-bottom: 2px solid rgba(38, 11, 1, 1);
 	width: 1393.277px;
 	margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+	.agreehead {
+		font-size: 16px;
+	}
+
+	.agreebody {
+		font-size: 14px;
+		line-height: 23px;
+	}
+
+	#agreetext {
+		font-size: 12px;
+	}
+
+	.line {
+		width: 286px;
+	}
 }
 
 #board form .grid2 {
@@ -804,6 +823,7 @@ header:hover .overlay {
 }
 
 #secretcheck {
+	width: 20px;
 	border: 1px solid rgba(140, 133, 125, 1);
 }
 
@@ -813,22 +833,122 @@ header:hover .overlay {
 	margin-top: 50px;
 }
 
-#submit01[type="submit"] {
+#submit01 {
 	display: inline-block;
-	background-image: url('../image/customer_okbtn.png');
+	border: 0px solid;
+	background-color: #344022;
+	border-radius: 3px;
 	border: none;
 	width: 176.93px;
 	height: 50.02px;
 	cursor: pointer;
 	margin-right: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 #submit02 {
-	background-image: url('../image/customer_cancelbtn.png');
+	display: inline-block;
+	border: 0px solid;
+	background-color: #344022;
+	border-radius: 3px;
 	border: none;
 	width: 176.93px;
 	height: 50.02px;
 	cursor: pointer;
+	margin-right: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
+	.formhead {
+		white-space: nowrap;
+		font-size: 12px;
+	}
+
+	#board form .grid2 {
+		width: 286px;
+	}
+
+	#board form .grid2 input {
+		margin-left: 20px;
+		margin-bottom: 15px;
+		width: 226px;
+		height: 20px;
+		font-size: 12px;
+	}
+
+	#board form .grid3 {
+		width: 296px !important;
+		margin-left: -9px;
+	}
+
+	#board form .grid3 .formhead {
+		margin-left: 0px;
+		width: 34px !important;
+	}
+
+	#board form .grid3 input {
+		width: 106px !important;
+		height: 20px;
+		font-size: 12px;
+		margin-left: 42px;
+		float: left;
+	}
+
+	#board form .grid3 .formhead {
+		text-align: left;
+	}
+
+	#form03 {
+		width: 100px !important;
+		margin-left: -35px !important;
+		/* 	float: left; */
+	}
+
+	#form04 {
+		width: 100px !important;
+		margin-left: -35px !important;
+		/* 	float: left; */
+	}
+
+	#filebtn {
+		width: 80px;
+	}
+
+	#secret #secrettext {
+		font-size: 13px;
+	}
+
+	#secret #secretcheck {
+		text-align: left;
+		width: 10px !important;
+		height: 10px !important;
+		margin-left: 10px !important;
+	}
+
+	.submitbtn {
+		margin-right: -20px;
+		margin-top: 30px;
+	}
+
+	#submit01 {
+		width: 67px;
+		height: 20px;
+		margin-right: 10px;
+	}
+
+	#submit02 {
+		width: 67px;
+		height: 20px;
+	}
 }
 
 footer {
