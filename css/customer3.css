@@ -808,13 +808,23 @@ header:hover .overlay {
 }
 
 #submit01[type="submit"] {
+	display: inline-block;
 	background-image: url('../image/customer_okbtn.png');
 	border: none;
+	width: 176.93px;
+	height:50.02px;
+	cursor: pointer;
+	margin-right: 20px;
+	text-align: right;
 }
 
 #submit02 {
 	background-image: url('../image/customer_cancelbtn.png');
 	border: none;
+	width: 176.93px;
+	height:50.02px;
+	cursor: pointer;
+	float: right;
 }
 
 footer {
