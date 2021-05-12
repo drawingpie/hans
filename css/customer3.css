@@ -848,6 +848,7 @@ header:hover .overlay {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	color: #fff;
 }
 
 #submit02 {
@@ -865,6 +866,7 @@ header:hover .overlay {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	color: #fff;
 }
 
 @media screen and (max-width: 1440px) {
@@ -943,11 +945,13 @@ header:hover .overlay {
 		width: 67px;
 		height: 20px;
 		margin-right: 10px;
+		font-size: 13px;
 	}
 
 	#submit02 {
 		width: 67px;
 		height: 20px;
+		font-size: 13px;
 	}
 }
 
@@ -1056,7 +1060,7 @@ footer {
 @media screen and (max-width: 1440px) {
 	footer {
 		height: 416.13px;
-    margin-top: 170px;
+		margin-top: 170px;
 	}
 
 	#footermenu {
