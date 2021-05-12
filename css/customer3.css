@@ -650,24 +650,6 @@ header:hover .overlay {
 		display: block;
 	}
 }
-#rect {
-  opacity: 0.3;
-  fill: rgba(255,255,255,1);
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.rect {
-  position: absolute;
-  overflow: visible;
-  width: 1162.293px;
-  height: 186.753px;
-  left: 19.4%;
-  top: 927.58px;
-}
 .agreehead {
   white-space: nowrap;
   line-height: 23px;
@@ -680,7 +662,7 @@ header:hover .overlay {
   color: rgba(140,133,125,1);
 }
 
-#agreefrom {
+/* #agreefrom {
   left: 21.5%;
   top: 1131.534px;
   position: absolute;
@@ -693,8 +675,9 @@ header:hover .overlay {
   font-weight: 400;
   font-size: 22px;
   color: rgba(140,133,125,1);
-}
+} */
 .agreebody {
+  border: 1px solid rgba(140,133,125,1);
   line-height: 33px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
