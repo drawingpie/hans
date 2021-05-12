@@ -718,11 +718,12 @@ header:hover .overlay {
 }
 
 #board form {
-	display: grid;
+	display: inline-block;
+	float: left;
 }
 
-input {
-	display: inline-block;
+#board form input {
+	/* 	display: inline-block; */
 	border-radius: 0px;
 	border-color: #8C857D;
 	border-width: 1px;
@@ -730,7 +731,6 @@ input {
 }
 
 .formhead {
-	float: left;
 	display: contents;
 	position: relative;
 	overflow: visible;
