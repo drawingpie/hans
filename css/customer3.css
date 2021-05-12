@@ -703,16 +703,14 @@ header:hover .overlay {
 	margin-bottom: 45px;
 }
 
-#board form {
+#board form .grid2 {
+	width: 1062px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	text-align: center;
-/* 	max-width: 1062px; */
-/* 	margin: 0 auto; */
-/* 	box-sizing: border-box; */
+	margin: 0 auto;
 }
 
-#board form input {
+#board form .grid2 input {
 	margin-left: 50px;
 	text-align: left;
 	display: inline-block;
@@ -721,6 +719,18 @@ header:hover .overlay {
 	border-width: 1px;
 	outline: none;
 	margin-bottom: 25px;
+}
+
+#board form .grid3 {
+	width: 777px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 167px;
+}
+
+#board form .grid3 input {
+	margin-bottom: 25px;
+	margin-left: 50px;
 }
 
 .formhead {
@@ -733,8 +743,6 @@ header:hover .overlay {
 }
 
 .form01 {
-	/* left: 126px;
-  top: -38px; */
 	width: 915.34px;
 	height: 49.15px;
 	position: relative;
@@ -747,11 +755,8 @@ header:hover .overlay {
 }
 
 #form02 {
-	/* left: 126px;
-  top: -35px; */
 	width: 915.34px;
 	height: 220px;
-	position: relative;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
@@ -761,11 +766,8 @@ header:hover .overlay {
 }
 
 #form03 {
-	/* left: 126px;
-  top: -35px; */
 	width: 395.62px;
 	height: 49.15px;
-	position: relative;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
@@ -775,13 +777,11 @@ header:hover .overlay {
 }
 
 #filebtn {
-	width: 213.783px;
-	height: 45.46px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 #form04 {
-	/* left: 126px;
-  top: -35px; */
 	width: 395.62px;
 	height: 49.15px;
 	position: relative;
@@ -792,8 +792,6 @@ header:hover .overlay {
 	font-size: 18px;
 	color: #8C857D;
 }
-
-#secret {}
 
 #secrettext {
 	white-space: nowrap;
