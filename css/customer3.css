@@ -676,8 +676,10 @@ header:hover .overlay {
   font-size: 22px;
   color: rgba(140,133,125,1);
 } */
-.agreebody {
+.agreecontainer {
   border: 1px solid rgba(140,133,125,1);
+}
+.agreebody {
   line-height: 33px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
