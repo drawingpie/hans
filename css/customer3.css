@@ -637,7 +637,19 @@ header:hover .overlay {
 .img02_mobile {
 	display: none;
 }
+@media screen and (max-width: 1440px) {
+	#section {
+		max-width: 286px;
+	}
 
+	.img02 {
+		display: none;
+	}
+
+	.img02_mobile {
+		display: block;
+	}
+}
 #rect {
   opacity: 0.3;
   fill: rgba(255,255,255,1);
