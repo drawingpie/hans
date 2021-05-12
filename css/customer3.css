@@ -807,24 +807,28 @@ header:hover .overlay {
 	border: 1px solid rgba(140, 133, 125, 1);
 }
 
+.submitbtn {
+	float: right;
+	margin-right: 167px;
+	margin-top: 50px;
+}
+
 #submit01[type="submit"] {
 	display: inline-block;
 	background-image: url('../image/customer_okbtn.png');
 	border: none;
 	width: 176.93px;
-	height:50.02px;
+	height: 50.02px;
 	cursor: pointer;
 	margin-right: 20px;
-	text-align: right;
 }
 
 #submit02 {
 	background-image: url('../image/customer_cancelbtn.png');
 	border: none;
 	width: 176.93px;
-	height:50.02px;
+	height: 50.02px;
 	cursor: pointer;
-	float: right;
 }
 
 footer {
@@ -832,7 +836,7 @@ footer {
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
-  margin-top: 150px;
+	margin-top: 270px;
 }
 
 #footermenu {
