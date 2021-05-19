@@ -219,6 +219,10 @@ header:hover .overlay {
 }
 
 @media screen and (max-width: 1440px) {
+  html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
   .navbar, .overlay {
     display: none;
   }
@@ -433,380 +437,200 @@ header:hover .overlay {
 }
 
 #visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  overflow: visible;
-}
-.menu_visual {
-  position: absolute;
-  width: 100%;
-  height: 285px;
-  left: 0%;
-  top: 103px;
-  overflow: visible;
+	position: relative;
+	background-image: url("../image/news_visual.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 285px;
+	margin-top: 103.28px;
 }
 
 #headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  left: 43.5%;
-  top: 214px;
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
+	filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1440px) {
+	#visual {
+		height: 152px;
+		margin-top: 52.7px;
+	}
+
+	#headline {
+		top: 70px;
+		font-size: 27px;
+	}
 }
 
 #smallmenu {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  left: 0.2%;
-  top: 388px;
-  overflow: visible;
+	position: relative;
+	width: 100%;
+	height: 52px;
 }
+
 #home-black-18dp_cfg {
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 23.2%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 23.2%;
+	top: 18px;
+	overflow: visible;
 }
+
 #home {
-  fill: transparent;
+	fill: transparent;
 }
+
 .home {
-  overflow: visible;
-  position: absolute;
-  width: 17.869px;
-  height: 17.869px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 17.869px;
+	height: 17.869px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .home1 {
-  overflow: visible;
-  position: absolute;
-  width: 14.891px;
-  height: 12.657px;
-  left: 1.489px;
-  top: 2.233px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 14.891px;
+	height: 12.657px;
+	left: 1.489px;
+	top: 2.233px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #home2 {
-  fill: transparent;
-  stroke: rgba(140,133,125,1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(140, 133, 125, 1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .home2 {
-  overflow: visible;
-  position: absolute;
-  width: 1px;
-  height: 12px;
-  left: 24.7%;
-  top: 21.5px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 12px;
+	left: 24.7%;
+	top: 21.5px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #smallmenu_cake {
-  left: 25.2%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
+	left: 25.2%;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: rgba(140, 133, 125, 1);
 }
-#smallmenu_classic {
-  left: 31.1%;
-  top: 17px;
-  position: absolute;
-  overflow: visible;
-  width: 37px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: rgba(140,133,125,1);
-}
+
 #smallmenu_arrow01 {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 29.1%;
-  top: 18px;
-  overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 31%;
+	top: 18px;
+	overflow: visible;
 }
+
 #arrow1 {
-  fill: rgba(140,133,125,1);
+	fill: rgba(140, 133, 125, 1);
 }
+
 .arrow1 {
-  overflow: visible;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  left: 0px;
-  top: 0px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 #arrow2 {
-  fill: transparent;
-  stroke: rgba(255,255,255,1);
-  stroke-width: 1px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
 }
+
 .arrow2 {
-  overflow: visible;
-  position: absolute;
-  width: 7.303px;
-  height: 4.941px;
-  left: 6.186px;
-  top: 7.512px;
-  transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	width: 7.303px;
+	height: 4.941px;
+	left: 6.186px;
+	top: 7.512px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+@media screen and (max-width: 1440px) {
+	#smallmenu {
+		margin: 0 auto;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
 
-#snsbg {
-	fill: rgba(115,2,32,1);
-	mix-blend-mode: screen;
-	position: absolute;
-	overflow: visible;
-	width: 1920px;
-	height: 714px;
-	left: 0%;
-	top: 578px;
+	#home-black-18dp_cfg {
+		left: 0;
+	}
+
+	.home2 {
+		left: 8%;
+	}
+
+	#smallmenu_cake {
+		left: 15%;
+	}
+
+	#smallmenu_arrow01 {
+		left: 45%;
+	}
+
+	#smallmenu_arrow02 {
+		left: 90%;
+	}
 }
-#snscontents {
-	position: absolute;
-	width: 1502px;
-	height: 613px;
-	left: 10.8%;
-	top: 656px;
-	overflow: hidden;
-}
-#hansday {
-	position: absolute;
-	width: 482px;
-	height: 613px;
-	left: 0%;
-	top: 0px;
-	overflow: visible;
-}
-#sns01 {
-	position: absolute;
-	width: 482px;
-	height: 482px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#instagram {
-	left: 54px;
-	top: 518px;
-	position: absolute;
-	overflow: visible;
-	width: 95px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Louis George Café;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#body01 {
-	left: 25px;
-	top: 562px;
-	position: absolute;
-	overflow: visible;
-	width: 397px;
-	white-space: nowrap;
-	line-height: 22px;
-	margin-top: -1px;
-	text-align: left;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#instaicon {
-	position: absolute;
-	width: 25.49px;
-	height: 25.353px;
-	left: 24.511px;
-	top: 518px;
-	overflow: visible;
-}
-#instasmall {
-	position: absolute;
-	width: 25.226px;
-	height: 25.227px;
-	left: 0.073px;
-	top: 0.063px;
-	overflow: visible;
-}
-#cake {
-	position: absolute;
-	width: 482px;
-	height: 613px;
-	left: 507px;
-	top: 0px;
-	overflow: visible;
-}
-#sns02 {
-	position: absolute;
-	width: 482px;
-	height: 482px;
-	left: 0%;
-	top: 0px;
-	overflow: visible;
-}
-#instagram01 {
-	left: 54px;
-	top: 518px;
-	position: absolute;
-	overflow: visible;
-	width: 95px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Louis George Café;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#body02 {
-	left: 25px;
-	top: 562px;
-	position: absolute;
-	overflow: visible;
-	width: 411px;
-	white-space: nowrap;
-	line-height: 22px;
-	margin-top: -1px;
-	text-align: left;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#instaicon01 {
-	position: absolute;
-	width: 25.49px;
-	height: 25.353px;
-	left: 24.511px;
-	top: 518px;
-	overflow: visible;
-}
-#instasmall01 {
-	position: absolute;
-	width: 25.226px;
-	height: 25.227px;
-	left: 0.073px;
-	top: 0.063px;
-	overflow: visible;
-}
-#gift {
-	position: absolute;
-	width: 482px;
-	height: 613px;
-	left: 1014px;
-	top: 0px;
-	overflow: visible;
-}
-#sns03 {
-	position: absolute;
-	width: 482px;
-	height: 482px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#instagram02 {
-	left: 54px;
-	top: 518px;
-	position: absolute;
-	overflow: visible;
-	width: 95px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Louis George Café;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#body03 {
-	left: 25px;
-	top: 562px;
-	position: absolute;
-	overflow: visible;
-	width: 379px;
-	white-space: nowrap;
-	line-height: 22px;
-	margin-top: -1px;
-	text-align: left;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	color: rgba(38,11,1,1);
-}
-#instaicon02 {
-	position: absolute;
-	width: 25.49px;
-	height: 25.353px;
-	left: 24.511px;
-	top: 518px;
-	overflow: visible;
-}
-#instasmall02 {
-	position: absolute;
-	width: 25.226px;
-	height: 25.227px;
-	left: 0.073px;
-	top: 0.063px;
-	overflow: visible;
-}
-#morebtn {
-	position: absolute;
-	width: 84px;
-	height: 84px;
-	left: 47.8%;
-	top: 1396px;
-	overflow: visible;
+
+#section {
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+  background-image: url("../image/customer_snsbg.png");
+  width: 1920px;
+  height: 714px;
 }
 #BEST {
-	left: 44.9%;
-	top: 513px;
-	position: absolute;
-	overflow: visible;
-	width: 196px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Louis George Café;
@@ -815,6 +639,48 @@ header:hover .overlay {
 	font-size: 90px;
 	color: rgba(115,2,32,1);
 }
+#snscontents {
+	max-width: 1502px;
+  margin: 0 auto;
+	box-sizing: border-box;
+}
+.columns {
+
+}
+.sns {
+}
+.instagram {
+	text-align: left;
+	font-family: Louis George Café;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+.instagrambody {
+	line-height: 22px;
+	margin-top: -1px;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: rgba(38,11,1,1);
+}
+
+#instasmall {
+	position: absolute;
+	width: 25.226px;
+	height: 25.227px;
+	left: 0.073px;
+	top: 0.063px;
+	overflow: visible;
+}
+
+#morebtn {
+
+}
+
 
 footer {
   position: relative;
@@ -994,4 +860,13 @@ footer {
     display: inline-block;
     height: 40px;
   }
+}
+.mobile_br {
+	display: none;
+}
+
+@media screen and (max-width: 1440px) {
+	.mobile_br {
+		display: block;
+	}
 }
