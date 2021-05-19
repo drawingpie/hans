@@ -625,17 +625,13 @@ header:hover .overlay {
 
 #section {
 	position: relative;
-	margin: 0 auto;
+	margin: 113px auto;
 	box-sizing: border-box;
 	background-image: url("../image/customer_snsbg.png");
-	width: 1920px;
-	height: 714px;
-	margin-top: 113px;
 }
 
 #BEST {
-	display: inline-block;
-	margin: 0 auto;
+	display: block;
 	text-align: center;
 	font-family: Louis George Café;
 	font-style: normal;
@@ -685,7 +681,7 @@ header:hover .overlay {
 }
 
 #morebtn {
-	
+
 }
 
 footer {
