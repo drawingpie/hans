@@ -624,14 +624,18 @@ header:hover .overlay {
 }
 
 #section {
+	height: 714px;
 	position: relative;
-	margin: 113px auto;
+	margin: 100px auto;
 	box-sizing: border-box;
 	background-image: url("../image/customer_snsbg.png");
 }
 
 #BEST {
-/*     margin-top: -60px; */
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 480px;
 	display: block;
 	text-align: center;
 	font-family: Louis George Café;
@@ -639,6 +643,7 @@ header:hover .overlay {
 	font-weight: 900;
 	font-size: 90px;
 	color: rgba(115, 2, 32, 1);
+	z-index: 1;
 }
 
 #snscontents {
@@ -651,18 +656,20 @@ header:hover .overlay {
 
 .columns {
 	width: 482px;
+	margin-top: 70px;
 }
 
 .sns {
 	margin-bottom: 30px;
 }
+
 .instagram_wrap {
 	vertical-align: middle;
 	margin-bottom: 20px;
 	display: flex;
 }
-.instagram {
 
+.instagram {
 	text-align: left;
 	font-family: Louis George Café;
 	font-style: normal;
@@ -673,7 +680,6 @@ header:hover .overlay {
 
 .instaicon {
 	margin-right: 5px;
-
 }
 
 .instagrambody {
@@ -690,8 +696,7 @@ header:hover .overlay {
 
 #morebtn {
 	display: block;
-    margin: 0 auto;
-
+	margin: 0 auto;
 }
 
 footer {
@@ -699,7 +704,7 @@ footer {
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
-	margin-top:400px;
+	margin-top: 200px;
 }
 
 #footermenu {
