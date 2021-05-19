@@ -631,6 +631,7 @@ header:hover .overlay {
 }
 
 #BEST {
+
 	display: block;
 	text-align: center;
 	font-family: Louis George Café;
@@ -652,7 +653,9 @@ header:hover .overlay {
 	width: 482px;
 }
 
-.sns {}
+.sns {
+	margin-bottom: 30px;
+}
 
 .instagram {
 	display: inline-block !important;
@@ -665,12 +668,13 @@ header:hover .overlay {
 }
 
 .instaicon {
-	display: block !important;
+	display: inline-block !important;
 	margin: 0;
 }
 
 .instagrambody {
-	line-height: 22px;
+	display: block;
+	line-height: 30px;
 	margin-top: -1px;
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
