@@ -631,7 +631,7 @@ header:hover .overlay {
 }
 
 #BEST {
-
+/*     margin-top: -60px; */
 	display: block;
 	text-align: center;
 	font-family: Louis George Café;
@@ -656,9 +656,13 @@ header:hover .overlay {
 .sns {
 	margin-bottom: 30px;
 }
-
+.instagram_wrap {
+	vertical-align: middle;
+	margin-bottom: 20px;
+	display: flex;
+}
 .instagram {
-	display: inline-block !important;
+
 	text-align: left;
 	font-family: Louis George Café;
 	font-style: normal;
@@ -668,8 +672,8 @@ header:hover .overlay {
 }
 
 .instaicon {
-	display: inline-block !important;
-	margin: 0;
+	margin-right: 5px;
+
 }
 
 .instagrambody {
@@ -685,6 +689,8 @@ header:hover .overlay {
 }
 
 #morebtn {
+	display: block;
+    margin: 0 auto;
 
 }
 
@@ -693,6 +699,7 @@ footer {
 	max-width: 100%;
 	background-color: #260B01;
 	height: 337px;
+	margin-top:400px;
 }
 
 #footermenu {
