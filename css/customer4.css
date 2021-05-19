@@ -699,6 +699,56 @@ header:hover .overlay {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 1440px) {
+	#section {
+		height: 1326px;
+		margin: 70px auto;
+	}
+
+	#BEST {
+		top: 300px;
+		font-size: 39px;
+	}
+
+	#snscontents {
+		display: block;
+		max-width: 286px;
+		margin: 50px auto;
+		box-sizing: border-box;
+	}
+
+	.columns {
+		width: 482px;
+		margin-top: 90px !important;
+	}
+
+	.sns {
+		width: 285px;
+		margin-top: 50px;
+	}
+
+	.instagram_wrap {
+		margin-top: -20px;
+		margin-bottom: 10px;
+		display: flex;
+	}
+
+	.instagram {
+		font-size: 13px;
+	}
+
+	.instaicon {}
+
+	.instagrambody {
+		line-height: 23px;
+		font-size: 13px;
+	}
+
+	#morebtn {
+		width: 38px;
+	}
+}
+
 footer {
 	position: relative;
 	max-width: 100%;
@@ -804,6 +854,7 @@ footer {
 @media screen and (max-width: 1440px) {
 	footer {
 		height: 416.13px;
+		margin-top: 100px;
 	}
 
 	#footermenu {
