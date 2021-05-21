@@ -190,6 +190,8 @@
 	margin: 0 auto;
 	text-align: center;
 	box-sizing: border-box;
+	margin-bottom: 150px;
+	display: block;
 }
 
 #bg01 {
