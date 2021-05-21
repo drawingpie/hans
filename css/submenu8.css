@@ -7,31 +7,10 @@
   height: 285px;
   margin-top: 103.28px;
 }
-
-#headline {
-  filter: drop-shadow(0px 0px 70px rgba(0, 0, 0, 0.902));
-  top: 140px;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  overflow: visible;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  color: rgba(255, 255, 255, 1);
-}
-
 @media screen and (max-width: 1440px) {
   #visual {
     height: 152px;
     margin-top: 52.7px;
-  }
-
-  #headline {
-    top: 70px;
-    font-size: 30px;
   }
 }
 
