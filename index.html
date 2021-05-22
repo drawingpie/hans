@@ -30,16 +30,18 @@
 	<link rel="icon" href="image/pavicon_32.ico" sizes="32x32">
 	<link rel="apple-touch-icon" href="image/pavicon_180.ico" sizes="180x180">
 
+	<link rel="stylesheet" type="text/css" href="css/aos.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
-	<link rel="stylesheet" type="text/css" href="css/aos.css" />
 	<link rel="stylesheet" type="text/css" href="css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript" src="js/aos.js"></script>
+	<script type="text/javascript" src="js/GNB.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
 
 </head>
 
@@ -232,10 +234,10 @@
 
 	<section id="HACCP">
 		<img src="image/index_mark.png" id="HACCPmark"></img>
-		<div id="HACCPhead" data-aos="fade-left">
+		<div id="HACCPhead" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
 			<span>한스케익은 케익 및 빵부분 <br>최고수준의 해썹(HACCP)<br>인증을 획득했습니다.</span>
 		</div>
-		<div id="HACCPstory" data-aos="fade-left">
+		<div id="HACCPstory" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
 			<span>처음과 같은 마음으로 언제나 최상의 신선한 재료로 고객 여러분들께 <br>정성을 다하겠습니다.</span>
 		</div>
 		<a href="sub_brand_1.html" id="detailbtn3"><img src="image/index_detailbtn.png"></a>
@@ -245,8 +247,8 @@
 		<div id="ORDER_AT_THE_HANS_STORE_ONLINE">
 			<span>ORDER AT THE HANS STORE ONLINE</span>
 		</div>
-		<img id="ordermobile" src="image/index_ordermobile.png" data-aos="zoom-in"></img>
-		<img id="orderperson" src="image/index_orderperson.png" data-aos="zoom-in"></img>
+		<img id="ordermobile" src="image/index_ordermobile.png" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="linear">
+		<img id="orderperson" src="image/index_orderperson.png" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
 		<a href="sub_store_1.html" id="detailbtn4"><img src="image/index_detailbtn.png"></a>
 	</section>
 
@@ -262,7 +264,7 @@
 	</section>
 
 	<section id="store">
-		<div id="storetext" data-aos="fade-left">
+		<div id="storetext" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
 			<span>한스케익을 가까이에서 경험해보세요.</span><br>
 			<span style="color: #000;">나에게 맞는 매장을 찾아보세요!</span>
 		</div>
@@ -274,7 +276,7 @@
 			<button><i class="material-icons">search</i></button>
 		</div>
 
-		<div id="storestory" data-aos="fade-left">
+		<div id="storestory" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear">
 			<span>마음놓고 즐길 수 있는 </span>
 			<span style="font-style:normal;font-weight:normal;">주차가능한 매장</span>
 			<br><span>차별화된 디저트 경험을 누릴 수 있는</span>
@@ -310,53 +312,12 @@
 		</div>
 	</footer>
 
-	<!--스크롤 애니메이션-->
+	<!-- 스크롤 애니메이션 -->
+	<script type="text/javascript" src="js/aos.js"></script>
 	<script>
-		document.querySelector('html').classList.remove('no-js');
-		if (!window.Cypress) {
-			const scrollCounter = document.querySelector('.js-scroll-counter');
-
-			AOS.init({
-				mirror: true
-			});
-
-			document.addEventListener('aos:in', function(e) {
-				console.log('in!', e.detail);
-			});
-
-			window.addEventListener('scroll', function() {
-				scrollCounter.innerHTML = window.pageYOffset;
-			});
-		}
+		AOS.init();
 	</script>
-	<script type="text/javascript" src="js/slick.min.js"></script>
-	<!--모바일메뉴-->
-	<script>
-		$(function() {
-			function slideMenu() {
-				var activeState = $("#menu-container .menu-list").hasClass("active");
-				$("#menu-container .menu-list").animate({
-					right: activeState ? "0%" : "-100%"
-				}, 200);
-			}
-			$("#menu-wrapper").click(function(event) {
-				event.stopPropagation();
-				$("#hamburger-menu").toggleClass("open");
-				$("#menu-container .menu-list").toggleClass("active");
-				slideMenu();
 
-				$("body").toggleClass("overflow-hidden");
-			});
-
-			$(".menu-list").find(".accordion-toggle").click(function() {
-				$(this).next().toggleClass("open").slideToggle("fast");
-				$(this).toggleClass("active-tab").find(".menu-link").toggleClass("active");
-
-				$(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
-				$(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
-			});
-		}); // jQuery load
-	</script>
 </body>
 
 </html>
