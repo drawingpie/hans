@@ -283,6 +283,7 @@
 @media screen and (max-width: 1440px) {
   #recommend {
     height: 400px;
+    overflow-x: hidden;
   }
 
   #scroll {
