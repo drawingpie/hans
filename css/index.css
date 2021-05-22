@@ -23,7 +23,7 @@
 .next {
   position: absolute;
   cursor: pointer;
-  left: 89.3%;
+  left: 88%;
   top: 25vw;
   transition: 0.6s ease;
 }
@@ -218,84 +218,115 @@
 }
 
 #recommend {
+  display: block;
   position: relative;
+  width: 100%;
+  height: 940px;
+  overflow-y:scroll;
+  margin: 0 auto;
+}
+
+#recommend {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#recommend::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }
 
 #scroll {
+  height: 2954px;
   background-image: url("../image/index_recommendbg.png");
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 940px;
-  margin-top: 70px;
-  overflow-x: hidden;
-}
-
-#scroll::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, Opera*/
-}
-
-#recommend #scroll img {
+  background-position: center;
+  margin: 0 auto;
   text-align: center;
-  width: 100vw;
-  margin-top: 70px;
 }
 
 #morebtn1, #morebtn2, #morebtn3, #morebtn4, #morebtn5 {
   display: block;
-  width: 6%;
-  height: auto;
-  cursor: pointer;
+  background: transparent;
+  border: 0;
+  width: 1300px;
+  height: 200px;
+  margin-top: 0px;
 }
 
 #morebtn1 {
-  margin-top: -3100px;
-  margin-left: 1120px;
-  padding
+  position: absolute;
+  top: 500px;
+
 }
 
 #morebtn2 {
-  margin-top: 530px;
-  margin-left: 640px;
+  position: absolute;
+  top: 950px;
 }
 
 #morebtn3 {
-  margin-top: 530px;
-  margin-left: 1120px;
+  position: absolute;
+  top: 1400px;
 }
 
 #morebtn4 {
-  margin-top: 530px;
-  margin-left: 640px;
+  position: absolute;
+  top: 1900px;
 }
 
 #morebtn5 {
-  margin-top: 530px;
-  margin-left: 1120px;
+  position: absolute;
+  top: 2400px;
 }
 
 @media screen and (max-width: 1440px) {
   #recommend {
-    font-size: 0;
-  }
-
-  #scroll {
-    display: inline-block;
-    background-image: url("../image/mo_recommendbg.png");
-    margin-top: 0px;
-    width: 100%;
     height: 400px;
   }
 
-  #recommend #scroll img {
-    margin-top: 30px;
+  #scroll {
+    height: 871px;
+    background-image: url("../image/index_recommendbg-mobile.png");
+  }
+
+  #morebtn1, #morebtn2, #morebtn3, #morebtn4, #morebtn5 {
+    width: 400px;
+    height: 50px;
+  }
+
+  #morebtn1 {
+    position: absolute;
+    top: 250px;
+  }
+
+  #morebtn2 {
+    position: absolute;
+    top: 380px;
+  }
+
+  #morebtn3 {
+    position: absolute;
+    top: 500px;
+  }
+
+  #morebtn4 {
+    position: absolute;
+    top: 620px;
+  }
+
+  #morebtn5 {
+    position: absolute;
+    top: 750px;
   }
 }
 
-#point img {
-  width: 100%;
+#point {
+  display: block;
+}
+
+#mobilepoint img {
+  display: none;
 }
 
 @media screen and (max-width: 1440px) {
@@ -304,6 +335,7 @@
   }
 
   #mobilepoint img {
+    display: block;
     width: 100%;
   }
 }
