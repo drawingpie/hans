@@ -40,6 +40,49 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/gnb.js"></script>
 	<!-- <script type="text/javascript" src="js/aos.js"></script> -->
+	<!--모달창-->
+	<script>
+		$(function() {
+
+			$(".button1").click(function() {
+				$('.modla_con1').show();
+				$(".modal").fadeIn();
+			});
+
+			$(".modal").click(function() {
+				$('.modla_con1').hide();
+				$(".modal").fadeOut();
+
+			});
+		});
+		$(function() {
+
+			$(".button2").click(function() {
+				$('.modla_con2').show();
+				$(".modal").fadeIn();
+			});
+
+			$(".modal").click(function() {
+				$('.modla_con2').hide();
+				$(".modal").fadeOut();
+
+			});
+		});
+		$(function() {
+
+			$(".button3").click(function() {
+				$('.modla_con3').show();
+				$(".modal").fadeIn();
+			});
+
+			$(".modal").click(function() {
+				$('.modla_con3').hide();
+				$(".modal").fadeOut();
+
+			});
+		});
+
+	</script>
 
 </head>
 
@@ -260,54 +303,9 @@
 				<div class="footer_line"></div>
 				<a href="index.html"><img src="image/footerlogo.png" id="footerlogo"></a>
 			</div>
-			<a href="#visual"><img src="image/topbtn.png" id="topbtn"></a>
+			<a href="#"><img src="image/topbtn.png" id="topbtn"></a>
 		</div>
 	</footer>
-
-
-	<!--모달창-->
-	<script>
-		$(function() {
-
-			$(".button1").click(function() {
-				$('.modla_con1').show();
-				$(".modal").fadeIn();
-			});
-
-			$(".modal").click(function() {
-				$('.modla_con1').hide();
-				$(".modal").fadeOut();
-
-			});
-		});
-		$(function() {
-
-			$(".button2").click(function() {
-				$('.modla_con2').show();
-				$(".modal").fadeIn();
-			});
-
-			$(".modal").click(function() {
-				$('.modla_con2').hide();
-				$(".modal").fadeOut();
-
-			});
-		});
-		$(function() {
-
-			$(".button3").click(function() {
-				$('.modla_con3').show();
-				$(".modal").fadeIn();
-			});
-
-			$(".modal").click(function() {
-				$('.modla_con3').hide();
-				$(".modal").fadeOut();
-
-			});
-		});
-
-	</script>
 
 </body>
 
