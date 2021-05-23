@@ -362,7 +362,7 @@
 #cake_intro {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 150px auto 200px auto;
   box-sizing: border-box;
 }
 
@@ -460,7 +460,6 @@
 .smallbody {
   float: right;
 }
-
 #ex {
   margin-top: -90px;
   display: block;
