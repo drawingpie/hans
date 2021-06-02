@@ -173,18 +173,17 @@
 	display: block;
 }
 
-/* #map {
+#map {
 	z-index: -5 !important;
 	display: block;
-	width: 100%;
+	margin: 0 auto;
+	width: 85.2%;
+	height: 560px;
 	filter: drop-shadow(0px 3px 99px rgba(0, 0, 0, 0.129));
-} */
+}
 
 .addbg {
-	position: absolute;
-	top: 450px;
-	left: 50%;
-	transform: translateX(-50%);
+	margin: 450px auto;
 	background: rgba(52, 64, 34, 1);
 	width: 77%;
 	height: 335px;
@@ -192,28 +191,24 @@
 }
 
 .addbg span {
-	margin-top: 120px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 900;
 	font-size: 20px;
 	color: rgba(255, 255, 255, 1);
 }
 
 #TELFAX {
 	display: block;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-style: normal;
-	font-weight: 900 !important;
 	font-size: 20px;
 	color: rgba(255, 255, 255, 1);
 }
 
 .number {
 	text-align: center;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-style: normal;
-	font-weight: 900 !important;
 	font-size: 24px;
 	color: rgba(255, 255, 255, 1);
 }
