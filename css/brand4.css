@@ -174,7 +174,7 @@
 }
 
 #map {
-	z-index: -5 !important;
+	/* z-index: -5 !important; */
 	display: block;
 	margin: 100px auto;
 	width: 85.2%;
