@@ -174,7 +174,6 @@
 }
 
 #map {
-	/* z-index: -5 !important; */
 	display: block;
 	margin: 100px auto;
 	width: 85.2%;
@@ -183,6 +182,7 @@
 }
 
 .addbg {
+	z-index: 5!important;
 	margin: 0px auto;
 	margin-top: -150px !important;
 	background: rgba(52, 64, 34, 1);
