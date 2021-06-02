@@ -176,14 +176,15 @@
 #map {
 	z-index: -5 !important;
 	display: block;
-	margin: 0 auto;
+	margin: 100px auto;
 	width: 85.2%;
 	height: 560px;
 	filter: drop-shadow(0px 3px 99px rgba(0, 0, 0, 0.129));
 }
 
 .addbg {
-	margin: 450px auto;
+	margin: 0px auto;
+	margin-top: -150px !important;
 	background: rgba(52, 64, 34, 1);
 	width: 77%;
 	height: 335px;
